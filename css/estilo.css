@@ -1,0 +1,192 @@
+
+html, body
+{
+background:black;
+margin:0;
+padding:0;
+}
+a:link {
+	color: #3366FF;
+	text-decoration: none;
+}
+a:visited {
+	color: #3366FF;
+	text-decoration: none;
+}
+a:hover {
+	color: #3366FF;
+	text-decoration: underline;
+}
+a:active {
+	color: #3366FF;
+	text-decoration: none;
+}
+
+
+#body  
+	{    
+	background:#E3E0E0;	
+        width: 1000px;
+	height:1500px;
+	}
+
+#head 
+	{   
+        margin-top: 20px;
+	background:black;
+	width:1000px;
+	height:150px; 
+	}
+			
+#logo
+	{
+        float: left;
+	background-image:url(../images/logo_ipasa.png);
+	width:300px;
+	height:150px;	
+	}
+			
+#banner
+	{  
+        float: left;
+	background-image:url(../images/banner_publicidad.png);
+	width:700px;
+	height:150px; 
+	}
+#menu
+	{    
+	background:#E3E0E0;
+	width:920px;
+	height:50px;	
+	}
+	
+        
+#contenido 
+	{  
+        margin-top: 20px;
+	background:#E3E0E0;
+	width:1000px;
+	height:1500px;
+	}
+
+#busqueda_top
+	{ 
+        background-image:url(../images/barras_azules.png);
+        float:left;   
+	width:300px;
+	height:30px;	
+	}        
+        
+#busqueda
+	{ 
+        background-image:url(../images/busqueda.png);
+        float:left;   
+	width:300px;
+	height:350px;	
+	}
+			
+#slideshow
+	{  
+       
+        float: left;
+	width:700px;
+	height:350px;				
+	}
+
+#resultados
+	{    
+
+	width:1000px;
+	height:530px;	
+	}
+	
+#resultados1_top
+	{   
+        margin-top: 30px;
+        background-image:url(../images/plecas_azules.png);
+        float:left;
+	width:1000px;
+	height:30px;	
+	}
+#resultados1
+	{    
+       float:left;
+	width:1000px;
+	height:500px;	
+	}
+#box
+	{    
+        float:left;
+	width:250px;
+	height:250px;	
+	}
+#resultados2
+	{    
+        float:left;
+        float:left;
+	width:1000px;
+	height:600px;	
+	}
+#paginacion
+	{    
+        float:left;
+	background-image:url(../img/paginacion.jpg);
+	width:1000px;
+	height:25px;	
+
+	}
+
+#menu2
+	{   
+        float:left;
+	background:#E3E0E0;
+	width:1000px;
+	height:36px;				
+	}
+
+#foot 
+	{  
+        float:left;
+	background-image:url(../img/foot.jpg);			
+	width:1000px;
+	height:62px;			
+	}
+	
+	
+		
+		
+#button {   
+		padding: 0;   
+		margin-left:3px; 
+		}
+
+#button li {   
+		width:170px;
+		height:36px;
+		display: inline;   
+		}  
+
+#button li a {   
+		width:170px;
+		height:36px;
+		font-family: Arial;   
+		font-size:15px;   
+		text-decoration: none;   
+		float:left;   
+		padding: 8px;   
+		background-image:url(../img/menu2.jpg);		  
+		color: #fff;   
+		}  
+
+#button li a:hover {   
+		background-color: #2586d7;   
+		margin-top:-6px;   
+		padding-bottom:15px;   
+		}  
+
+			
+
+
+
+
+
