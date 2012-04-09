@@ -1,23 +1,18 @@
 <?php
-include "conexion.php";
-include "Slide_Show.php";
- class Sql  extends Conexion
+include "lib/entidad/Slide_Show.php";
+include_once 'conexion.php';
+ class Sql_Slide_Show 
  {
-var $con;	
-	
- 	function Sql (){
-           $this->con= $this->Conectar();
-        }
+
         public function rutas_slide()
         {
-            $this->Sql();
+            $mysql = new MySQL();
             $consulta = "SELECT ruta , descripcion FROM Slide_Show WHERE activo = 1";
-            
- 		$resultado=mysql_query($consulta , $this->con) or die(mysql_error());
-                                        $ArrSlide = array();
-                                        $i=0;
+            $resultado=$mysql->consulta($consulta);
+            $ArrSlide = array();
+            $i=0;
                          
-                                        while($objeto = mysql_fetch_object($resultado))
+                                        while($objeto = $mysql->fetch_object($resultado))
                                         {
                                             
                                         $ArrSlide[$i]=new Slide_Show();

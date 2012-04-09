@@ -1,51 +1,34 @@
-<?php
 
-class Conexion
-{
-    
-        public $error;
-	private $coneccion;
-     public $host = "localhost";
-     public  $usuario = "root";
-     public $pass = "stratus";
-     public $bd = "ipasa";
-     public function Conectar()
-	{
-	
-	
-		try{
-			$this->coneccion = mysql_connect($this->host,$this->usuario,$this->pass);
-			if(! $this->coneccion)
-			{
-				throw new Exception(mysql_errno($this->coneccion) . ": " . mysql_error($this->coneccion));
-			}
-			$database = mysql_select_db($this->bd,$this->coneccion);
-			if(!$database)
-			{
-				throw new Exception("Error de base de datos");
-			}
+<?php class MySQL{
 
-			return $this->coneccion;
-		}catch(Exception $e)
-		{
-			$this->error = $e->getMessage();
-		
-			return false;
-		}
-	}
-        
-        
-        
-	public function desconectar()
-	{
-		mysql_close($this->coneccion);
-	}
-	public function getError()
-	{
-		return $this->error;
-	}
-}
+  private $conexion; private $total_consultas;
 
+  public function MySQL(){ 
+    if(!isset($this->conexion)){
+      $this->conexion = (mysql_connect("localhost","root","stratus"))
+        or die(mysql_error());
+      mysql_select_db("ipasa",$this->conexion) or die(mysql_error());
+    }
+  }
 
-?>
+  public function consulta($consulta){ 
+    $this->total_consultas++; 
+    $resultado = mysql_query($consulta,$this->conexion);
+    if(!$resultado){ 
+      echo 'MySQL Error: ' . mysql_error();
+      exit;
+    }
+    return $resultado;
+  }
 
+  public function fetch_object($resultado){
+   return mysql_fetch_object($resultado);
+  }
+
+  
+
+  public function getTotalConsultas(){
+   return $this->total_consultas; 
+  }
+
+}?>
