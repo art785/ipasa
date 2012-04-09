@@ -183,7 +183,12 @@ a:active {
 		margin-top:-6px;   
 		padding-bottom:15px;   
 		}  
-
+#oculto {
+                    display: none;
+                    overflow: hidden;
+                    width: 1000px;
+                    height: 400px;
+                }
 			
 
 

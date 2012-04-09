@@ -1,0 +1,17 @@
+$(‘document‘).ready(function()
+
+{
+
+$(‘#form’).ajaxForm( {
+
+target: ‘#preview‘,
+
+success: function() {
+
+$(‘#formbox’).slideUp(‘fast’);
+
+}
+
+});
+
+});

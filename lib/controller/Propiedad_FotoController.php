@@ -15,6 +15,11 @@ class Propiedad_FotoController extends Sql_Propiedad{
           echo $propiedad->getDireccion();
           echo $propiedad->getNombre();
           print  ' <a rel="example_group"'.'href="'.$foto->getRuta().'" title="'.$foto->getDescripcion().' " ><img style="width:75px; height:75px" alt ="" src="'.$foto->getRuta().'" /></a>';
+          echo '<form  id="form_propiedades"  method = "post" action=Resultados.php>
+                    <input type= "hidden" value="'.$propiedad->getId_Propiedad().'" name = "id_Propiedad" id="id_Propiedad">
+                    <input  type="image" src="images/boton_mapa.png" alt="Submit Form">     
+                    </form>';
+ 
           echo "<div/>";
        }
       
