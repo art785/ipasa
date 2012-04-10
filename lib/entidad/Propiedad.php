@@ -114,7 +114,7 @@ class Propiedad {
         $this->id_tipo=$id_tipo;
         return $this;
     }
-    public function getId_Tipo($id_tipo)
+    public function getId_Tipo()
     {
         return $this->id_tipo;
     }

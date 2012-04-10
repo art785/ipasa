@@ -33,12 +33,12 @@ class Propiedad_Estructura {
     {
         return $this->cantidad;
     }
-        public function setCantidad($id_propiedad_estructura)
+        public function setId_Propiedad_Estructura($id_propiedad_estructura)
     {
         $this->id_propiedad_estructura=$id_propiedad_estructura;
         return $this;
     }
-    public function getCantidad()
+    public function getId_Propiedad_Estructura()
     {
         return $this->id_propiedad_estructura;
     }
