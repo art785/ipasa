@@ -2,6 +2,7 @@
 html, body
 {
 background-image:url('../fondos_pagina/textura_fondo.jpg');
+background-attachment: fixed;
 margin:0;
 padding:0;
 }
@@ -23,16 +24,27 @@ a:active {
 }
 
 #body-wrap{
-    	background:#E3E0E0;	
+    	background-image:url('../fondos_pagina/capa_2.png');	
+        background-repeat:repeat-y;
         width: 1200px;
-	height:1500px;
+	height:2000px;
     
 }
 #body  
-	{    
+	{  
+            
+       
+      -moz-box-shadow: 0px 0px 30px #008B8B; 
+      -webkit-box-shadow: 0px 0px 30px #008B8B; 
+      box-shadow: 0px 0px 30px #008B8B;
+      
+     
+      border: 1px solid #008B8B;
+      
+   
 	background:#E3E0E0;	
         width: 900px;
-	height:1500px;
+	height:2000px;
 	}
 
 #head 
@@ -46,7 +58,7 @@ a:active {
 #logo
 	{
         float: left;
-	background-image:url(../fondos_pagina/logo_ipasa.png);
+	background-image: url(../fondos_pagina/logo_ipasa.png);
 	width:250px;
 	height:150px;	
 	}
@@ -67,6 +79,7 @@ a:active {
 	width:900px;
 	height:1500px;
 	}
+        
     nav{
     background: url("../fondos_pagina/menu.png") no-repeat transparent;
     font-size: 16px;
@@ -74,12 +87,22 @@ a:active {
     height: 316px; 
     position:fixed;
     float: right;
-    text-align: center;
-    top: 80px;
-    left: 1150px;
+    top: 170px;
+    left: 1125px;
+          -moz-box-shadow: 0px 0px 30px #008B8B; 
+      -webkit-box-shadow: 0px 0px 30px #008B8B; 
+      box-shadow: 0px 0px 30px #008B8B;
+      
+     
+      border: 1px solid #008B8B;
+    
+    }
+    nav ul{
+        list-style:none;
+        text-align: left;
+    }
 
-        }
-
+        
 #slideshow
 	{  
        
@@ -90,12 +113,12 @@ a:active {
 
 #propiedades
 	{    
-
+         display:block;
 	width:900px;
 	height:500px;	
 	}
 	
-#resultados1_propiedades
+#resultado_propiedades
 	{   
         float:left;
 	width:900px;
@@ -109,24 +132,7 @@ a:active {
 	height:250px;	
 	}
 
-#paginacion
-	{    
-        float:left;
-	background-image:url(../img/paginacion.jpg);
-	width:900px;
-	height:25px;	
 
-	}
-
-
-
-#footer 
-	{  
-        float:left;
-	background-image:url(../img/foot.jpg);			
-	width:900px;
-	height:62px;			
-	}
 	
 
 			

@@ -38,10 +38,10 @@
             <nav>
                    <ul id="nav">
                     
-		    <li><a href="#midiv2">div 2</a></li>
-                    <li><a href="#midiv3">div 3</a></li>
-                    <li><a href="#midiv4">div 4</a></li>
-                    <li><a href="#midiv5">div 5</a></li>
+		    <li><a href="#midiv1"><span>div1</span></a></li>
+                    <li><a href="#midiv2"><span>div2</span></a></li>
+                    <li><a href="#midiv3"><span>div3</span></a></li>
+                    <li><a href="#midiv4"><span>div4</span></a></li>
 	           </ul>
              </nav>
         <center>
@@ -67,22 +67,15 @@
 			<?php include("Propiedad_Oferta.php");
                                                               ?>
 			</div>
-                                                            <div id="resultado_propiedades">
-                                                                <?
-                                                                        echo $_SESSION["id_propiedad"]; 
-                                                                ?>
+                        <div id="resultado_propiedades">
+                            <?
+                               echo $_SESSION["id_propiedad"]; 
+                            ?>
                                                                 
-                                                            </div>
+                       </div>
                                                         
                                                          
-              
-			<div id="paginacion">                                             
-                                                               
-			</div>
-				
-                        <footer id ="footer"></footer>
-                                                                
-			
+
              </div>
        </div>   
        </div>      
