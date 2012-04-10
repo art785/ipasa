@@ -1,9 +1,10 @@
 
+for( i= 0;  i <= 50; i ++){
 $('document').ready(function()
 
 {
 
-$('#form_propiedades').ajaxForm( {
+$('#form_propiedades'+i).ajaxForm( {
 
 target: '#resultado_propiedades',
 
@@ -12,6 +13,8 @@ success: function() {
 $('#propiedades').slideUp('fast');
 
 }
-}); 
+});
+document.writeln('#form_propiedades'+i); 
 
 });
+}
