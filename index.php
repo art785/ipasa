@@ -34,7 +34,18 @@
            
             
             ?>
+         
+            <nav>
+                   <ul id="nav">
+                    
+		    <li><a href="#midiv2">div 2</a></li>
+                    <li><a href="#midiv3">div 3</a></li>
+                    <li><a href="#midiv4">div 4</a></li>
+                    <li><a href="#midiv5">div 5</a></li>
+	           </ul>
+             </nav>
         <center>
+         <div id="body-wrap">
         <div id="body">
 
 		<div id="head">
@@ -42,33 +53,17 @@
 				
 			<div id="banner"></div>	
 		</div>
-            
-                <div id="menu">
-	              <div align="center">
-		           				    
-                      </div>
-                </div>
-
-			
+            			
 		<div id="contenido">
-                     
-			
-                      	
-			<div id="busqueda">
-			    <div id="busqueda_top">			   	
-                            </div>	
-                            	
-                            
-                            
-                        </div>	
+                                                              
+               
 				
                         <div id="slideshow">
                             <?php include ("Slide-principal.php");?>				
 			</div>
 			
-                 	<div id="propiedades_top"></div>
                         
-			<div id="propiedes">
+			<div id="propiedades">
 			<?php include("Propiedad_Oferta.php");
                                                               ?>
 			</div>
@@ -81,21 +76,17 @@
                                                         
                                                          
               
-			<div id="paginacion">
-                                                              
-                                                          
-                                                                
+			<div id="paginacion">                                             
                                                                
 			</div>
 				
-			<div id="menu2">
-                            
-                        </div>
                         <footer id ="footer"></footer>
                                                                 
 			
              </div>
+       </div>   
        </div>      
        </center>
+
      </body>
 </html>
