@@ -1,7 +1,7 @@
 
 html, body
 {
-background:black;
+background-image:url('../fondos_pagina/textura_fondo.jpg');
 margin:0;
 padding:0;
 }
@@ -22,11 +22,16 @@ a:active {
 	text-decoration: none;
 }
 
-
+#body-wrap{
+    	background:#E3E0E0;	
+        width: 1200px;
+	height:1500px;
+    
+}
 #body  
 	{    
 	background:#E3E0E0;	
-        width: 1000px;
+        width: 900px;
 	height:1500px;
 	}
 
@@ -34,161 +39,96 @@ a:active {
 	{   
         margin-top: 20px;
 	background:black;
-	width:1000px;
+	width:900px;
 	height:150px; 
 	}
 			
 #logo
 	{
         float: left;
-	background-image:url(../images/logo_ipasa.png);
-	width:300px;
+	background-image:url(../fondos_pagina/logo_ipasa.png);
+	width:250px;
 	height:150px;	
 	}
 			
 #banner
 	{  
         float: left;
-	background-image:url(../images/banner_publicidad.png);
-	width:700px;
+	background-color-blue;
+	width:650px;
 	height:150px; 
 	}
-#menu
-	{    
-	background:#E3E0E0;
-	width:920px;
-	height:50px;	
-	}
-	
-        
+
+
 #contenido 
 	{  
         margin-top: 20px;
 	background:#E3E0E0;
-	width:1000px;
+	width:900px;
 	height:1500px;
 	}
+    nav{
+    background: url("../fondos_pagina/menu.png") no-repeat transparent;
+    font-size: 16px;
+    width: 156px;
+    height: 316px; 
+    position:fixed;
+    float: right;
+    text-align: center;
+    top: 80px;
+    left: 1150px;
 
-#busqueda_top
-	{ 
-        background-image:url(../images/barras_azules.png);
-        float:left;   
-	width:300px;
-	height:30px;	
-	}        
-        
-#busqueda
-	{ 
-        background-image:url(../images/busqueda.png);
-        float:left;   
-	width:300px;
-	height:350px;	
-	}
-			
+        }
+
 #slideshow
 	{  
        
         float: left;
-	width:700px;
-	height:350px;				
+	width:900px;
+	height:450px;				
 	}
 
-#resultados
+#propiedades
 	{    
 
-	width:1000px;
-	height:530px;	
-	}
-	
-#resultados1_top
-	{   
-        margin-top: 30px;
-        background-image:url(../images/plecas_azules.png);
-        float:left;
-	width:1000px;
-	height:30px;	
-	}
-#resultados1
-	{    
-       float:left;
-	width:1000px;
+	width:900px;
 	height:500px;	
 	}
+	
+#resultados1_propiedades
+	{   
+        float:left;
+	width:900px;
+	height:500px;	
+	}
+
 #box
 	{    
         float:left;
 	width:250px;
 	height:250px;	
 	}
-#resultados2
-	{    
-        float:left;
-        float:left;
-	width:1000px;
-	height:600px;	
-	}
+
 #paginacion
 	{    
         float:left;
 	background-image:url(../img/paginacion.jpg);
-	width:1000px;
+	width:900px;
 	height:25px;	
 
 	}
 
-#menu2
-	{   
-        float:left;
-	background:#E3E0E0;
-	width:1000px;
-	height:36px;				
-	}
 
-#foot 
+
+#footer 
 	{  
         float:left;
 	background-image:url(../img/foot.jpg);			
-	width:1000px;
+	width:900px;
 	height:62px;			
 	}
 	
-	
-		
-		
-#button {   
-		padding: 0;   
-		margin-left:3px; 
-		}
 
-#button li {   
-		width:170px;
-		height:36px;
-		display: inline;   
-		}  
-
-#button li a {   
-		width:170px;
-		height:36px;
-		font-family: Arial;   
-		font-size:15px;   
-		text-decoration: none;   
-		float:left;   
-		padding: 8px;   
-		background-image:url(../img/menu2.jpg);		  
-		color: #fff;   
-		}  
-
-#button li a:hover {   
-		background-color: #2586d7;   
-		margin-top:-6px;   
-		padding-bottom:15px;   
-		}  
-#oculto {
-                    display: none;
-                    overflow: hidden;
-                    width: 1000px;
-                    height: 400px;
-                }
 			
 
 
