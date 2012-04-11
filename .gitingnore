@@ -16,5 +16,6 @@ web/js/*
 .buildpack
 .project
 .settings/*
+conexion.php
 /nbproject/private/
 /src/Noticias/NotaBundle/Resources/public/js/.fr-J0bqnd
