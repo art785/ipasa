@@ -2,7 +2,7 @@
 include "lib/controller/Detalles_PropiedadController.php" ;
 include "lib/controller/FotosController.php";
            
-if(isset($_REQUEST["id_Propiedad"]))
+if(isset($_POST["id_Propiedad"]))
 {
 	$_SESSION["id_propiedad"]=$_REQUEST["id_Propiedad"];
 	$id_propiedad= $_SESSION["id_propiedad"];

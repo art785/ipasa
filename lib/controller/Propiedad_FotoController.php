@@ -4,6 +4,7 @@ include_once ("lib/doctrine/Sql_Fotos.php");
 class Propiedad_FotoController{
     
       public function propiedades_ofertadas(){
+      	
        $foto_consulta= new Sql_Fotos();
        $propiedades= new Sql_Propiedad();
        $ArrPropiedades= $propiedades->propiedades_en_oferta();
@@ -12,34 +13,46 @@ class Propiedad_FotoController{
        {
            
 
-          $foto=$foto_consulta->foto_propiedad($propiedad->getId_Propiedad());
-          echo "<div>";
+          $foto=$foto_consulta->fotos_propiedad($propiedad->getId_Propiedad());
+          echo "<div id='info_prev'>";
           echo $propiedad->getDireccion();
+          
+          
+          
+          
+          echo "</div>";
+          echo "<div id = 'nombre_propiedad'>";
           echo $propiedad->getNombre();
+          echo "</div>";
+          
           $script="$('document').ready(function()
-
-{
-
-$('#form_propiedades".$i."').ajaxForm( {
-
-target: '#resultado_propiedades',
-
-success: function() {
-
-$('#propiedades').slideUp('fast');
-
-}
-});
-
-});";
-          echo "<script>$script</script>";
-          print  ' <a rel="example_group"'.'href="'.$foto->getRuta().'" title="'.$foto->getDescripcion().' " ><img style="width:75px; height:75px" alt ="" src="'.$foto->getRuta().'" /></a>';
+           
+          {
+           
+          $('#form_propiedades".$i."').ajaxForm( {
+           
+          target: '#resultado_propiedades',
+           
+          success: function() {
+           
+          $('#propiedades').slideUp('fast');
+           
+          }
+          });
+           
+          });";
+           echo "<script>$script</script>";
+          foreach ($foto as $fotop){
+          	echo "<div id = 'foto'>";
+          	print  ' <a rel="example_group"'.'href="'.$fotop->getRuta().'" title="'.$fotop->getDescripcion().' " ><img style="width:75px; height:75px" alt ="" src="'.$fotop->getRuta().'" /></a>';
+          	echo "</div>";
+          }
+          
           echo '<form  id="form_propiedades'.$i.'"  method = "post" action=Resultados.php>
                     <input type= "hidden" value="'.$propiedad->getId_Propiedad().'" name = "id_Propiedad" id="id_Propiedad">
                     <input  type="image" src="images/boton_mapa.png" alt="Submit Form">     
                     </form>';
  
-          echo "<div/>";
           $i++;
        }
       

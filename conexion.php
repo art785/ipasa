@@ -5,15 +5,9 @@
 
   public function MySQL(){ 
     if(!isset($this->conexion)){
-<<<<<<< HEAD
-      $this->conexion = (mysql_connect("localhost","root","corvette"))
-=======
-<<<<<<< HEAD
-      $this->conexion = (mysql_connect("localhost","root","shauron"))
-=======
+
       $this->conexion = (mysql_connect("localhost","root","stratus"))
->>>>>>> e14f4348f60a74fe882f41e64bfae25ce3ac7b16
->>>>>>> 10613e551b558096ff3103e7ca8b91450112d845
+
         or die(mysql_error());
       mysql_select_db("ipasa",$this->conexion) or die(mysql_error());
     }
