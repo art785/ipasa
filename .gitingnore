@@ -17,5 +17,6 @@ web/js/*
 .project
 .settings/*
 conexion.php
+nbproject/*
 /nbproject/private/
 /src/Noticias/NotaBundle/Resources/public/js/.fr-J0bqnd
