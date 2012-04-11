@@ -1,11 +1,12 @@
 <?php
-include("lib/doctrine/Sql_Fotos.php");
 include("lib/doctrine/Sql_Propiedad.php");
-class Propiedad_FotoController extends Sql_Propiedad{
+include_once ("lib/doctrine/Sql_Fotos.php");
+class Propiedad_FotoController{
     
       public function propiedades_ofertadas(){
        $foto_consulta= new Sql_Fotos();
-       $ArrPropiedades=$this->propiedades_en_oferta();
+       $propiedades= new Sql_Propiedad();
+       $ArrPropiedades= $propiedades->propiedades_en_oferta();
        $i=0;
        foreach ($ArrPropiedades as $propiedad)
        {
