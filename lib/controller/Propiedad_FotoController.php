@@ -25,33 +25,14 @@ class Propiedad_FotoController{
           echo $propiedad->getNombre();
           echo "</div>";
           
-          $script="$('document').ready(function()
-           
-          {
-           
-          $('#form_propiedades".$i."').ajaxForm( {
-           
-          target: '#resultado_propiedades',
-           
-          success: function() {
-           
-          $('#propiedades').slideUp('fast');
-           
-          }
-          });
-           
-          });";
-           echo "<script>$script</script>";
+     
           foreach ($foto as $fotop){
           	echo "<div id = 'foto'>";
           	print  ' <a rel="example_group"'.'href="'.$fotop->getRuta().'" title="'.$fotop->getDescripcion().' " ><img style="width:75px; height:75px" alt ="" src="'.$fotop->getRuta().'" /></a>';
           	echo "</div>";
           }
           
-          echo '<form  id="form_propiedades'.$i.'"  method = "post" action=Resultados.php>
-                    <input type= "hidden" value="'.$propiedad->getId_Propiedad().'" name = "id_Propiedad" id="id_Propiedad">
-                    <input  type="image" src="images/boton_mapa.png" alt="Submit Form">     
-                    </form>';
+          echo '<a class="various fancybox.ajax" href="Resultados.php?id='.$propiedad->getId_Propiedad().'"><img src="fondos_pagina/boton_mapa.png"/></a>';
  
           $i++;
        }

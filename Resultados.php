@@ -1,15 +1,15 @@
 <?php 
 include "lib/controller/Detalles_PropiedadController.php" ;
-include "lib/controller/FotosController.php";
+
            
-if(isset($_POST["id_Propiedad"]))
+if(isset($_GET["id"]))
 {
-	$_SESSION["id_propiedad"]=$_REQUEST["id_Propiedad"];
-	$id_propiedad= $_SESSION["id_propiedad"];
+	
+	$id_propiedad=$_GET["id"];
 	                
 	$resultado_propiedad= new Detalles_PropiedadController();
 	$resultado_propiedad->detalles_propiedad($id_propiedad);
-	$resultado_imagenes = new FotosController();
-	$resultado_imagenes->imagenes_fancybox($id_propiedad);
+
 }
+echo "<h1>hola</h1";
 ?>
