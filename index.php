@@ -87,9 +87,7 @@
                                                                 
                        </div>
                        </section >
-                      <section id="registro"></section>
-                                                        
-                                                         
+                      <section id="registro"></section>                                                                                           
 
              </div>
        </div>   
