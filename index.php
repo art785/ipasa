@@ -25,7 +25,7 @@
 
 <!-- javascript del movimiento de divs -->
 
-<script type="text/javascript" src="js/mover_divs.js"></script>
+
 
 <!-- fin del javasscript -->
 </head>
