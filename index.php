@@ -10,7 +10,6 @@
 <link rel="stylesheet" href="slide-principal/themes/orman/orman.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="slide-principal/nivo-slider.css" type="text/css" media="screen" />
 <!-- Esta es la parte del fancybox y del jquery -->
-<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>-->
 <script type="text/javascript" src="slide-principal/scripts/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 
@@ -20,11 +19,9 @@
 <script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
 <script type="text/javascript" src="fancybox/efectos.js"></script>
 <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
-<script type="text/javascript" src="js/main.js"></script>
-<script src="http://malsup.github.com/jquery.form.js"></script> 
 
 <!-- javascript del movimiento de divs -->
-
+<script type="text/javascript" src="js/mover_divs.js"></script>
 
 
 <!-- fin del javasscript -->
