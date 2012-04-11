@@ -3,7 +3,7 @@ include "lib/entidad/Propiedad.php";
 include_once 'conexion.php';
 class Sql_Propiedad {
     
-    /*****Esta es una consulta que arroga todas las propiedades en oferta****/
+    /*****Esta es una consulta que arroja todas las propiedades en oferta****/
      public function propiedades_en_oferta()
         {
          $mysql= new MySQL();
@@ -55,6 +55,18 @@ class Sql_Propiedad {
                                        return $Propiedad;
             
         }
-        
+         /****Esta funcion inserta propiedades y sus caracterisiticas****/
+    public function insertar_propiedades()
+    {
+        $mysql = new MySQL();
+        $query = "INSERT INTO Propiedad (Nombre','numero_int','numero_ext',
+                              'direccion','coordenadas','rentada','ofertada','comentario','id_localidad',
+                              'id_tipo','precio')
+                  VALUES ({$_POST['Nombre']}','{$_POST['numero_int']}','{$_POST['numero_ext']}',
+                          '{$_POST['direccion']}','{$_POST['coordenadas']}','{$_POST['rentada']}',
+                          '{$_POST['ofertada']}','{$_POST['comentario']}','{$_POST['id_localidad']}',
+                          '{$_POST['id_tipo']}','{$_POST['precio']}')";
+         $mysql -> mysql_query($query);
+    }
  }
 
