@@ -19,21 +19,19 @@
 </script>
 <script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
 <script type="text/javascript" src="fancybox/efectos.js"></script>
+<script type="text/javascript" src="fancybox/efectos2.js"></script>
 <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
-<script type="text/javascript" src="js/main.js"></script>
 <script src="http://malsup.github.com/jquery.form.js"></script>  
+<!-- css para box  -->
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
 
 <title>I P A S A</title>
 </head>
         <body>
-            <?php 
-            session_start();
-           
-                $_SESSION["id_propiedad"]=$_REQUEST["id_Propiedad"];
-                
-           
             
-            ?>
+           
          
             <nav>
                    <ul id="nav">
@@ -44,7 +42,7 @@
                     <li><a href="#midiv4"><span>div4</span></a></li>
 	           </ul>
              </nav>
-        <center>
+        
          <div id="body-wrap">
         <div id="body">
 
@@ -63,23 +61,25 @@
 			</div>
 			
                         
-			<div id="propiedades">
+			<div id="propiedad">
 			<?php include("Propiedad_Oferta.php");
                                                               ?>
 			</div>
                         <div id="resultado_propiedades">
                             <?
-                               echo $_SESSION["id_propiedad"]; 
-                            ?>
-                                                                
+                              include( 'Resultados.php');
+                            ?>                                         
                        </div>
+                        <div id="galeria">
+                            <?php include ("Galeria_Propiedades.php");?>
+                        </div>
                                                         
                                                          
 
              </div>
        </div>   
        </div>      
-       </center>
+       
 
      </body>
 </html>
