@@ -1,6 +1,6 @@
 <?php
 include("lib/doctrine/Sql_Estructura.php");
-include("lib/doctrine/Sql_Propiedad.php");
+include_once ("lib/doctrine/Sql_Propiedad.php");
 include("lib/doctrine/Sql_Propiedad_Estructura.php");
 class Detalles_PropiedadController {
     /****En este metodo se sacan los detalles de la propiedad instanciando los objetos necesarios ****/

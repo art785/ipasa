@@ -1,7 +1,6 @@
 <?php 
 include "lib/controller/Detalles_PropiedadController.php" ;
 include "lib/controller/FotosController.php";
-session_start();
            
                 if(isset($_REQUEST["id_Propiedad"]))
                 {
