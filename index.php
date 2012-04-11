@@ -23,6 +23,15 @@
 <script type="text/javascript" src="js/main.js"></script>
 <script src="http://malsup.github.com/jquery.form.js"></script>  
 
+ <!-- javascript del movimiento de divs -->
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+ <script type="text/javascript" src="js/mover_divs.js"></script>
+
+ <!-- fin del javasscript -->
+
+
+
 <title>I P A S A</title>
 </head>
         <body>
@@ -35,19 +44,23 @@
             
             ?>
          
-            <nav>
-                   <ul id="nav">
-                    
-		    <li><a href="#midiv1"><span>div1</span></a></li>
-                    <li><a href="#midiv2"><span>div2</span></a></li>
-                    <li><a href="#midiv3"><span>div3</span></a></li>
-                    <li><a href="#midiv4"><span>div4</span></a></li>
-	           </ul>
-             </nav>
-        <center>
+              <nav id="menu">
+		  <ul>
+                     <li><a href="#inicio"><div id="boton_inicio"></div></a></li>
+                     <li><a href="#registro"><div id="boton_registro"></div></a></li>
+                      <li><a href="#login"><div id="boton_login"></div></a></li>
+                      <li><a href="#busqueda"><div id="boton_busqueda"></div></a></li>
+                      <li><a href="#mapa"><div id="boton_mapa"></div></a></li>
+                      <li><a href="#videos"><div id="boton_videos"></div></a></li>
+                      <li><a href="#contacto"><div id="boton_contacto"></div></a></li>
+		 </ul>
+            <!--<div id="contacto"><a href="#form-contact"></a></div>-->
+		</nav><!--Fin #menu-->
+            
+  
          <div id="body-wrap">
         <div id="body">
-
+         
 		<div id="head">
 			<div id="logo" > </div>
 				
@@ -57,13 +70,13 @@
 		<div id="contenido">
                                                               
                
-				
+			<section id="inicio";
                         <div id="slideshow">
                             <?php include ("Slide-principal.php");?>				
 			</div>
 			
                         
-			<div id="propiedades">
+			<div id="propiedad">
 			<?php include("Propiedad_Oferta.php");
                                                               ?>
 			</div>
@@ -73,13 +86,15 @@
                             ?>
                                                                 
                        </div>
+                       </section >
+                      <section id="registro"></section>
                                                         
                                                          
 
              </div>
        </div>   
        </div>      
-       </center>
+     
 
      </body>
 </html>
