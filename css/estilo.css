@@ -24,6 +24,8 @@ a:active {
 }
 
 #body-wrap{
+    margin:0 auto;
+     
     	background-image:url('../fondos_pagina/capa_2.png');	
         background-repeat:repeat-y;
         width: 1200px;
@@ -32,8 +34,8 @@ a:active {
 }
 #body  
 	{  
-            
-       
+      margin:0 auto;
+      
       -moz-box-shadow: 0px 0px 30px #008B8B; 
       -webkit-box-shadow: 0px 0px 30px #008B8B; 
       box-shadow: 0px 0px 30px #008B8B;
@@ -66,7 +68,7 @@ a:active {
 #banner
 	{  
         float: left;
-	background-color-blue;
+	background-color:#008B8B;
 	width:650px;
 	height:150px; 
 	}
@@ -80,28 +82,111 @@ a:active {
 	height:1500px;
 	}
         
-    nav{
-    background: url("../fondos_pagina/menu.png") no-repeat transparent;
-    font-size: 16px;
-    width: 156px;
-    height: 316px; 
+    #menu{
+    background: url("../fondos_pagina/menu.png")repeat-x transparent;
+    display: block;
+    overflow: hidden;
     position:fixed;
-    float: right;
-    top: 170px;
-    left: 1125px;
-          -moz-box-shadow: 0px 0px 30px #008B8B; 
+    width: 170px;
+    height: 316px;
+    margin-top: 170px;
+    margin-left: 1125px;
+      -moz-box-shadow: 0px 0px 30px #008B8B; 
       -webkit-box-shadow: 0px 0px 30px #008B8B; 
       box-shadow: 0px 0px 30px #008B8B;
-      
-     
       border: 1px solid #008B8B;
     
     }
-    nav ul{
-        list-style:none;
-        text-align: left;
-    }
 
+    #menu ul li{
+       
+        list-style: none outside none;
+        text-decoration: none;
+    }
+    
+
+    
+    #boton_inicio{
+       margin-top:30px ;
+       background-image: url("../fondos_pagina/inicio.png");
+       height: 25px;
+       width: 100px;
+       margin-right:90px;
+       
+        -moz-box-shadow: 0px 0px 30px #008B8B; 
+      -webkit-box-shadow: 0px 0px 30px #008B8B; 
+      box-shadow: 0px 0px 30px #008B8B;
+       
+    }
+        #boton_registro{
+           margin-top:12px ;
+       background-image: url("../fondos_pagina/registro.png");
+       height: 25px;
+       width: 100px;
+       margin-right:120px;
+       
+        -moz-box-shadow: 0px 0px 30px #008B8B; 
+      -webkit-box-shadow: 0px 0px 30px #008B8B; 
+      box-shadow: 0px 0px 30px #008B8B;
+       
+    }
+        #boton_login{
+           margin-top:12px ;
+       background-image: url("../fondos_pagina/login.png");
+       height: 25px;
+       width: 100px;
+      margin-right:90px;
+        -moz-box-shadow: 0px 0px 30px #008B8B; 
+      -webkit-box-shadow: 0px 0px 30px #008B8B; 
+      box-shadow: 0px 0px 30px #008B8B;
+    }
+        #boton_busqueda{
+          margin-top:12px ;
+      background-image: url("../fondos_pagina/busqueda.png");
+      height: 25px;
+       width: 100px;
+       margin-right:90px;
+         -moz-box-shadow: 0px 0px 30px #008B8B; 
+      -webkit-box-shadow: 0px 0px 30px #008B8B; 
+      box-shadow: 0px 0px 30px #008B8B;
+    }
+     #boton_mapa{
+         margin-top:12px ;
+      background-image: url("../fondos_pagina/mapa.png");
+      height: 25px;
+       width: 100px;
+      margin-right:90px;
+        -moz-box-shadow: 0px 0px 30px #008B8B; 
+      -webkit-box-shadow: 0px 0px 30px #008B8B; 
+      box-shadow: 0px 0px 30px #008B8B;
+    }
+    #boton_videos{
+        margin-top:12px ;
+      background-image: url("../fondos_pagina/videos.png");
+      height: 25px;
+       width: 100px;
+       margin-right:90px;
+         -moz-box-shadow: 0px 0px 30px #008B8B; 
+      -webkit-box-shadow: 0px 0px 30px #008B8B; 
+      box-shadow: 0px 0px 30px #008B8B;
+    }
+    #boton_contacto{
+        margin-top:12px ;
+      background-image: url("../fondos_pagina/contacto.png");
+      height: 25px;
+       width: 100px;
+      margin-right:90px;
+        -moz-box-shadow: 0px 0px 30px #008B8B; 
+      -webkit-box-shadow: 0px 0px 30px #008B8B; 
+      box-shadow: 0px 0px 30px #008B8B;
+    }
+    
+ 
+    #inicio{
+         height: 1500px;
+       width: 900px;
+        
+    }
         
 #slideshow
 	{  
@@ -111,7 +196,7 @@ a:active {
 	height:450px;				
 	}
 
-#propiedades
+#propiedad
 	{    
          display:block;
 	width:900px;
@@ -124,6 +209,12 @@ a:active {
 	width:900px;
 	height:500px;	
 	}
+ 
+        #registro{
+            background:#E3E0E0;
+            width: 900px;
+            height: 500px;
+        }
 
 #box
 	{    

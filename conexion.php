@@ -5,7 +5,7 @@
 
   public function MySQL(){ 
     if(!isset($this->conexion)){
-      $this->conexion = (mysql_connect("localhost","root","stratus"))
+      $this->conexion = (mysql_connect("localhost","root","corvette"))
         or die(mysql_error());
       mysql_select_db("ipasa",$this->conexion) or die(mysql_error());
     }
