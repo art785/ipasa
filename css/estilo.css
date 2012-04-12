@@ -32,7 +32,7 @@ a:active
     background-image:url('../fondos_pagina/capa_2.png');	
     background-repeat:repeat-y;
     width: 1200px;
-	height:3040px;
+	height:4000px;
     
 }
 #body  
@@ -44,7 +44,7 @@ a:active
     border: 1px solid #000000;
 	background:#E3E0E0;	
     width: 900px;
-	height:2850px;
+	height:4000px;
 }
 
 #head 
@@ -63,7 +63,7 @@ a:active
 {
 
     float: left;
-	background-image: url(../fondos_pagina/logo_ipasa.png);
+	background-image: url(../fondos_pagina/logo.png);
 	width:250px;
 	height:150px;	
 }
@@ -83,7 +83,7 @@ a:active
     margin-top: 20px;
 	background:#E3E0E0;
 	width:900px;
-	height:2800px;
+	height:3040px;
 }
         
 #menu
@@ -111,83 +111,74 @@ a:active
     
 #boton_inicio
 {
-    margin-top:30px ;
+    margin-top:10px ;
     background-image: url("../fondos_pagina/inicio.png");
     height: 25px;
     width: 100px;
     margin-right:90px;    
-    -moz-box-shadow: 0px 0px 30px #008B8B; 
-    -webkit-box-shadow: 0px 0px 30px #008B8B; 
-    box-shadow: 0px 0px 30px #008B8B;
+
        
 }
+
 #boton_registro
 {
-    margin-top:12px ;
+    margin-top:10px ;
     background-image: url("../fondos_pagina/registro.png");
     height: 25px;
     width: 100px;
     margin-right:120px; 
-    -moz-box-shadow: 0px 0px 30px #008B8B; 
-    -webkit-box-shadow: 0px 0px 30px #008B8B; 
-    box-shadow: 0px 0px 30px #008B8B;
+   
    
 }
+
 #boton_login
 {
-    margin-top:12px ;
+    margin-top:10px ;
     background-image: url("../fondos_pagina/login.png");
     height: 25px;
     width: 100px;
     margin-right:90px;
-    -moz-box-shadow: 0px 0px 30px #008B8B; 
-    -webkit-box-shadow: 0px 0px 30px #008B8B; 
-    box-shadow: 0px 0px 30px #008B8B;
+  
 }
 #boton_busqueda
 {
-    margin-top:12px ;
+    margin-top:10px ;
     background-image: url("../fondos_pagina/busqueda.png");
     height: 25px;
     width: 100px;
     margin-right:90px;
-    -moz-box-shadow: 0px 0px 30px #008B8B; 
-    -webkit-box-shadow: 0px 0px 30px #008B8B; 
-    box-shadow: 0px 0px 30px #008B8B;
+  
 }
-#boton_mapa
-{
-    margin-top:12px ;
-    background-image: url("../fondos_pagina/mapa.png");
-    height: 25px;
-    width: 100px;
-    margin-right:90px;
-    -moz-box-shadow: 0px 0px 30px #008B8B; 
-    -webkit-box-shadow: 0px 0px 30px #008B8B; 
-    box-shadow: 0px 0px 30px #008B8B;
-}
+
 #boton_videos
 {
-    margin-top:12px ;
+    margin-top:10px ;
     background-image: url("../fondos_pagina/videos.png");
     height: 25px;
     width: 100px;
     margin-right:90px;
-    -moz-box-shadow: 0px 0px 30px #008B8B; 
-    -webkit-box-shadow: 0px 0px 30px #008B8B; 
-    box-shadow: 0px 0px 30px #008B8B;
+   
 }
 #boton_contacto
 {
-    margin-top:12px ;
+   margin-top:10px ;
     background-image: url("../fondos_pagina/contacto.png");
     height: 25px;
     width: 100px;
     margin-right:90px;
-    -moz-box-shadow: 0px 0px 30px #008B8B; 
-    -webkit-box-shadow: 0px 0px 30px #008B8B; 
-    box-shadow: 0px 0px 30px #008B8B;
+   
 }
+#boton_map
+{
+   margin-top:10px ;
+    background-image: url("../fondos_pagina/mapa.png");
+    height: 25px;
+    width: 100px;
+    margin-right:90px;
+   
+}
+
+
     
 #inicio
 {
@@ -270,9 +261,17 @@ a:active
 {
 
 	margin-left:20px;
-	width:60px;
-	height:20px; 
+	width:94px;
+	height:25px; 
 }
+#boton_mapa
+{
+  
+	margin-left:134px;
+	width:94px;
+	height:25px; 
+}
+
 #detalles_1
 {
 
@@ -299,25 +298,84 @@ a:active
 {
     background:#E3E0E0;
     width: 900px;
-    height: 400px;        
+    height: 700px;        
 }
+#registro_contenido
+{
+   background:black;
+    width: 900px;
+     height: 700px;          
+}
+#registro_head
+{
+	float:left;
+   background-image: url("../fondos_pagina/HEADER-REGISTRO.png");
+   background-repeat:no-repeat;
+    width: 900px;
+    height: 82px;        
+}
+
+
 #busqueda
 {
     background:#E3E0E0;
     width: 900px;
-    height: 400px;        
+    height: 700px;     
+}
+
+#busqueda_contenido
+{
+   background:black;
+    width: 900px;
+    height: 700px;        
+}
+#busqueda_head
+{
+	float:left;
+   background-image: url("../fondos_pagina/HEADER-BUSQUEDA.png");
+   background-repeat:no-repeat;
+    width: 900px;
+    height: 82px;        
 }
 #videos
 {
     background:#E3E0E0;
     width: 900px;
-    height: 400px;        
+    height: 700px;            
+}
+#videos_contenido
+{
+   background:black;
+    width: 900px;
+    height: 700px;          
+}
+#videos_head
+{
+	float:left;
+   background-image: url("../fondos_pagina/HEADER-VIDEOS.png");
+   background-repeat:no-repeat;
+    width: 900px;
+    height: 82px;        
 }
 #contacto
 {
     background:#E3E0E0;
     width: 900px;
-    height: 400px;        
+    height: 700px;        
+}
+#contacto_contenido
+{
+   background:black;
+    width: 900px;
+     height: 700px;          
+}
+#contacto_head
+{
+	float:left;
+   background-image: url("../fondos_pagina/HEADER-CONTACTO.png");
+   background-repeat:no-repeat;
+    width: 900px;
+    height: 82px;        
 }
 
 
