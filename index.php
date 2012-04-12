@@ -40,11 +40,11 @@
 <!--<div id="contacto"><a href="#form-contact"></a></div>-->
 		</nav><!--Fin #menu-->
 			<div id="body-wrap">
-				<div id="body">
-					<div id="head">
+			    <div id="head">
 						<div id="logo" > </div>
 						<div id="banner"></div>
-					</div>
+				</div>
+				<div id="body">
 					<div id="contenido">
 						<section id="inicio">
 							<div id="slideshow">

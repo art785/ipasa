@@ -38,25 +38,30 @@ a:active
 #body  
 {  
     margin:0 auto;    
-    -moz-box-shadow: 0px 0px 30px #008B8B; 
-    -webkit-box-shadow: 0px 0px 30px #008B8B; 
-    box-shadow: 0px 0px 30px #008B8B;   
-    border: 1px solid #008B8B;
+	-moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000; 
+    border: 1px solid #000000;
 	background:#E3E0E0;	
     width: 900px;
-	height:3040px;
+	height:2850px;
 }
 
 #head 
 {   
-    margin-top: 20px;
+		-moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000;
+	
+	margin-left:140px;
 	background:black;
-	width:900px;
+	width:910px;
 	height:150px; 
 }
 			
 #logo
 {
+
     float: left;
 	background-image: url(../fondos_pagina/logo_ipasa.png);
 	width:250px;
@@ -67,13 +72,14 @@ a:active
 {  
     float: left;
 	background-color:#008B8B;
-	width:650px;
+	width:660px;
 	height:150px; 
 }
 
 
 #contenido 
 {  
+
     margin-top: 20px;
 	background:#E3E0E0;
 	width:900px;
@@ -88,12 +94,12 @@ a:active
     position:fixed;
     width: 170px;
     height: 316px;
-    margin-top: 170px;
+    margin-top: 150px;
     margin-left: 1125px;
-    -moz-box-shadow: 0px 0px 30px #008B8B; 
-    -webkit-box-shadow: 0px 0px 30px #008B8B; 
-    box-shadow: 0px 0px 30px #008B8B;
-    border: 1px solid #008B8B;
+   	-moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000;
+    border: 1px solid #000000;
     
 }
     
