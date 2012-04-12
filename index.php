@@ -18,6 +18,7 @@
 </script>
 <script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
 <script type="text/javascript" src="fancybox/efectos.js"></script>
+<script type="text/javascript" src="fancybox/efectos2.js"></script>
 <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
 
 <!-- javascript del movimiento de divs -->

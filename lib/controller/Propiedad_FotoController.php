@@ -35,6 +35,10 @@ class Propiedad_FotoController{
           echo "<div id = 'boton_detalle'>";
           echo '<a class="various fancybox.ajax" href="Resultados.php?id='.$propiedad->getId_Propiedad().'"><img src="fondos_pagina/boton_mapa.png"/></a>';
           echo "</div>";
+          
+          echo "<div id = 'boton_mapa'>";
+          echo '<a class="gmap" href="'.$propiedad->getCoordenadas().'"><img src="fondos_pagina/boton_mapa.png"/></a>';
+          echo "</div>";
          echo "</div>";
           $i++;
        }
