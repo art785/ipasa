@@ -12,19 +12,18 @@ class Detalles_PropiedadController {
        $propiedad_res=$Propieddad->propiedad_detallada($id_propiedad);
        $estructura_res=$Estructura->nombre_estructura($id_propiedad);
        $propiedad_estructura_res=$Propiedad_Estructura->cantidad_estructura($id_propiedad);
-       echo "<div>";
-           echo $propiedad_res->getNombre();
-           echo $propiedad_res->getComentario();
-           echo $propiedad_res->getDireccion();
-           echo $propiedad_res->getNombre();
-           echo $propiedad_res->getPrecio();
-          echo  "</div>";
+       echo "<div id='detalles_1'>";
+        
+           print '<p>Propiedad:'.$propiedad_res->getNombre().'</p>';   
+           print '<p>Comentarios:'.$propiedad_res->getComentario().'</p>';
+           print '<p>Direccion:'.$propiedad_res->getDireccion().'</p>';
+           print '<p>Precio de renta:'.$propiedad_res->getPrecio().'</p>';
+       echo  "</div>";
           for($i=0; $i<count($propiedad_estructura_res);$i++)
           {
-          echo "<div>";
-          echo $estructura_res[$i]->getNombre();
-          echo $propiedad_estructura_res[$i]->getCantidad();
-          echo "</div>";
+             echo "<div id='detalles_2'>";    
+               print '<p>'.$estructura_res[$i]->getNombre().': '.$propiedad_estructura_res[$i]->getCantidad().'</p>';  
+             echo "</div>";
           }
           
           

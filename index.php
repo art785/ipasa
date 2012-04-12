@@ -31,7 +31,7 @@
 			<ul>
 				<li><a href="#inicio"><div id="boton_inicio"></div></a></li>
 				<li><a href="#registro"><div id="boton_registro"></div></a></li>
-				<li><a href="#login"><div id="boton_login"></div></a></li>
+				<li><a href="#registro"><div id="boton_login"></div></a></li>
 				<li><a href="#busqueda"><div id="boton_busqueda"></div></a></li>
 				<li><a href="#mapa"><div id="boton_mapa"></div></a></li>
 				<li><a href="#videos"><div id="boton_videos"></div></a></li>
@@ -52,15 +52,17 @@
 							</div>
 							<div id="propiedad">
 							<?php include("Propiedad_Oferta.php");?>
-							</div>
-							<div id="resultado_propiedades">
 							<?php include("Resultados.php")?>
 							</div>
-							<div id= "galeria">
-				
-							</div>
+
 						</section >
-						<section id="registro"></section>
+						<section id="registro"><p>registro</p></section>
+						
+						<section id="busqueda"><p>busqueda</p></section>
+					
+						<section id="videos"><p>videos</p></section>
+						
+						<section id="contacto"><p>contacto</p></section>
 
 					</div>
 				</div>

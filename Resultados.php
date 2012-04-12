@@ -11,5 +11,4 @@ if(isset($_GET["id"]))
 	$resultado_propiedad->detalles_propiedad($id_propiedad);
 
 }
-echo "<h1>hola</h1";
 ?>

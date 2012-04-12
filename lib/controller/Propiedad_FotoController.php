@@ -12,28 +12,30 @@ class Propiedad_FotoController{
        foreach ($ArrPropiedades as $propiedad)
        {
            
-
-          $foto=$foto_consulta->fotos_propiedad($propiedad->getId_Propiedad());
-          echo "<div id='info_prev'>";
-          echo $propiedad->getDireccion();
-          
-          
-          
-          
-          echo "</div>";
-          echo "<div id = 'nombre_propiedad'>";
-          echo $propiedad->getNombre();
-          echo "</div>";
-          
+         echo "<div id='box'>";
+       	    echo "<div id = 'nombre_propiedad'>";
+         	print '<p>'.$propiedad->getNombre().'</p>';
+         	echo "</div>";
+       	
+         	echo "<div id='info_prev'>";
+         	print '<p>'.$propiedad->getDireccion().'</p>';
+         	
+         	
+         	echo "</div>";
+         	$foto=$foto_consulta->fotos_propiedad($propiedad->getId_Propiedad());
      
-          foreach ($foto as $fotop){
+          foreach ($foto as $fotop)
+          {
           	echo "<div id = 'foto'>";
           	print  ' <a rel="example_group"'.'href="'.$fotop->getRuta().'" title="'.$fotop->getDescripcion().' " ><img style="width:75px; height:75px" alt ="" src="'.$fotop->getRuta().'" /></a>';
           	echo "</div>";
           }
-          
+
+
+          echo "<div id = 'boton_detalle'>";
           echo '<a class="various fancybox.ajax" href="Resultados.php?id='.$propiedad->getId_Propiedad().'"><img src="fondos_pagina/boton_mapa.png"/></a>';
- 
+          echo "</div>";
+         echo "</div>";
           $i++;
        }
       

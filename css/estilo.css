@@ -1,88 +1,87 @@
 
 html, body
 {
-background-image:url('../fondos_pagina/textura_fondo.jpg');
-background-attachment: fixed;
-margin:0;
-padding:0;
+    background-image:url('../fondos_pagina/textura_fondo.jpg');
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
 }
-a:link {
+a:link
+{
 	color: #3366FF;
 	text-decoration: none;
 }
-a:visited {
+a:visited
+{
 	color: #3366FF;
 	text-decoration: none;
 }
-a:hover {
+a:hover
+{
 	color: #3366FF;
 	text-decoration: underline;
 }
-a:active {
+a:active
+{
 	color: #3366FF;
 	text-decoration: none;
 }
 
 #body-wrap{
-    margin:0 auto;
-     
-    	background-image:url('../fondos_pagina/capa_2.png');	
-        background-repeat:repeat-y;
-        width: 1200px;
-	height:2000px;
+    margin:0 auto;  
+    background-image:url('../fondos_pagina/capa_2.png');	
+    background-repeat:repeat-y;
+    width: 1200px;
+	height:3040px;
     
 }
 #body  
-	{  
-      margin:0 auto;
-      
-      -moz-box-shadow: 0px 0px 30px #008B8B; 
-      -webkit-box-shadow: 0px 0px 30px #008B8B; 
-      box-shadow: 0px 0px 30px #008B8B;
-      
-     
-      border: 1px solid #008B8B;
-      
-   
+{  
+    margin:0 auto;    
+    -moz-box-shadow: 0px 0px 30px #008B8B; 
+    -webkit-box-shadow: 0px 0px 30px #008B8B; 
+    box-shadow: 0px 0px 30px #008B8B;   
+    border: 1px solid #008B8B;
 	background:#E3E0E0;	
-        width: 900px;
-	height:2000px;
-	}
+    width: 900px;
+	height:3040px;
+}
 
 #head 
-	{   
-        margin-top: 20px;
+{   
+    margin-top: 20px;
 	background:black;
 	width:900px;
 	height:150px; 
-	}
+}
 			
 #logo
-	{
-        float: left;
+{
+    float: left;
 	background-image: url(../fondos_pagina/logo_ipasa.png);
 	width:250px;
 	height:150px;	
-	}
+}
 			
 #banner
-	{  
-        float: left;
+{  
+    float: left;
 	background-color:#008B8B;
 	width:650px;
 	height:150px; 
-	}
+}
 
 
 #contenido 
-	{  
-        margin-top: 20px;
+{  
+    margin-top: 20px;
 	background:#E3E0E0;
 	width:900px;
-	height:1500px;
-	}
+	height:2800px;
+}
         
-    #menu{
+#menu
+{
     background: url("../fondos_pagina/menu.png")repeat-x transparent;
     display: block;
     overflow: hidden;
@@ -91,137 +90,231 @@ a:active {
     height: 316px;
     margin-top: 170px;
     margin-left: 1125px;
-      -moz-box-shadow: 0px 0px 30px #008B8B; 
-      -webkit-box-shadow: 0px 0px 30px #008B8B; 
-      box-shadow: 0px 0px 30px #008B8B;
-      border: 1px solid #008B8B;
+    -moz-box-shadow: 0px 0px 30px #008B8B; 
+    -webkit-box-shadow: 0px 0px 30px #008B8B; 
+    box-shadow: 0px 0px 30px #008B8B;
+    border: 1px solid #008B8B;
     
-    }
-
-    #menu ul li{
-       
-        list-style: none outside none;
-        text-decoration: none;
-    }
+}
     
-
+#menu ul li
+{    
+    list-style: none outside none;
+    text-decoration: none;
+}
     
-    #boton_inicio{
-       margin-top:30px ;
-       background-image: url("../fondos_pagina/inicio.png");
-       height: 25px;
-       width: 100px;
-       margin-right:90px;
+#boton_inicio
+{
+    margin-top:30px ;
+    background-image: url("../fondos_pagina/inicio.png");
+    height: 25px;
+    width: 100px;
+    margin-right:90px;    
+    -moz-box-shadow: 0px 0px 30px #008B8B; 
+    -webkit-box-shadow: 0px 0px 30px #008B8B; 
+    box-shadow: 0px 0px 30px #008B8B;
        
-        -moz-box-shadow: 0px 0px 30px #008B8B; 
-      -webkit-box-shadow: 0px 0px 30px #008B8B; 
-      box-shadow: 0px 0px 30px #008B8B;
-       
-    }
-        #boton_registro{
-           margin-top:12px ;
-       background-image: url("../fondos_pagina/registro.png");
-       height: 25px;
-       width: 100px;
-       margin-right:120px;
-       
-        -moz-box-shadow: 0px 0px 30px #008B8B; 
-      -webkit-box-shadow: 0px 0px 30px #008B8B; 
-      box-shadow: 0px 0px 30px #008B8B;
-       
-    }
-        #boton_login{
-           margin-top:12px ;
-       background-image: url("../fondos_pagina/login.png");
-       height: 25px;
-       width: 100px;
-      margin-right:90px;
-        -moz-box-shadow: 0px 0px 30px #008B8B; 
-      -webkit-box-shadow: 0px 0px 30px #008B8B; 
-      box-shadow: 0px 0px 30px #008B8B;
-    }
-        #boton_busqueda{
-          margin-top:12px ;
-      background-image: url("../fondos_pagina/busqueda.png");
-      height: 25px;
-       width: 100px;
-       margin-right:90px;
-         -moz-box-shadow: 0px 0px 30px #008B8B; 
-      -webkit-box-shadow: 0px 0px 30px #008B8B; 
-      box-shadow: 0px 0px 30px #008B8B;
-    }
-     #boton_mapa{
-         margin-top:12px ;
-      background-image: url("../fondos_pagina/mapa.png");
-      height: 25px;
-       width: 100px;
-      margin-right:90px;
-        -moz-box-shadow: 0px 0px 30px #008B8B; 
-      -webkit-box-shadow: 0px 0px 30px #008B8B; 
-      box-shadow: 0px 0px 30px #008B8B;
-    }
-    #boton_videos{
-        margin-top:12px ;
-      background-image: url("../fondos_pagina/videos.png");
-      height: 25px;
-       width: 100px;
-       margin-right:90px;
-         -moz-box-shadow: 0px 0px 30px #008B8B; 
-      -webkit-box-shadow: 0px 0px 30px #008B8B; 
-      box-shadow: 0px 0px 30px #008B8B;
-    }
-    #boton_contacto{
-        margin-top:12px ;
-      background-image: url("../fondos_pagina/contacto.png");
-      height: 25px;
-       width: 100px;
-      margin-right:90px;
-        -moz-box-shadow: 0px 0px 30px #008B8B; 
-      -webkit-box-shadow: 0px 0px 30px #008B8B; 
-      box-shadow: 0px 0px 30px #008B8B;
-    }
+}
+#boton_registro
+{
+    margin-top:12px ;
+    background-image: url("../fondos_pagina/registro.png");
+    height: 25px;
+    width: 100px;
+    margin-right:120px; 
+    -moz-box-shadow: 0px 0px 30px #008B8B; 
+    -webkit-box-shadow: 0px 0px 30px #008B8B; 
+    box-shadow: 0px 0px 30px #008B8B;
+   
+}
+#boton_login
+{
+    margin-top:12px ;
+    background-image: url("../fondos_pagina/login.png");
+    height: 25px;
+    width: 100px;
+    margin-right:90px;
+    -moz-box-shadow: 0px 0px 30px #008B8B; 
+    -webkit-box-shadow: 0px 0px 30px #008B8B; 
+    box-shadow: 0px 0px 30px #008B8B;
+}
+#boton_busqueda
+{
+    margin-top:12px ;
+    background-image: url("../fondos_pagina/busqueda.png");
+    height: 25px;
+    width: 100px;
+    margin-right:90px;
+    -moz-box-shadow: 0px 0px 30px #008B8B; 
+    -webkit-box-shadow: 0px 0px 30px #008B8B; 
+    box-shadow: 0px 0px 30px #008B8B;
+}
+#boton_mapa
+{
+    margin-top:12px ;
+    background-image: url("../fondos_pagina/mapa.png");
+    height: 25px;
+    width: 100px;
+    margin-right:90px;
+    -moz-box-shadow: 0px 0px 30px #008B8B; 
+    -webkit-box-shadow: 0px 0px 30px #008B8B; 
+    box-shadow: 0px 0px 30px #008B8B;
+}
+#boton_videos
+{
+    margin-top:12px ;
+    background-image: url("../fondos_pagina/videos.png");
+    height: 25px;
+    width: 100px;
+    margin-right:90px;
+    -moz-box-shadow: 0px 0px 30px #008B8B; 
+    -webkit-box-shadow: 0px 0px 30px #008B8B; 
+    box-shadow: 0px 0px 30px #008B8B;
+}
+#boton_contacto
+{
+    margin-top:12px ;
+    background-image: url("../fondos_pagina/contacto.png");
+    height: 25px;
+    width: 100px;
+    margin-right:90px;
+    -moz-box-shadow: 0px 0px 30px #008B8B; 
+    -webkit-box-shadow: 0px 0px 30px #008B8B; 
+    box-shadow: 0px 0px 30px #008B8B;
+}
     
- 
-    #inicio{
-         height: 1500px;
-       width: 900px;
-        
-    }
+#inicio
+{
+    height: 1500px;
+    width: 900px;  
+}
         
 #slideshow
-	{  
-       
-        float: left;
-	width:900px;
+{     
+	margin:0 auto;  
+    
+	width:700px;
 	height:450px;				
-	}
+}
 
 #propiedad
-	{    
-         display:block;
+{    
+    display:block;
 	width:900px;
-	height:500px;	
-	}
-	
-#resultado_propiedades
-	{   
-        float:left;
-	width:900px;
-	height:500px;	
-	}
- 
-        #registro{
-            background:#E3E0E0;
-            width: 900px;
-            height: 500px;
-        }
-
+	height:1200px;	
+}
 #box
-	{    
-        float:left;
-	width:250px;
-	height:250px;	
-	}
+{   
+	background-image: url("../fondos_pagina/golden.jpg");
+	margin-top:10px;  
+    margin-left:150px;  
+    float:left;
+	width:600px;
+	height:200px;	
+    -moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000;
+}
+#nombre_propiedad
+{    
+	margin:0 auto;  
+	width:400px;
+	height:20px;
+	
+}
+#nombre_propiedad p
+{
+	text-align:center;
+	text-color:white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-decoration: underline;
+    font-family:"Times New Roman", Times, serif;
+    font-size:16px;
+}
+#info_prev
+{	
+	margin:0 auto;  
+	width:400px;
+	height:20px; 
+	
+}
+#info_prev p
+{
+	text-align:center;
+	text-color:white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+    font-family:"Times New Roman", Times, serif;
+    font-size:16px;
+}
+#foto
+{
+	margin-top:10px;
+	margin-left:20px;
+	margin-bottom:10px;
+	float:left;
+	width:75px;
+	height:75px; 
+	
+	-moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000;
+		
+}
+#boton_detalle
+{
+
+	margin-left:20px;
+	width:60px;
+	height:20px; 
+}
+#detalles_1
+{
+
+}
+#detalles_2
+{
+
+}
+#detalles_1 p
+{
+	text-color:white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+    font-family:"Times New Roman", Times, serif;
+    font-size:16px;
+}
+#detalles_2 p
+{
+	text-color:white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+    font-family:"Times New Roman", Times, serif;
+    font-size:16px;
+}
+#registro
+{
+    background:#E3E0E0;
+    width: 900px;
+    height: 400px;        
+}
+#busqueda
+{
+    background:#E3E0E0;
+    width: 900px;
+    height: 400px;        
+}
+#videos
+{
+    background:#E3E0E0;
+    width: 900px;
+    height: 400px;        
+}
+#contacto
+{
+    background:#E3E0E0;
+    width: 900px;
+    height: 400px;        
+}
+
+
 
 
 	
