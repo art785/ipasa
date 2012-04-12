@@ -8,7 +8,7 @@ class Sql_Estructura{
          $mysql= new MySQL();
            $consulta = "SELECT Estructura.nombre 
               FROM Estructura,Propiedad,Propiedad_Estructura
-              WHERE Propiedad.id_propiedad=Propiedad_Estructura.id__propiedad 
+              WHERE Propiedad.id_propiedad=Propiedad_Estructura.id_propiedad 
               AND Estructura.id_Estructura = Propiedad_Estructura.id_Estructura
               AND Propiedad.id_propiedad = ".$id_propiedad; 
            

@@ -7,7 +7,7 @@ class Sql_Propiedad {
      public function propiedades_en_oferta()
         {
          $mysql= new MySQL();
-          $consulta = "SELECT id_propiedad,direccion,nombre 
+          $consulta = "SELECT id_propiedad,direccion,nombre,coordenadas 
                                     FROM Propiedad
                                     WHERE Propiedad.ofertada = 1"; 
            
@@ -22,6 +22,7 @@ class Sql_Propiedad {
                                         $ArrPropiedades[$i]->setId_Propiedad($objeto->id_propiedad);
                                         $ArrPropiedades[$i]->setDireccion($objeto->direccion);
                                         $ArrPropiedades[$i]->setNombre($objeto->nombre);
+                                        $ArrPropiedades[$i]->setCoordenadas($objeto->coordenadas);
                                         $i++;
 		} 
                       

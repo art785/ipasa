@@ -9,7 +9,7 @@
       $this->conexion = (mysql_connect("localhost","root","stratus"))
 
         or die(mysql_error());
-      mysql_select_db("ipasa",$this->conexion) or die(mysql_error());
+      mysql_select_db("ipasacv_base",$this->conexion) or die(mysql_error());
     }
   }
 
