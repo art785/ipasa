@@ -27,7 +27,10 @@
 <!-- fin del javasscript -->
 </head>
 	<body>
-		<nav id="menu">
+
+			<div id="body-wrap">
+			 
+			  		<nav id="menu">
 			<ul>
 				<li><a href="#inicio"><div id="boton_inicio"></div></a></li>
 				<li><a href="#registro"><div id="boton_registro"></div></a></li>
@@ -37,9 +40,7 @@
 				<li><a href="#videos"><div id="boton_videos"></div></a></li>
 				<li><a href="#contacto"><div id="boton_contacto"></div></a></li>
 			</ul>
-<!--<div id="contacto"><a href="#form-contact"></a></div>-->
 		</nav><!--Fin #menu-->
-			<div id="body-wrap">
 			    <div id="head">
 						<div id="logo" > </div>
 						<div id="banner"></div>
