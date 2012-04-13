@@ -41,7 +41,6 @@ a:active
 	-moz-box-shadow: 0px 0px 30px #000000; 
     -webkit-box-shadow: 0px 0px 30px #000000; 
     box-shadow: 0px 0px 30px #000000; 
-    border: 1px solid #000000;
 	background:#E3E0E0;	
     width: 900px;
 	height:4000px;
@@ -49,12 +48,8 @@ a:active
 
 #head 
 {   
-		-moz-box-shadow: 0px 0px 30px #000000; 
-    -webkit-box-shadow: 0px 0px 30px #000000; 
-    box-shadow: 0px 0px 30px #000000;
-	
+
 	margin-left:140px;
-	background:white;
 	width:910px;
 	height:150px; 
 }
@@ -80,8 +75,7 @@ a:active
 #contenido 
 {  
 
-    margin-top: 20px;
-	background:#E3E0E0;
+	background: url("../fondos_pagina/azul_ipasa.jpg");
 	width:900px;
 	height:3040px;
 }
@@ -302,7 +296,7 @@ a:active
 }
 #registro_contenido
 {
-   background:black;
+   background: url("../fondos_pagina/azul_ipasa.jpg");
     width: 900px;
      height: 700px;          
 }
@@ -313,6 +307,24 @@ a:active
    background-repeat:no-repeat;
     width: 900px;
     height: 82px;        
+}
+
+#iframe_registro
+{
+	margin-top: 20px;
+  margin-bottom: 30px;
+
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px; 
+  border-radius: 12px; 
+
+  -moz-box-shadow: 4px 4px 14px #000; 
+  -webkit-box-shadow: 4px 4px 14px #000; 
+  box-shadow: 4px 4px 14px #000;
+  
+  
+	width: 450px;
+    height: 300px;
 }
 
 

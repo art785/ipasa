@@ -64,17 +64,17 @@
 
 						</section >
 						<section id="registro">
-						<iframe src="forms/registro.php"></iframe>
-						
-						
-						</section>
+	
 						   <div id="registro_contenido">
 						      <div id="registro_head"></div>
+						      <iframe id="iframe_registro" src="forms/registro.php"></iframe>
 						   
 						   </div>
 						
-						  
+						</section>
 
+						
+						  
 						
 						<section id="busqueda">
 				     	   <div id="busqueda_contenido">

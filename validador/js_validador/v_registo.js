@@ -5,14 +5,14 @@ $(document).ready(function () {
         if( $(".nombre").val() == "" ){
             $(".nombre").focus().after("<span class='error'>Ingrese su nombre</span>");
             return false;
-        }else if( $(".email").val() == "" || !emailreg.test($(".email").val()) ){
-            $(".email").focus().after("<span class='error'>Ingrese un email correcto</span>");
+        }else if( $(".apellidos").val() == ""){
+            $(".apellidos").focus().after("<span class='error'>Ingrese sus apellidos</span>");
             return false;
-        }else if( $(".telefono").val() == ""){
+        }else if( $(".email").val() == ""|| !emailreg.test($(".email").val())){
+            $(".email").focus().after("<span class='error'>Ingrese un e-mail correcto</span>");
+            return false;
+        }else if( $(".telefono").val() == "" ){
             $(".telefono").focus().after("<span class='error'>Ingrese un telefono</span>");
-            return false;
-        }else if( $(".apellidos").val() == "" ){
-            $(".apellido").focus().after("<span class='error'>Ingrese un mensaje</span>");
             return false;
         }
     });
