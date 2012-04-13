@@ -20,12 +20,16 @@
 <script type="text/javascript" src="fancybox/efectos.js"></script>
 <script type="text/javascript" src="fancybox/efectos2.js"></script>
 <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+<!-- Fin de fancybox  y del jquery -->
 
 <!-- javascript del movimiento de divs -->
 <script type="text/javascript" src="js/mover_divs.js"></script>
-
-
 <!-- fin del javasscript -->
+
+<!-- Validacion de formulario de contacto -->
+
+
+
 </head>
 	<body>
 
@@ -60,14 +64,15 @@
 
 						</section >
 						<section id="registro">
-
-						<?php include("forms/contacto.php") ?>
+						<iframe src="forms/registro.php"></iframe>
+						
+						
 						</section>
 						   <div id="registro_contenido">
 						      <div id="registro_head"></div>
 						   
 						   </div>
-						</section>
+						
 						  
 
 						
