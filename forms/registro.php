@@ -1,6 +1,6 @@
 <html>
     <head>
-     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+    <script type="text/javascript" src="../slide-principal/scripts/jquery-1.7.1.min.js"></script>
  <script type="text/javascript" src="../validador/js_validador/v_registo.js"></script>
 <link rel="stylesheet" href="../validador/css/registro.css" type="text/css" charset="utf-8"/>
         
