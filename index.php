@@ -60,12 +60,16 @@
 
 						</section >
 						<section id="registro">
+
+						<?php include("forms/contacto.php") ?>
+						</section>
 						   <div id="registro_contenido">
 						      <div id="registro_head"></div>
 						   
 						   </div>
 						</section>
 						  
+
 						
 						<section id="busqueda">
 				     	   <div id="busqueda_contenido">
