@@ -58,7 +58,9 @@
 							</div>
 
 						</section >
-						<section id="registro"><p>registro</p></section>
+						<section id="registro">
+						<?php include("forms/contacto.php") ?>
+						</section>
 						
 						<section id="busqueda"><p>busqueda</p></section>
 					

@@ -1,7 +1,7 @@
 
 <?php class MySQL{
 
-  private $conexion; private $total_consultas;
+  private $conexion; private $total_consultas; private $total_inserts;
 
   public function MySQL(){ 
     if(!isset($this->conexion)){
@@ -27,10 +27,28 @@
    return mysql_fetch_object($resultado);
   }
 
-  
-
   public function getTotalConsultas(){
    return $this->total_consultas; 
   }
+  
+  public function cerrarConexion(){
+  	return mysql_close($this->conexion);
+  }
+  
+  public function insercion($insert){
+  	$this->total_inserts++;
+  	$resultado = mysql_query($insert,$this->conexion);
+  	if(!$resultado){
+  		echo 'MySQL Error: ' . mysql_error();
+  		exit;
+  	}
+  	return $resultado;
+  }
+  
+  public function getTotalInserciones(){
+  	return $this->total_inserts;
+  }
+  
+  
 
 }?>
