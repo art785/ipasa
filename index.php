@@ -36,10 +36,11 @@
 				<li><a href="#inicio"><div id="boton_inicio"></div></a></li>
 				<li><a href="#registro"><div id="boton_registro"></div></a></li>
 				<li><a href="#registro"><div id="boton_login"></div></a></li>
+					<li><a href="#mapa"><div id="boton_map"></div></a></li>
 				<li><a href="#busqueda"><div id="boton_busqueda"></div></a></li>
-				<li><a href="#mapa"><div id="boton_mapa"></div></a></li>
 				<li><a href="#videos"><div id="boton_videos"></div></a></li>
 				<li><a href="#contacto"><div id="boton_contacto"></div></a></li>
+			
 			</ul>
 		</nav><!--Fin #menu-->
 			    <div id="head">
@@ -59,15 +60,36 @@
 
 						</section >
 						<section id="registro">
+
 						<?php include("forms/contacto.php") ?>
 						</section>
-						
-						<section id="busqueda"><p>busqueda</p></section>
-					
-						<section id="videos"><p>videos</p></section>
-						
-						<section id="contacto"><p>contacto</p></section>
+						   <div id="registro_contenido">
+						      <div id="registro_head"></div>
+						   
+						   </div>
+						</section>
+						  
 
+						
+						<section id="busqueda">
+				     	   <div id="busqueda_contenido">
+						      <div id="busqueda_head"></div>
+						   
+						   </div>
+						</section>
+					
+						<section id="videos">
+				     	   <div id="videos_contenido">
+						      <div id="videos_head"></div>
+						   
+						   </div>
+						</section>
+						<section id="contacto">
+				     	   <div id="contacto_contenido">
+						      <div id="contacto_head"></div>
+						   
+						   </div>
+						</section>
 					</div>
 				</div>
 			</div>
