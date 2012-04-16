@@ -10,15 +10,15 @@
      
           <div id="registro_form">
              <form class='contacto'>
-            <div id="fila"><label>Tu Nombre:</label> <span class="input_area"><input type='text' class='nombre' value=''></span></div>
+            <div id="fila"><label>Nombre:</label> <span class="input_area"><input type='text' class='nombre' value=''></span></div>
             <div id="fila"><label>Apellidos:</label> <span class="input_area"><input type='text' class='apellidos' value=''></span></div>
-            <div id="fila"><label>Tu Email:</label> <span class="input_area"><input type='text' class='email' value=''></span></div>
+            <div id="fila"><label>Email:</label> <span class="input_area"><input type='text' class='email' value=''></span></div>
             <div id="fila"><label>Telefono:</label> <span class="input_area"><input type='text' class='telefono' value='' ></span></div>
               <div id="fila"><label>Sexo:</label>  <span class="input_area"><select id="sexo" name="sexo">
                  <option value="1">Masculino</option>
                  <option value="0">Femenino</option>
              </select></span></div>
-            <div id="fila"> <span class="input_area"><input type='submit' value='Envia Mensaje' class='boton'></span></div>
+            <div id="fila"> <span class="input_area"><input type='submit' value='Dar de alta' class='boton'></span></div>
         	</form>
          </div>
         	

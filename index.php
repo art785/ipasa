@@ -32,50 +32,75 @@
 
 </head>
 	<body>
-
+<!--------------------------------------------BODY-WRAP CONTIENE TODO---------------------------------------------->
 			<div id="body-wrap">
 			 
-			  		<nav id="menu">
+<!--------------------------------------------MENU ESTATICO DE LA DERECHA---------------------------------------------->
+       <nav id="menu">
 			<ul>
-				<li><a href="#inicio"><div id="boton_inicio"></div></a></li>
-				<li><a href="#registro"><div id="boton_registro"></div></a></li>
-				<li><a href="#registro"><div id="boton_login"></div></a></li>
-					<li><a href="#mapa"><div id="boton_map"></div></a></li>
+				<li><a href="#head"><div id="boton_inicio"></div></a></li>
+				<li><a href="#disponible_head"><div id="boton_registro"></div></a></li>
+				<li><a href="#registro_head"><div id="boton_login"></div></a></li>
+				<li><a href="#registro_head"><div id="boton_map"></div></a></li>
 				<li><a href="#busqueda"><div id="boton_busqueda"></div></a></li>
 				<li><a href="#videos"><div id="boton_videos"></div></a></li>
 				<li><a href="#contacto"><div id="boton_contacto"></div></a></li>
 			
 			</ul>
-		</nav><!--Fin #menu-->
+		</nav>
+<!--------------------------------------------HEADER INICIO---------------------------------------------->
 			    <div id="head">
 						<div id="logo" > </div>
 						<div id="banner"></div>
 				</div>
+<!--------------------------------------------SECCION INICIO---------------------------------------------->
 				<div id="body">
 					<div id="contenido">
 						<section id="inicio">
+						    <div id="slideshow_top"></div>
 							<div id="slideshow">
 							<?php include ("Slide-principal.php");?>
 							</div>
-							<div id="propiedad">
-							<?php include("Propiedad_Oferta.php");?>
-							<?php include("Resultados.php")?>
-							</div>
-
 						</section >
+					</div>
+				</div>
+<!--------------------------------------------HEADER DISPONIBLE------------------------------------------------>
+			    <div id="disponible_head">
+						<div id="disponible_logo" > </div>
+						<div id="disponible_banner"></div>
+				</div>
+<!--------------------------------------------SECCION DISPONIBLES---------------------------------------------->
+					
+				<div id="body2">
+					<div id="contenido2">
+						<section id="disponibles">
+						   	<div id="propiedad">
+							   <?php include("Propiedad_Oferta.php");?>
+							   <?php include("Resultados.php")?>
+							</div>
+						</section >
+					</div>
+				</div>		
+				
+<!--------------------------------------------HEADER REGISTRO---------------------------------------------->
+			    <div id="registro_head">
+						<div id="registro_logo" > </div>
+						<div id="registro_banner"></div>
+				</div>
+<!--------------------------------------------SECCION REGISTRO---------------------------------------------->
+				<div id="body3">
+				    <div id="contenido3">
 						<section id="registro">
-	
 						   <div id="registro_contenido">
 						      <div id="registro_head"></div>
-						      <iframe id="iframe_registro" src="forms/registro.php"></iframe>
-						   
+						      <iframe id="iframe_registro" src="forms/registro.php"></iframe>	   
 						   </div>
-						
 						</section>
+					</div>
+				</div>
+<!---------------------------------------------HEADER BUSQUEDA---------------------------------------------->
 
-						
-						  
-						
+<!--------------------------------------------SECCION BUSQUEDA---------------------------------------------->
 						<section id="busqueda">
 				     	   <div id="busqueda_contenido">
 						      <div id="busqueda_head"></div>

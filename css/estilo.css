@@ -26,7 +26,7 @@ a:active
 	color: #3366FF;
 	text-decoration: none;
 }
-
+/* ------------------------------------CONTENIDO DE TODO ----------------------------------------------*/
 #body-wrap{
     margin:0 auto;  
     background-image:url('../fondos_pagina/capa_2.png');	
@@ -35,35 +35,24 @@ a:active
 	height:4000px;
     
 }
-#body  
-{  
-    margin:0 auto;    
-	-moz-box-shadow: 0px 0px 30px #000000; 
-    -webkit-box-shadow: 0px 0px 30px #000000; 
-    box-shadow: 0px 0px 30px #000000; 
-	background:#E3E0E0;	
-    width: 900px;
-	height:4000px;
-}
-
+/* -------------------------------------HEADER_INICIO------------------------------------------*/
 #head 
 {   
-
 	margin-left:140px;
-	width:910px;
-	height:150px; 
+	width:920px;
+	height:160px; 
+	margin-top:20px;
 }
 			
 #logo
 {
-
     float: left;
-	background-image: url(../fondos_pagina/logo.png);
-	width:250px;
-	height:150px;	
+	background-image: url(../fondos_pagina/logo_head.png);
+	width:920px;
+	height:160px;	
 }
 			
-#banner
+#banne
 {  
     float: left;
 	background-color:#008B8B;
@@ -71,15 +60,7 @@ a:active
 	height:150px; 
 }
 
-
-#contenido 
-{  
-
-	background: url("../fondos_pagina/azul_ipasa.jpg");
-	width:900px;
-	height:3040px;
-}
-        
+/* ----------------------------MENU ESTATICO DE LA DERECHA --------------------------------------*/  
 #menu
 {
     background: url("../fondos_pagina/menu.png")repeat-x transparent;
@@ -109,9 +90,7 @@ a:active
     background-image: url("../fondos_pagina/inicio.png");
     height: 25px;
     width: 100px;
-    margin-right:90px;    
-
-       
+    margin-right:90px;        
 }
 
 #boton_registro
@@ -120,9 +99,7 @@ a:active
     background-image: url("../fondos_pagina/registro.png");
     height: 25px;
     width: 100px;
-    margin-right:120px; 
-   
-   
+    margin-right:120px;   
 }
 
 #boton_login
@@ -132,7 +109,6 @@ a:active
     height: 25px;
     width: 100px;
     margin-right:90px;
-  
 }
 #boton_busqueda
 {
@@ -141,7 +117,6 @@ a:active
     height: 25px;
     width: 100px;
     margin-right:90px;
-  
 }
 
 #boton_videos
@@ -164,33 +139,98 @@ a:active
 }
 #boton_map
 {
-   margin-top:10px ;
+    margin-top:10px ;
     background-image: url("../fondos_pagina/mapa.png");
     height: 25px;
     width: 100px;
     margin-right:90px;
+}
    
+/* ------------------------------------------SECCION INICIO ----------------------------------------*/
+#body  
+{  
+    margin:0 auto;    
+	-moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000; 
+	background:#E3E0E0;	
+    width: 900px;
+	height:700px;
+}
+#contenido 
+{  
+
+	background: url("../fondos_pagina/azul_ipasa.jpg");
+	width:900px;
+	height:700px;
 }
 
-
-    
 #inicio
 {
-    height: 1500px;
-    width: 900px;  
+    width:900px;
+	height:700px;	
 }
-        
+#slideshow_top
+{
+   width:900px;
+   height:50px;	
+}     
 #slideshow
 {     
-	margin:0 auto;  
-    
+	margin:0 auto;    
 	width:700px;
 	height:450px;				
 }
+/* ------------------------------------------HEADER DISPONIBLE ----------------------------------------*/
+#disponible_head 
+{   
+	margin-left:140px;
+	width:920px;
+	height:160px; 
+}
+			
+#disponible_logo
+{
+    float: left;
+	background-image: url(../fondos_pagina/disponibles.png);
+	width:920px;
+	height:160px;	
+}
+			
+#disponible_banne
+{  
+    float: right;
+	background:#008B8B;
+	width:660px;
+	height:150px; 
+}
+/* ------------------------------------------SECCION DISPOBIBLES ----------------------------------------*/
+#body2 
+{  
+    margin:0 auto;    
+	-moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000; 
+	background:#E3E0E0;	
+    width: 900px;
+	height:1200px;
+}
+#contenido2
+{  
 
+	background: url("../fondos_pagina/azul_ipasa.jpg");
+	width:900px;
+	height:1200px;
+}
+
+#disponibles
+{
+    width:900px;
+	height:1200px;	
+}
 #propiedad
 {    
-    display:block;
+    
 	width:900px;
 	height:1200px;	
 }
@@ -288,6 +328,45 @@ a:active
     font-family:"Times New Roman", Times, serif;
     font-size:16px;
 }
+/* ------------------------------------------HEADER REGISTRO ----------------------------------------*/
+#registro_head 
+{   
+	margin-left:140px;
+	width:910px;
+	height:150px; 
+}
+			
+#registro_logo
+{
+    float: left;
+	background-image: url(../fondos_pagina/logo.png);
+	width:250px;
+	height:150px;	
+}
+			
+#registro_banner
+{  
+    float: right;
+	background:#008B8B;
+	width:660px;
+	height:150px; 
+}
+/* ------------------------------------------SECCION REGISTRO ----------------------------------------*/
+#body3{  
+    margin:0 auto;    
+	-moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000; 
+	background:#E3E0E0;	
+    width: 900px;
+	height:700px;
+}
+#contenido3
+{  
+	background: url("../fondos_pagina/azul_ipasa.jpg");
+	width:900px;
+	height:700px;
+}
 #registro
 {
     background:#E3E0E0;
@@ -296,38 +375,26 @@ a:active
 }
 #registro_contenido
 {
-   background: url("../fondos_pagina/azul_ipasa.jpg");
+    background: url("../fondos_pagina/azul_ipasa.jpg");
     width: 900px;
-     height: 700px;          
-}
-#registro_head
-{
-	float:left;
-   background-image: url("../fondos_pagina/HEADER-REGISTRO.png");
-   background-repeat:no-repeat;
-    width: 900px;
-    height: 82px;        
+    height: 700px;          
 }
 
 #iframe_registro
 {
 	margin-top: 20px;
-  margin-bottom: 30px;
-
-  -moz-border-radius: 12px;
-  -webkit-border-radius: 12px; 
-  border-radius: 12px; 
-
-  -moz-box-shadow: 4px 4px 14px #000; 
-  -webkit-box-shadow: 4px 4px 14px #000; 
-  box-shadow: 4px 4px 14px #000;
-  
-  
+    margin-bottom: 30px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px; 
+    border-radius: 12px; 
+    -moz-box-shadow: 4px 4px 14px #000; 
+    -webkit-box-shadow: 4px 4px 14px #000; 
+    box-shadow: 4px 4px 14px #000;
 	width: 450px;
     height: 300px;
 }
 
-
+/* ------------------------------------------SECCION BUSQUEDA ----------------------------------------*/
 #busqueda
 {
     background:#E3E0E0;
@@ -344,11 +411,12 @@ a:active
 #busqueda_head
 {
 	float:left;
-   background-image: url("../fondos_pagina/HEADER-BUSQUEDA.png");
-   background-repeat:no-repeat;
+    background-image: url("../fondos_pagina/HEADER-BUSQUEDA.png");
+    background-repeat:no-repeat;
     width: 900px;
     height: 82px;        
 }
+/* ------------------------------------------SECCION VIDEOS ----------------------------------------*/
 #videos
 {
     background:#E3E0E0;
@@ -369,6 +437,7 @@ a:active
     width: 900px;
     height: 82px;        
 }
+/* ------------------------------------------SECCION CONTACTO ----------------------------------------*/
 #contacto
 {
     background:#E3E0E0;
