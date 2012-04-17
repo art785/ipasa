@@ -541,25 +541,23 @@ width:910px;
 	-moz-box-shadow: 0px 0px 30px #000000; 
     -webkit-box-shadow: 0px 0px 30px #000000; 
     box-shadow: 0px 0px 30px #000000; 
-	background:#E3E0E0;	
     width: 900px;
 	height:700px;
 }
 #contenido7
 {  
-	background: url("../fondos_pagina/fondo_seccion_registro.jpg");
+	background: url("../fondos_pagina/fondo-seccion-registro.png");
 	width:900px;
 	height:700px;
 }
 #registro
 {
-    background:#E3E0E0;
     width: 900px;
     height: 700px;        
 }
 #registro_contenido
 {
-    background: url("../fondos_pagina/azul_ipasa.jpg");
+    background: url("../fondos_pagina/fondo-seccion-registro.png");
     width: 900px;
     height: 700px;          
 }
