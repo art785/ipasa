@@ -39,12 +39,14 @@
        <nav id="menu">
 			<ul>
 				<li><a href="#head"><div id="boton_inicio"></div></a></li>
-				<li><a href="#disponible_head"><div id="boton_registro"></div></a></li>
+				<li><a href="#quienes_somos_head"><div id="boton_quienes"></div></a></li>
+				<li><a href="#disponible_head"><div id="boton_disponible"></div></a></li>
+				<li><a href="#mapa_head"><div id="boton_map"></div></a></li>
+				<li><a href="#busqueda_head"><div id="boton_busqueda"></div></a></li>
+				<li><a href="#videos_head"><div id="boton_videos"></div></a></li>
+				<li><a href="#registro_head"><div id="boton_registro"></div></a></li>
 				<li><a href="#registro_head"><div id="boton_login"></div></a></li>
-				<li><a href="#registro_head"><div id="boton_map"></div></a></li>
-				<li><a href="#busqueda"><div id="boton_busqueda"></div></a></li>
-				<li><a href="#videos"><div id="boton_videos"></div></a></li>
-				<li><a href="#contacto"><div id="boton_contacto"></div></a></li>
+				<li><a href="#contacto_head"><div id="boton_contacto"></div></a></li>
 			
 			</ul>
 		</nav>
@@ -73,11 +75,14 @@
 				<div id="body2">
 					<div id="contenido2">
 						<section id="quienes_somos">
-						  <div id="quienes_somos_contenido"></div>
+						  <div id="quienes_somos_contenido">
+						   <br>
 						   <p> Quienes somos</p>
 						   <p>Mision</p>
 						   <p>Vision</p>
 						   <p>Objetivos</p>
+						   </div>
+						 
 					
 						</section >
 					</div>
@@ -159,7 +164,9 @@
 				    <div id="contenido7">
 						<section id="registro">
 						   <div id="registro_contenido">
-						      <iframe id="iframe_registro" src="forms/registro.php"></iframe>	   
+						     
+						      <iframe id="iframe_registro" src="forms/registro.php"></iframe>
+
 						   </div>
 						</section>
 					</div>

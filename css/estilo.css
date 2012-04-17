@@ -79,7 +79,7 @@ a:active
     
 #boton_inicio
 {
-    margin-top:10px ;
+    margin-top:5px ;
     background-image: url("../fondos_pagina/inicio.png");
     height: 25px;
     width: 100px;
@@ -88,16 +88,31 @@ a:active
 
 #boton_registro
 {
-    margin-top:10px ;
+    margin-top:5px ;
     background-image: url("../fondos_pagina/registro.png");
     height: 25px;
     width: 100px;
     margin-right:120px;   
 }
-
+#boton_quienes
+{
+   margin-top:5px ;
+    background-image: url("../fondos_pagina/registro.png");
+    height: 25px;
+    width: 100px;
+    margin-right:120px;   
+}
+#boton_disponible
+{
+    margin-top:5px ;
+    background-image: url("../fondos_pagina/registro.png");
+    height: 25px;
+    width: 100px;
+    margin-right:120px;   
+}
 #boton_login
 {
-    margin-top:10px ;
+    margin-top:5px ;
     background-image: url("../fondos_pagina/login.png");
     height: 25px;
     width: 100px;
@@ -105,7 +120,7 @@ a:active
 }
 #boton_busqueda
 {
-    margin-top:10px ;
+   margin-top:5px ;
     background-image: url("../fondos_pagina/busqueda.png");
     height: 25px;
     width: 100px;
@@ -114,7 +129,7 @@ a:active
 
 #boton_videos
 {
-    margin-top:10px ;
+    margin-top:5px ;
     background-image: url("../fondos_pagina/videos.png");
     height: 25px;
     width: 100px;
@@ -123,7 +138,7 @@ a:active
 }
 #boton_contacto
 {
-   margin-top:10px ;
+   margin-top:5px ;
     background-image: url("../fondos_pagina/contacto.png");
     height: 25px;
     width: 100px;
@@ -132,7 +147,7 @@ a:active
 }
 #boton_map
 {
-    margin-top:10px ;
+     margin-top:5px ;
     background-image: url("../fondos_pagina/mapa.png");
     height: 25px;
     width: 100px;
@@ -178,15 +193,15 @@ a:active
 #quienes_somos_head 
 {   
 	margin-left:140px;
-	width:920px;
-	height:160px; 
+	width:910px;
+	height:160px;	 
 }
 			
 #quienes_somos_logo
 {
     float: left;
-	background-image: url(../fondos_pagina/quienes_somos.png);
-	width:920px;
+	background-image: url(../fondos_pagina/header-quienes-somos.png);
+	width:910px;
 	height:160px;	
 }
 			
@@ -224,16 +239,16 @@ a:active
 #disponible_head 
 {   
 	margin-left:140px;
-	width:920px;
-	height:160px; 
+	width:910px;
+	height:160px;	 
 }
 			
 #disponible_logo
 {
     float: left;
-	background-image: url(../fondos_pagina/disponibles.png);
-	width:920px;
-	height:160px;	
+	background-image: url(../fondos_pagina/header-disponibles.png);
+width:910px;
+	height:160px;		
 }
 			
 
@@ -366,15 +381,15 @@ a:active
 #mapa_head 
 {   
 	margin-left:140px;
-	width:920px;
-	height:150px; 
+width:910px;
+	height:160px;	
 }
 			
 #mapa_logo
 {
     float: left;
-	background-image: url(../fondos_pagina/logo_head.png);
-	width:920px;
+	background-image: url(../fondos_pagina/header-mapa.png);
+	width:910px;
 	height:160px;	
 }
 			
@@ -411,16 +426,16 @@ a:active
 #busqueda_head 
 {   
 	margin-left:140px;
-		width:920px;
-	height:160px; 
+	width:910px;
+	height:160px;	
 }
 			
 #busqueda_logo
 {
     float: left;
-	background-image: url(../fondos_pagina/header_busqueda.png);
-	width:920px;
-	height:160px;
+	background-image: url(../fondos_pagina/header-busqueda.png);
+width:910px;
+	height:160px;	
 }
 			
 
@@ -458,16 +473,16 @@ a:active
 #videos_head 
 {   
 	margin-left:140px;
-		width:920px;
-	height:160px;
+	width:910px;
+	height:160px;	
 }
 			
 #videos_logo
 {
     float: left;
-	background-image: url(../fondos_pagina/header_videos.png);
-		width:920px;
-	height:160px;
+	background-image: url(../fondos_pagina/header-videos.png);
+	width:910px;
+	height:160px;	
 }
 			
 
@@ -504,16 +519,16 @@ a:active
 #registro_head 
 {   
 	margin-left:140px;
-		width:920px;
-	height:160px; 
+width:910px;
+	height:160px;	
 }
 			
 #registro_logo
 {
     float: left;
-	background-image: url(../fondos_pagina/registro_login.png);
-		width:920px;
-	height:160px;
+	background-image: url(../fondos_pagina/header-registro-login.png);
+	width:910px;
+	height:160px;	
 }
 			
 
@@ -548,31 +563,35 @@ a:active
 
 #iframe_registro
 {
-	margin-top: 20px;
-    margin-bottom: 30px;
-    -moz-border-radius: 12px;
-    -webkit-border-radius: 12px; 
-    border-radius: 12px; 
+	
+	background: url("../fondos_pagina/fondoregistro.png");
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; 
+    border-radius: 10px; 
     -moz-box-shadow: 4px 4px 14px #000; 
     -webkit-box-shadow: 4px 4px 14px #000; 
     box-shadow: 4px 4px 14px #000;
-	width: 450px;
-    height: 300px;
+    border:0px;
+	width: 390px;
+    height: 220px;
+    margin-top:30px;
+    margin-left:25px;
 }
+
 
 /* ------------------------------------------HEADER CONTACTO ----------------------------------------*/
 #contacto_head 
 {   
 	margin-left:140px;
-	width:920px;
-	height:160px;
+	width:910px;
+	height:160px;	
 }
 			
 #contacto_logo
 {
     float: left;
-	background-image: url(../fondos_pagina/header_contacto.png);
-		width:920px;
+	background-image: url(../fondos_pagina/header-contacto.png);
+	width:910px;
 	height:160px;	
 }
 			

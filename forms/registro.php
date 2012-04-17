@@ -9,7 +9,7 @@
         <body>
      
           <div id="registro_form">
-             <form class='contacto'>
+             <form class='registro'>
             <div id="fila"><label>Nombre:</label> <span class="input_area"><input type='text' class='nombre' value=''></span></div>
             <div id="fila"><label>Apellidos:</label> <span class="input_area"><input type='text' class='apellidos' value=''></span></div>
             <div id="fila"><label>Email:</label> <span class="input_area"><input type='text' class='email' value=''></span></div>
@@ -18,7 +18,8 @@
                  <option value="1">Masculino</option>
                  <option value="0">Femenino</option>
              </select></span></div>
-            <div id="fila"> <span class="input_area"><input type='submit' value='Dar de alta' class='boton'></span></div>
+            <div id="fila2"> <span class="sub"><input type="image" src="../fondos_pagina/boton-registrar.png" value='' class='boton'> </span></div>
+        
         	</form>
          </div>
         	
