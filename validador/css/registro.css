@@ -4,8 +4,7 @@
     border-radius: 4px;
     color: white;
     font-weight: bold;
-    margin-left: 186px;
-    margin-bottom: 20px;
+   
     position: absolute;
 }
 .error:before{ /* Este es un truco para crear una flechita */
@@ -36,36 +35,27 @@
 #registro_form input
  {
 	height:25px;
-    width:100px
+    width:150px
     
-    -moz-border-radius:30px;
-    -webkit-border-radius:30px;
-     border-radius: 30px; 
  }
 #registro_form span.input_area
 { 
-width:175px;
+width:150px;
 position:absolute;
 right:130px;
 
 border-right:3px solid #0489B1;
 border-bottom: 3px solid  #0489B1;
 
- -moz-border-radius: 30px;
- -webkit-border-radius: 30px;
- behavior:url(border-radius.htc);
-  border-radius: 30px; 
+
 }
 
 #registro_form select
 {
-	width:175px;
+	width:150px;
 	height:30px;
 	
-	-moz-border-radius: 30px;
- -webkit-border-radius: 30px;
- behavior:url(border-radius.htc);
-  border-radius: 30px; 
+
 }
 
 #fila2
@@ -78,7 +68,7 @@ border-bottom: 3px solid  #0489B1;
 {
 	background-image:url("../boton-registrar.png");
 	height:30px;
-    width:150px
+    width:104px
 	
 }
 

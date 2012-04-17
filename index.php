@@ -182,7 +182,6 @@
 				   <div id="contenido8">
 						<section id="contacto">
 				     	   <div id="contacto_contenido">
-						      <div id="contacto_head"></div>
 						   <iframe id="iframe_contacto" src="forms/contacto.php"></iframe>
 
 						   </div>
