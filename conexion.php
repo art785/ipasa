@@ -7,6 +7,7 @@
     if(!isset($this->conexion)){
 
       $this->conexion = (mysql_connect("localhost","root","stratus"))
+
       
 
         or die(mysql_error());
