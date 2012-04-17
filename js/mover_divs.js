@@ -1,5 +1,4 @@
-
-	$(function() {
+$(function() {
 	
 		function filterPath(string) {
 			return string
@@ -64,4 +63,3 @@
 		}
 	
 	});
-
