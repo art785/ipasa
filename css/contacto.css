@@ -1,210 +1,100 @@
-h1,h2,h3{
-  font-weight:bold;
+*{
+	font-family: sans-serif;
+	font-size: 12px;
+	color: #798e94;
 }
-body, html{
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: .9em;
-  background: #f3f7ff;
-  height: 100%;
+body{
+	width: 400px;
+	margin: auto;
+	background-color: #E2ECEE;
 }
-.centrado
-{
-  margin: 0 auto;
-  width:500px;
+.contacto{
+	border: 1px solid #CED5D7;
+	border-radius: 6px;
+	padding: 45px 45px 20px;
+	margin-top: 50px;
+	background-color: white;
+	box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
 }
-a{
-  color: #598F8F;
+.contacto label{
+	display: block; 
+	font-weight: bold;
 }
-.outerbox{
-  width: 700px;
-  float: left;
-  height: 100%;
-  /*margin: 0 0 0 400px;*/
-  margin: 0 0 0 430px;
-  display: inline;
-  position: relative;
+.contacto div{
+	margin-bottom: 15px;
 }
-#infobox{
-  float: right;
-  margin: 0 300px 0 300px ;
+.contacto input[type='text'], .contacto textarea{
+	padding: 7px 6px;
+	width: 294px;
+	border: 1px solid #CED5D7;
+	resize: none;
+	box-shadow:0 0 0 3px #EEF5F7;
+	margin: 5px 0;
 }
-#infobox p.box, #infobox div.box{
-  height: 450px;
+.contacto input[type='text']:focus, .contacto textarea:focus{
+	outline: none;
+	box-shadow:0 0 0 3px #dde9ec;
 }
-.box{
-  background: transparent url(../images/fff50.png);
-  width: 500px;
-  height: 420px;
-  float: left;
-  font-size: 0.85em;
-  position: relative;
-  color: #686868;
-  margin: 40px 0 0 0;
-  padding: 10px 10px 35px 10px;
-  display: inline;
-  border: 1px solid #CCCCCC;
-    border-radius: 5px 5px 5px 5px;
-  -moz-border-radius: 5px 5px 5px 5px;
-  -webkit-border-radius: 5px 5px 5px 5px;
-  -khtml-border-radius: 5px 5px 5px 5px;
+.contacto input[type='text'].invalido, .contacto textarea.invalido{
+	box-shadow:0 0 0 3px #FFC9C9;
 }
-.outerbox > .box{
-  height: auto;
-  min-height: 420px;
+.contacto input[type='submit']{
+	border: 1px solid #CED5D7;
+	box-shadow:0 0 0 3px #EEF5F7;
+	padding: 8px 16px;
+	border-radius: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px white;
+	
+	background: #e4f1f6; 
+	background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+	background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%); 
 }
-.box p, .box h2{  
-  margin: 3px 0;
-  float: left;
-  clear: left;
-  text-align: justify;
-  width: 500px;
+.contacto input[type='submit']:hover{
+	background: #edfcff; 
+	background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+	background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%); 
 }
-.box h2{
-  width: 500px;
-  font-size: 1.4em;
-  margin: 10px 0 5px 0;
-}
-#info, .info{
-  padding: 10px;
-}
-.info{
-  background: transparent url(../images/fff50.png);
-}
-
-.description
-{
-height:170px;
-position:absolute;
-right:-16px;
-top:-17px;
-width:170px;
-}
-.contacto
-{
-  background:url("../images/contacto.png") no-repeat scroll right top transparent;
-}
-/*FORMS*/
-label
-{
-  display:block;
-  font-size:14px;
-  line-height:2em;
-}
-#loading img {
-  padding: 0;
-  margin: 0;
-}
-textarea
-{
-    width:80%;
-    margin:0 auto;
-    height:100px;
-    color:#888888;
-}
-form input[type="text"]{
-color:#888888;
-}
-input.submit {
-/*
-color:#000000;
-margin-top:20px;
-padding:5px;
-width:auto !important;*/
-  background-image:url("images/bg_nav_hover.png");
-  background-repeat:repeat-x;
-  border-color:#077DB3 #077DB3 #05537C;
-  border-style:solid;
-  border-width:1px;
-  color:#FFFFFF;
-  font-size:11px;
-  font-weight:bold;
-  height:32px;
-  margin-top:10px;
-  text-decoration:none;
-  text-transform:uppercase;
-  width:auto;
-}
-.requisites{
-  display:none;
+.contacto input[type='submit']:active{
+	background: #cfe6ef; 
+	background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+	background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
 }
 .error{
-  background: #fff8cc;
-  padding:5px;
-  margin-left:10px;
-  /*color: #171717;*/
-  color:#d42323;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -khtml-border-radius: 5px;
-}
-.messageerror
-{
-  margin-left:30%;
-  display:none;
-}
-input.error{
-
-}
-#loading {
-  background:url("images/transparent.png") repeat scroll 0 0 transparent;
-  margin:0 auto;
-  color:#FFFFFF;
-  padding:10px;
-  position:relative;
-  text-align:center;
-  top:-250px;
-  width:300px;
-  display:none;
-  font-weight:bold;
-  border-radius: 5px 5px 5px 5px;
-  -moz-border-radius: 5px 5px 5px 5px;
-  -webkit-border-radius: 5px 5px 5px 5px;
-  -khtml-border-radius: 5px 5px 5px 5px;
-}
-#transparencia {
-    -moz-border-radius: 5px 5px 5px 5px;
-    background: url("images/transparent.png") repeat scroll 0 0 transparent;
-    color: #FFFFFF;
-    display: none;
+    background-color: #BC1010;
+    border-radius: 4px 4px 4px 4px;
+    color: white;
     font-weight: bold;
-    height: auto;
-    left: 30%;
-    margin: 0 auto;
-    padding: 10px;
+    margin-left: 16px;
+    margin-top: 6px;
+    padding: 6px 12px;
     position: absolute;
-    text-align: center;
-    top: 30%;
-    width: 230px;
-    z-index: 999;
-    background:black;
 }
-#botonEnviar, .button {
-  bottom: 15px;
-    float: left;
-    margin-right: 10px;
-    right: 15px;
-}
-
-#botonEnviar, .button.fit {
-    float: left;
-}
-
-#botonEnviar, .button {
-    -moz-border-radius: 3px 3px 3px 3px;
-    -moz-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
-    background-color: #FF920D;
-    background-image: -moz-linear-gradient(center top , #ff0000 0%, #CF1010 100%);
-    border: 1px solid #333333;
-    color: #FFFFFF !important;
-    cursor: pointer;
+.error:before{
+    border-color: transparent #BC1010 transparent transparent;
+    border-style: solid;
+    border-width: 6px 8px;
+    content: "";
     display: block;
-    font-weight: bold;
-    line-height: 18px;
-    min-width: 40px;
-    padding: 4px 15px 6px;
-    text-align: center;
-    text-shadow: 0 -1px 0 #333;
+    height: 0;
+    left: -16px;
+    position: absolute;
+    top: 8px;
+    width: 0;
 }
-/*FORMS*/
-
+.result_fail{
+    background: none repeat scroll 0 0 #BC1010;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+}
+.result_ok{
+    background: none repeat scroll 0 0 #1EA700;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+}

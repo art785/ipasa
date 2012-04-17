@@ -32,14 +32,14 @@ a:active
     background-image:url('../fondos_pagina/capa_2.png');	
     background-repeat:repeat-y;
     width: 1200px;
-	height:4000px;
+	height:7000px;
     
 }
 /* -------------------------------------HEADER_INICIO------------------------------------------*/
 #head 
 {   
 	margin-left:140px;
-	width:920px;
+	width:910px;
 	height:160px; 
 	margin-top:20px;
 }
@@ -52,13 +52,6 @@ a:active
 	height:160px;	
 }
 			
-#banne
-{  
-    float: left;
-	background-color:#008B8B;
-	width:660px;
-	height:150px; 
-}
 
 /* ----------------------------MENU ESTATICO DE LA DERECHA --------------------------------------*/  
 #menu
@@ -181,6 +174,52 @@ a:active
 	width:700px;
 	height:450px;				
 }
+/* ------------------------------------------HEADER QUIENES SOMOS ----------------------------------------*/
+#quienes_somos_head 
+{   
+	margin-left:140px;
+	width:920px;
+	height:160px; 
+}
+			
+#quienes_somos_logo
+{
+    float: left;
+	background-image: url(../fondos_pagina/quienes_somos.png);
+	width:920px;
+	height:160px;	
+}
+			
+
+/* ------------------------------------------SECCION QUIENES SOMOS ----------------------------------------*/
+#body2  
+{  
+    margin:0 auto;    
+	-moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000; 
+	background:#E3E0E0;	
+    width: 900px;
+	height:700px;
+}
+#contenido2 
+{  
+
+	background: url("../fondos_pagina/azul_ipasa.jpg");
+	width:900px;
+	height:700px;
+}
+
+#quienes_somos
+{
+    width:900px;
+	height:700px;	
+}
+#quienes_somos_contenido
+{
+    width:900px;
+	height:700px;	
+}
 /* ------------------------------------------HEADER DISPONIBLE ----------------------------------------*/
 #disponible_head 
 {   
@@ -197,15 +236,9 @@ a:active
 	height:160px;	
 }
 			
-#disponible_banne
-{  
-    float: right;
-	background:#008B8B;
-	width:660px;
-	height:150px; 
-}
+
 /* ------------------------------------------SECCION DISPOBIBLES ----------------------------------------*/
-#body2 
+#body3
 {  
     margin:0 auto;    
 	-moz-box-shadow: 0px 0px 30px #000000; 
@@ -215,7 +248,7 @@ a:active
     width: 900px;
 	height:1200px;
 }
-#contenido2
+#contenido3
 {  
 
 	background: url("../fondos_pagina/azul_ipasa.jpg");
@@ -328,31 +361,26 @@ a:active
     font-family:"Times New Roman", Times, serif;
     font-size:16px;
 }
-/* ------------------------------------------HEADER REGISTRO ----------------------------------------*/
-#registro_head 
+
+/* ------------------------------------------HEADER MAPA ----------------------------------------*/
+#mapa_head 
 {   
 	margin-left:140px;
-	width:910px;
+	width:920px;
 	height:150px; 
 }
 			
-#registro_logo
+#mapa_logo
 {
     float: left;
-	background-image: url(../fondos_pagina/logo.png);
-	width:250px;
-	height:150px;	
+	background-image: url(../fondos_pagina/logo_head.png);
+	width:920px;
+	height:160px;	
 }
 			
-#registro_banner
-{  
-    float: right;
-	background:#008B8B;
-	width:660px;
-	height:150px; 
-}
-/* ------------------------------------------SECCION REGISTRO ----------------------------------------*/
-#body3{  
+
+/* ------------------------------------------SECCION MAPA ----------------------------------------*/
+#body4{  
     margin:0 auto;    
 	-moz-box-shadow: 0px 0px 30px #000000; 
     -webkit-box-shadow: 0px 0px 30px #000000; 
@@ -361,7 +389,145 @@ a:active
     width: 900px;
 	height:700px;
 }
-#contenido3
+#contenido4
+{  
+	background: url("../fondos_pagina/azul_ipasa.jpg");
+	width:900px;
+	height:700px;
+}
+#mapa
+{
+   
+    width: 900px;
+    height: 700px;     
+}
+
+#mapa_contenido
+{
+    width: 900px;
+    height: 700px;        
+}
+/* ------------------------------------------HEADER BUSQUEDA ----------------------------------------*/
+#busqueda_head 
+{   
+	margin-left:140px;
+		width:920px;
+	height:160px; 
+}
+			
+#busqueda_logo
+{
+    float: left;
+	background-image: url(../fondos_pagina/header_busqueda.png);
+	width:920px;
+	height:160px;
+}
+			
+
+/* ------------------------------------------SECCION BUSQUEDA ----------------------------------------*/
+#body5{  
+    margin:0 auto;    
+	-moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000; 
+	background:#E3E0E0;	
+    width: 900px;
+	height:700px;
+}
+#contenido5
+{  
+	background: url("../fondos_pagina/azul_ipasa.jpg");
+	width:900px;
+	height:700px;
+}
+#busqueda
+{
+    background:#E3E0E0;
+    width: 900px;
+    height: 700px;     
+}
+
+#busqueda_contenido
+{
+     background: url("../fondos_pagina/azul_ipasa.jpg");
+    width: 900px;
+    height: 700px;        
+}
+
+/* ------------------------------------------HEADER VIDEOS ----------------------------------------*/
+#videos_head 
+{   
+	margin-left:140px;
+		width:920px;
+	height:160px;
+}
+			
+#videos_logo
+{
+    float: left;
+	background-image: url(../fondos_pagina/header_videos.png);
+		width:920px;
+	height:160px;
+}
+			
+
+
+/* ------------------------------------------SECCION VIDEOS ----------------------------------------*/
+#body6{  
+    margin:0 auto;    
+	-moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000; 
+	background:#E3E0E0;	
+    width: 900px;
+	height:700px;
+}
+#contenido6
+{  
+	background: url("../fondos_pagina/azul_ipasa.jpg");
+	width:900px;
+	height:700px;
+}
+#videos
+{
+    background:#E3E0E0;
+    width: 900px;
+    height: 700px;            
+}
+#videos_contenido
+{
+     background: url("../fondos_pagina/azul_ipasa.jpg");
+    width: 900px;
+    height: 700px;          
+}
+/* ------------------------------------------HEADER REGISTRO ----------------------------------------*/
+#registro_head 
+{   
+	margin-left:140px;
+		width:920px;
+	height:160px; 
+}
+			
+#registro_logo
+{
+    float: left;
+	background-image: url(../fondos_pagina/registro_login.png);
+		width:920px;
+	height:160px;
+}
+			
+
+/* ------------------------------------------SECCION REGISTRO Y LOGIN----------------------------------------*/
+#body7{  
+    margin:0 auto;    
+	-moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000; 
+	background:#E3E0E0;	
+    width: 900px;
+	height:700px;
+}
+#contenido7
 {  
 	background: url("../fondos_pagina/azul_ipasa.jpg");
 	width:900px;
@@ -394,50 +560,39 @@ a:active
     height: 300px;
 }
 
-/* ------------------------------------------SECCION BUSQUEDA ----------------------------------------*/
-#busqueda
-{
-    background:#E3E0E0;
-    width: 900px;
-    height: 700px;     
+/* ------------------------------------------HEADER CONTACTO ----------------------------------------*/
+#contacto_head 
+{   
+	margin-left:140px;
+	width:920px;
+	height:160px;
 }
+			
+#contacto_logo
+{
+    float: left;
+	background-image: url(../fondos_pagina/header_contacto.png);
+		width:920px;
+	height:160px;	
+}
+			
 
-#busqueda_contenido
-{
-   background:black;
-    width: 900px;
-    height: 700px;        
-}
-#busqueda_head
-{
-	float:left;
-    background-image: url("../fondos_pagina/HEADER-BUSQUEDA.png");
-    background-repeat:no-repeat;
-    width: 900px;
-    height: 82px;        
-}
-/* ------------------------------------------SECCION VIDEOS ----------------------------------------*/
-#videos
-{
-    background:#E3E0E0;
-    width: 900px;
-    height: 700px;            
-}
-#videos_contenido
-{
-   background:black;
-    width: 900px;
-    height: 700px;          
-}
-#videos_head
-{
-	float:left;
-   background-image: url("../fondos_pagina/HEADER-VIDEOS.png");
-   background-repeat:no-repeat;
-    width: 900px;
-    height: 82px;        
-}
 /* ------------------------------------------SECCION CONTACTO ----------------------------------------*/
+#body8{  
+    margin:0 auto;    
+	-moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000; 
+	background:#E3E0E0;	
+    width: 900px;
+	height:700px;
+}
+#contenido8
+{  
+	background: url("../fondos_pagina/azul_ipasa.jpg");
+	width:900px;
+	height:700px;
+}
 #contacto
 {
     background:#E3E0E0;
@@ -446,18 +601,11 @@ a:active
 }
 #contacto_contenido
 {
-   background:black;
+    background: url("../fondos_pagina/azul_ipasa.jpg");
     width: 900px;
      height: 700px;          
 }
-#contacto_head
-{
-	float:left;
-   background-image: url("../fondos_pagina/HEADER-CONTACTO.png");
-   background-repeat:no-repeat;
-    width: 900px;
-    height: 82px;        
-}
+
 
 
 

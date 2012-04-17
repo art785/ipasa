@@ -64,6 +64,24 @@
 						</section >
 					</div>
 				</div>
+<!--------------------------------------------HEADER QUIENES SOMOS---------------------------------------------->
+			    <div id="quienes_somos_head">
+						<div id="quienes_somos_logo" > </div>
+						<div id="quienes_somos_banner"></div>
+				</div>
+<!--------------------------------------------SECCION QUIENES SOMOS---------------------------------------------->
+				<div id="body2">
+					<div id="contenido2">
+						<section id="quienes_somos">
+						  <div id="quienes_somos_contenido"></div>
+						   <p> Quienes somos</p>
+						   <p>Mision</p>
+						   <p>Vision</p>
+						   <p>Objetivos</p>
+					
+						</section >
+					</div>
+				</div>
 <!--------------------------------------------HEADER DISPONIBLE------------------------------------------------>
 			    <div id="disponible_head">
 						<div id="disponible_logo" > </div>
@@ -71,8 +89,8 @@
 				</div>
 <!--------------------------------------------SECCION DISPONIBLES---------------------------------------------->
 					
-				<div id="body2">
-					<div id="contenido2">
+				<div id="body3">
+					<div id="contenido3">
 						<section id="disponibles">
 						   	<div id="propiedad">
 							   <?php include("Propiedad_Oferta.php");?>
@@ -80,49 +98,93 @@
 							</div>
 						</section >
 					</div>
-				</div>		
-				
+				</div>
+<!---------------------------------------------HEADER MAPA---------------------------------------------->
+                <div id="mapa_head">
+						<div id="mapa_logo" > </div>
+						<div id="mapa_banner"></div>
+				</div>
+
+<!--------------------------------------------SECCION MAPA---------------------------------------------->
+				<div id="body4">
+				   <div id="contenido4">
+						<section id="mapa">
+				     	   <div id="mapa_contenido">
+						      
+						   </div>
+						</section>
+					</div>
+				</div>
+<!---------------------------------------------HEADER BUSQUEDA---------------------------------------------->
+                <div id="busqueda_head">
+						<div id="busqueda_logo" > </div>
+						<div id="busqueda_banner"></div>
+				</div>
+
+<!--------------------------------------------SECCION BUSQUEDA---------------------------------------------->
+				<div id="body5">
+				   <div id="contenido5">
+						<section id="busqueda">
+				     	   <div id="busqueda_contenido">
+						      
+						   </div>
+						</section>
+					</div>
+				</div>
+<!--------------------------------------------HEADER VIDEOS---------------------------------------------->
+			    <div id="videos_head">
+						<div id="videos_logo" > </div>
+						<div id="videos_banner"></div>
+				</div>
+<!--------------------------------------------SECCION VIDEOS---------------------------------------------->
+						
+					<div id = "body6" >
+					   <div id="contenido6">
+						<section id="videos">
+				     	   <div id="videos_contenido">
+						  
+						     
+						   </div>
+						</section>
+                      </div>
+                   </div>
+                  
 <!--------------------------------------------HEADER REGISTRO---------------------------------------------->
 			    <div id="registro_head">
 						<div id="registro_logo" > </div>
 						<div id="registro_banner"></div>
 				</div>
 <!--------------------------------------------SECCION REGISTRO---------------------------------------------->
-				<div id="body3">
-				    <div id="contenido3">
+				<div id="body7">
+				    <div id="contenido7">
 						<section id="registro">
 						   <div id="registro_contenido">
-						      <div id="registro_head"></div>
 						      <iframe id="iframe_registro" src="forms/registro.php"></iframe>	   
 						   </div>
 						</section>
 					</div>
 				</div>
-<!---------------------------------------------HEADER BUSQUEDA---------------------------------------------->
 
-<!--------------------------------------------SECCION BUSQUEDA---------------------------------------------->
-						<section id="busqueda">
-				     	   <div id="busqueda_contenido">
-						      <div id="busqueda_head"></div>
-						   
-						   </div>
-						</section>
-					
-						<section id="videos">
-				     	   <div id="videos_contenido">
-						      <div id="videos_head"></div>
-						   
-						   </div>
-						</section>
+<!--------------------------------------------HEADER REGISTRO---------------------------------------------->
+			    <div id="contacto_head">
+						<div id="contacto_logo" > </div>
+						<div id="contacto_banner"></div>
+				</div>
+<!--------------------------------------------SECCION CONTACTO---------------------------------------------->
+			    <div id = "body8" >
+				   <div id="contenido8">
 						<section id="contacto">
 				     	   <div id="contacto_contenido">
+<<<<<<< HEAD
 						      <div id="contacto_head"></div>
-						   
+						   <iframe id="iframe_contacto" src="forms/contacto.php"></iframe>
+=======
+						     
+>>>>>>> 71b1d1eb0ac4a46bc717db8d9a0eda4d42f5ed13
 						   </div>
 						</section>
 					</div>
 				</div>
-			</div>
 
 	</body>
 
