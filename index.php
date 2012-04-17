@@ -12,7 +12,7 @@
 <!-- Esta es la parte del fancybox y del jquery -->
 <script type="text/javascript" src="slide-principal/scripts/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-
+ 
 
 <script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
 <script type="text/javascript" src="fancybox/efectos.js"></script>
@@ -164,7 +164,7 @@
 						   <div id="registro_contenido">
 						     
 						      <iframe id="iframe_registro" src="forms/registro.php"></iframe>
-						      <div id="contacto"> <?php  //include 'forms/contacto.php';?></div>
+						      
 
 						   </div>
 						</section>

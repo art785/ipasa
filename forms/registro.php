@@ -1,6 +1,6 @@
 <html>
     <head>
-<link rel="stylesheet" href="../validador/css/registro.css" type="text/css" charset="utf-8"/>
+<link rel="stylesheet" href="../validador/css/registro.css" type="text/css"/>
 
         
     </head>

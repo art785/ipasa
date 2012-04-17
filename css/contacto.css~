@@ -12,7 +12,8 @@ body{
 	border: 1px solid #CED5D7;
 	border-radius: 6px;
 	padding: 45px 45px 20px;
-	margin-top: 50px;
+	margin-top: 0px;
+	margin-bottom:0px;
 	background-color: white;
 	box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
 }
@@ -21,7 +22,7 @@ body{
 	font-weight: bold;
 }
 .contacto div{
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 }
 .contacto input[type='text'], .contacto textarea{
 	padding: 7px 6px;
@@ -31,7 +32,7 @@ body{
 	box-shadow:0 0 0 3px #EEF5F7;
 	margin: 5px 0;
 }
-.contacto input[type='contacto'], .contacto textarea{
+.contacto input[type='email'], .contacto textarea{
 	padding: 7px 6px;
 	width: 294px;
 	border: 1px solid #CED5D7;

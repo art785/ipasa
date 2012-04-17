@@ -522,7 +522,10 @@ width:910px;
 width:910px;
 	height:160px;	
 }
-			
+#iframe_contacto
+{
+	
+}
 #registro_logo
 {
     float: left;
@@ -565,6 +568,7 @@ width:910px;
 {
 	
 	background: url("../fondos_pagina/fondoregistro.png");
+	background-repeat: repeat-x;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
     border-radius: 10px; 
@@ -626,8 +630,19 @@ width:910px;
 }
 #iframe_contacto
 {
-	width: 500px;
-    height: 50px;
+	background: url("../fondos_pagina/fondoregistro.png");
+	background-repeat: repeat-x;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; 
+    border-radius: 10px; 
+    -moz-box-shadow: 4px 4px 14px #000; 
+    -webkit-box-shadow: 4px 4px 14px #000; 
+    box-shadow: 4px 4px 14px #000;
+    border:0px;
+	width: 400px;
+    height: 490px;
+    margin-top:30px;
+    margin-left:25px;
 	
 }
 
