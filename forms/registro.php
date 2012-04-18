@@ -21,6 +21,7 @@
             <div id="fila2"> <span class="sub"><input type="image" src="../fondos_pagina/boton-registrar.png" value='' class='boton'> </span></div>
         
         	</form>
+        	<div id ="respuesta"></div>
          </div>
         	
            </body>

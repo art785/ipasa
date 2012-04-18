@@ -1,7 +1,7 @@
- var j = jQuery.noConflict();     
-	j(document).ready(function(){
+    
+	$(document).ready(function(){
         
-        j('#contacto').html5form({
+        $('#contacto').html5form({
             allBrowsers : true,
             responseDiv : '#respuesta',
             messages: 'es',
