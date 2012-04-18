@@ -304,8 +304,8 @@ width:910px;
 #nombre_propiedad p
 {
 	text-align:center;
-	text-color:white;
-	text-shadow: black 0.1em 0.1em 0.2em;
+	color:white;
+	text-shadow: white 0.1em 0.1em 0.2em;
 	text-decoration: underline;
     font-family:"Times New Roman", Times, serif;
     font-size:20px;
@@ -320,8 +320,8 @@ width:910px;
 #info_prev p
 {
 	text-align:center;
-	text-color:white;
-	text-shadow: black 0.1em 0.1em 0.2em;
+	color:white;
+	text-shadow: white 0.1em 0.1em 0.2em;
     font-family:"Times New Roman", Times, serif;
     font-size:16px;
 }
