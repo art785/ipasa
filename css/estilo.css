@@ -6,6 +6,10 @@ html, body
     margin:0;
     padding:0;
 }
+@font-face {
+      font-family: "mifuente";
+      src: url("css/AGD_CE.TTF");
+    }
 a:link
 {
 	color: #3366FF;
@@ -307,7 +311,7 @@ width:910px;
 	color:white;
 	
 	
-    font-family:"Times New Roman", Times, serif;
+    font-face:"mifuente";
     font-size:20px;
 }
 #info_prev
@@ -321,8 +325,7 @@ width:910px;
 {
 	text-align:center;
 	color:white;
-
-    font-family:"Times New Roman", Times, serif;
+    font-family:"mifuente";
     font-size:16px;
 }
 #foto
@@ -366,7 +369,7 @@ width:910px;
 {
 	text-color:white;
 	
-    font-family:"Times New Roman", Times, serif;
+    font-family:"mifuente";
     font-size:16px;
 }
 #detalles_2 p
