@@ -1,8 +1,6 @@
 <!DOCTYPE HTML>
 <html>
 <head>                        
-<link rel="stylesheet" href="css/menu.css" type="text/css" charset="utf-8"/>
-<link rel="stylesheet" href="css/menu-color.css" type="text/css" charset="utf-8"/>
 <link rel="stylesheet" href="css/estilo.css" type="text/css" charset="utf-8"/>
 
 <link rel="stylesheet" href="slide-principal/themes/default/default.css" type="text/css" media="screen" />
@@ -162,10 +160,7 @@
 				    <div id="contenido7">
 						<section id="registro">
 						   <div id="registro_contenido">
-						     
-						      <iframe id="iframe_registro" src="forms/registro.php"></iframe>
-						      
-
+						      <?php"forms/registro.php"?>
 						   </div>
 						</section>
 					</div>

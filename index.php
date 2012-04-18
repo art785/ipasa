@@ -160,10 +160,7 @@
 				    <div id="contenido7">
 						<section id="registro">
 						   <div id="registro_contenido">
-						     
-						      <iframe id="iframe_registro" src="forms/registro.php"></iframe>
-						      
-
+						      <?php include"forms/registro.php";?>
 						   </div>
 						</section>
 					</div>

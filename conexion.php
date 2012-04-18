@@ -6,7 +6,7 @@
   public function MySQL(){ 
     if(!isset($this->conexion)){
 
-      $this->conexion = (mysql_connect("localhost","root","corvette"))
+      $this->conexion = (mysql_connect("localhost","root","stratus"))
 
       
 
