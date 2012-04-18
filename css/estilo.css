@@ -305,8 +305,8 @@ width:910px;
 {
 	text-align:center;
 	color:white;
-	text-shadow: white 0.1em 0.1em 0.2em;
-	text-decoration: underline;
+	
+	
     font-family:"Times New Roman", Times, serif;
     font-size:20px;
 }
@@ -321,7 +321,7 @@ width:910px;
 {
 	text-align:center;
 	color:white;
-	text-shadow: white 0.1em 0.1em 0.2em;
+
     font-family:"Times New Roman", Times, serif;
     font-size:16px;
 }
@@ -365,14 +365,14 @@ width:910px;
 #detalles_1 p
 {
 	text-color:white;
-	text-shadow: black 0.1em 0.1em 0.2em;
+	
     font-family:"Times New Roman", Times, serif;
     font-size:16px;
 }
 #detalles_2 p
 {
 	text-color:white;
-	text-shadow: black 0.1em 0.1em 0.2em;
+	
     font-family:"Times New Roman", Times, serif;
     font-size:16px;
 }
