@@ -1,8 +1,6 @@
 <!DOCTYPE HTML>
 <html>
 <head>                        
-<link rel="stylesheet" href="css/menu.css" type="text/css" charset="utf-8"/>
-<link rel="stylesheet" href="css/menu-color.css" type="text/css" charset="utf-8"/>
 <link rel="stylesheet" href="css/estilo.css" type="text/css" charset="utf-8"/>
 
 <link rel="stylesheet" href="slide-principal/themes/default/default.css" type="text/css" media="screen" />
@@ -10,7 +8,7 @@
 <link rel="stylesheet" href="slide-principal/themes/orman/orman.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="slide-principal/nivo-slider.css" type="text/css" media="screen" />
 <!-- Esta es la parte del fancybox y del jquery -->
-<script type="text/javascript" src="slide-principal/scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
 <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
  
 
@@ -181,7 +179,7 @@
 				   <div id="contenido8">
 						<section id="contacto">
 				     	   <div id="contacto_contenido">
-						   <iframe id="iframe_contacto" src="forms/contacto.php"></iframe>
+						<?php include "forms/contacto.php"?>
 
 						   </div>
 						</section>
