@@ -1,4 +1,4 @@
-#contacto_form label 
+#contacto label 
 {
 	font-size:18px;
 	text-align:left;
@@ -12,44 +12,41 @@
 }
 
 
-#contacto_form input
+#contacto input[type='text']
  {
 	height:25px;
-    width:150px
+    width:310px
 
     
  }
-#contacto_form span.input_area
+ #contacto input[type='email']
+ {
+	height:25px;
+    width:310px
+
+    
+ }
+ 
+ #contacto span.input_area
 { 
 width:150px;
 position:absolute;
-right:130px;
+right:190px;
 
-border-right:3px solid #0489B1;
-border-bottom: 3px solid  #0489B1;
-
-
-}
-
-#contacto_form select
-{
-	width:150px;
-	height:30px;
-	
 
 }
 
 #fila2
 {
-	margin-top:12px;	
-	margin-left:160px;
+	
+	margin-left:295px;
 }
 
 #boton
 {
-	background-image:url("../boton-registrar.png");
-	height:30px;
-    width:104px
+	
+	height:35px;
+    width:122px
 	
 }
 
