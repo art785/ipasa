@@ -34,10 +34,7 @@ html, body
     margin:0;
     padding:0;
 }
-@font-face {
-      font-family: "mifuente";
-      src: url("css/AGD_CE.TTF");
-    }
+
 a:link
 {
 	color: #3366FF;
@@ -329,7 +326,7 @@ width:910px;
 #nombre_propiedad
 {    
 	margin:0 auto;  
-	width:400px;
+	width:500px;
 	height:20px;
 	
 }
@@ -338,14 +335,13 @@ width:910px;
 	text-align:center;
 	color:white;
 	
-	
-    font-face:"mifuente";
+    font-family:"mifuente";
     font-size:20px;
 }
 #info_prev
 {	
 	margin:0 auto;  
-	width:400px;
+	width:500px;
 	height:20px; 
 	
 }
@@ -593,6 +589,11 @@ width:910px;
     height: 700px;          
 }
 
+#registro_top
+{
+	width:900px';
+	height:50px;
+}
 #iframe_registro
 {
 	
@@ -657,6 +658,11 @@ width:910px;
     width: 900px;
      height: 700px;          
 }
+#contacto_top
+{
+	  width: 900px;
+     height: 50px;   
+}
 #iframe_contacto
 {
 
@@ -664,7 +670,7 @@ width:910px;
     height: 320px;
 	background-image: url(../fondos_pagina/fondo-seccion-contacto.png);
 	margin-left:225px;
-	margin-top:100px;
+	margin-top:50px;
 	border:0px;
 
 	

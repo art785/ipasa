@@ -4,17 +4,19 @@
 	<link rel="stylesheet" href="css/registro.css" type="text/css"/>
     </head>
         <body>
+   
+	    <form class='registro' method='post' action='#registro_head'>
+            <div id="filas"><label>Tu Nombre:</label><input type='text' class='name' name='name' value=''></div>
+            <div id="filas"><label>Tus Apellidos:</label><input type='text' class='lastname' name='lastname' value=''></div>
+            <div id="filas"><label>Tu Email:</label><input type='text' class='e-mail' name='e-mail' value=''></div>
+            <div id="filas"><label>Telefono:</label><input rows='text' class='telefono' name='telefono' value=''></textarea></div>
+           <div id="filar"><input type="image" src="../fondos_pagina/boton-registrar.png" value='' class='click' name='click' ></div>
+            
 
-	 <form id ="registro"class='registro'>
-            <div id="fila"><label>Nombre:</label><span class="input_area"><input type='text' class='name' value=''></span></div>
-           <div id="fila"><label>Apellidos:</label><input type='text' class='lastname' value=''></div>
-           <div id="fila"><label>Email:</label><input type='text' class='e-mail' value=''></div>
-            <div id="fila"><label>Telefono:</label><input rows='text' class='telefono' value=''></div>
-		
-          <div id="fila"> <input type="image" src="../fondos_pagina/boton-registrar.png" value='' class="boton"></div>
         </form>
+   
+     
 
-	
 	</body>
      
          </html>

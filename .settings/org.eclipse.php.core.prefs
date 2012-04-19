@@ -1,3 +1,5 @@
-#Tue Apr 10 17:18:06 CDT 2012
+#Wed Apr 18 15:28:40 CDT 2012
 eclipse.preferences.version=1
 include_path=0;/ipasa
+phpVersion=php5.3
+use_asp_tags_as_php=false
