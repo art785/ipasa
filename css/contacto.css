@@ -1,44 +1,61 @@
+
+#contacto
+{
+	height:400px;
+    width:400px;
+}
+
 #contacto label 
 {
-	font-size:18px;
+	font-size:16px;
 	text-align:left;
 	color:white;
-    font-family:"Arial";
+    font-family:"mifuente";
 }
-
 #fila
 {
-	margin-top:10px;	
+	margin-top:8px;
+	margin-left:40px;	
 }
 
-
-#contacto input[type='text']
+#contacto input[class='nombre']
  {
-	height:25px;
-    width:310px
-
-    
+    margin-top:20px;
+	height:20px;
+    width:270px;
+    margin-left:10px;
  }
- #contacto input[type='email']
+#contacto input[class='email']
  {
-	height:25px;
-    width:310px
-
-    
+    margin-top:5px;
+	height:20px;
+    width:270px;
+    margin-left:30px;
+ }
+#contacto input[class='asunto']
+ {
+    margin-top:5px;
+	height:20px;
+    width:270px;
+    margin-left:38px;
+ }
+ #text
+ {
+    margin-top:5px;
+    resize:none;
+    margin-left:40px;
+  
+ }
+ #text textarea
+ {
+  width:370px;
+  height:100px;
  }
  
- #contacto span.input_area
-{ 
-width:150px;
-position:absolute;
-right:190px;
-
-
-}
 
 #fila2
 {
-	
+	margin-top:10px;
 	margin-left:295px;
 }
 

@@ -1,4 +1,32 @@
 
+/* ------------------------------------Reset css ----------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3,  
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym,  
+address, big, cite, code, del, dfn, em, font, img, ins,  
+kbd, q, s, samp, small, strike, strong, sub, sup, tt,  
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+<a title="outline" href=" http://www.cssblog.es/css-la-propiedad-outline/">outline</a>: 0;  
+font-weight: inherit;  
+font-style: inherit;  
+font-size: 100%;  
+font-family: inherit;  
+vertical-align: baselinebaseline;  
+}  
+:focus { outline: 0;}  
+a, a:link, a:visited, a:hover, a:active{text-decoration:none}  
+table { border-collapse: separate;border-spacing: 0;}  
+th, td {text-align: left; font-weight: normal;}  
+img, iframe {border: none; text-decoration:none;}  
+ol, ul {list-style: none;}  
+input, textarea, select, button {font-size: 100%;font-family: inherit;}  
+select {margin: inherit;}  
+hr {margin: 0;padding: 0;border: 0;color: #000;background-color: #000;height: 1px}
+/* ------------------------------------FIN DEL RESET----------------------------------------------*/
+
 html, body
 {
     background-image:url('../fondos_pagina/textura_fondo.jpg');
@@ -6,6 +34,7 @@ html, body
     margin:0;
     padding:0;
 }
+
 a:link
 {
 	color: #3366FF;
@@ -297,7 +326,7 @@ width:910px;
 #nombre_propiedad
 {    
 	margin:0 auto;  
-	width:400px;
+	width:500px;
 	height:20px;
 	
 }
@@ -306,14 +335,13 @@ width:910px;
 	text-align:center;
 	color:white;
 	
-	
-    font-family:"Times New Roman", Times, serif;
+    font-family:"mifuente";
     font-size:20px;
 }
 #info_prev
 {	
 	margin:0 auto;  
-	width:400px;
+	width:500px;
 	height:20px; 
 	
 }
@@ -321,8 +349,7 @@ width:910px;
 {
 	text-align:center;
 	color:white;
-
-    font-family:"Times New Roman", Times, serif;
+    font-family:"mifuente";
     font-size:16px;
 }
 #foto
@@ -366,7 +393,7 @@ width:910px;
 {
 	text-color:white;
 	
-    font-family:"Times New Roman", Times, serif;
+    font-family:"mifuente";
     font-size:16px;
 }
 #detalles_2 p
@@ -562,6 +589,11 @@ width:910px;
     height: 700px;          
 }
 
+#registro_top
+{
+	width:900px';
+	height:50px;
+}
 #iframe_registro
 {
 	
@@ -626,6 +658,11 @@ width:910px;
     width: 900px;
      height: 700px;          
 }
+#contacto_top
+{
+	  width: 900px;
+     height: 50px;   
+}
 #iframe_contacto
 {
 
@@ -633,7 +670,7 @@ width:910px;
     height: 320px;
 	background-image: url(../fondos_pagina/fondo-seccion-contacto.png);
 	margin-left:225px;
-	margin-top:100px;
+	margin-top:50px;
 	border:0px;
 
 	

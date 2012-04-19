@@ -1,41 +1,62 @@
 
-#registro_form label 
+#registro
 {
-	font-size:20px;
+	
+	height:390px;
+    width:270px;
+}
+
+#registro label 
+{
+	font-size:16px;
 	text-align:left;
 	color:white;
-    font-family:"Arial";
+    font-family:"mifuente";
 }
 
-#fila
+#filas
 {
 	margin-top:8px;	
+	margin-left:25px;
 }
 
 
-#registro_form input[type='text']
+#registro input[class='name']
  {
-	height:25px;
-    width:200px;
+    margin-top:20px;
+	height:20px;
+    width:220px;
+    margin-left:30px;
     
     
  }
- #registro_form input[type='email']
+ #registro input[class='lastname']
  {
-	height:25px;
-    width:200px;
+	height:20px;
+    width:220px;
+    margin-left:13px;
+    
     
  }
-#registro_form span.input_area
-{ 
-width:150px;
-position:absolute;
-right:110px;
+  #registro input[class='e-mail']
+ {
+	height:20px;
+    width:220px;
+    margin-left:50px;
+    
+    
+ }
+   #registro input[class='telefono']
+ {
+	height:20px;
+    width:220px;
+    margin-left:48px;
+    
+    
+ }
 
 
-}
-
-#registro_form select
+#registro select
 {
 	width:200px;
 	height:30px;
@@ -43,14 +64,15 @@ right:110px;
 
 }
 
-#fila2
+#filar
 {
 	
-	margin-top:12px;	
-	margin-left:220px;
+	margin-top:12px;
+	margin-left:247px;	
+	
 }
 
-#regitro_form input[type='submit']
+#regitro input[class='click']
 {
 	
 	height:30px;

@@ -24,7 +24,15 @@
 
 <!-- Validacion de formulario de contacto -->
 
+    <STYLE TYPE="text/css" MEDIA="screen, print">
+      @font-face {
+      font-family: "mifuente";
+      src: url("css/AGD_CE.TTF");
+    }
+     
+    </STYLE>
 
+   
 
 </head>
 	<body>
@@ -160,8 +168,13 @@
 				    <div id="contenido7">
 						<section id="registro">
 						   <div id="registro_contenido">
+						    <div id="registro_top"></div>
+						    <div id="iframe_registro">
 						      <?php include"forms/registro.php";?>
+						     </div>
+						    
 						   </div>
+						
 						</section>
 					</div>
 				</div>
@@ -176,8 +189,12 @@
 				   <div id="contenido8">
 						<section id="contacto">
 				     	   <div id="contacto_contenido">
-						<?php include "forms/contacto.php"?>
-
+				     	   <div id="contacto_top"></div>
+						    <div id="iframe_contacto">
+				     	    
+						       <?php include "forms/contacto.php"?>
+						    </div>
+                           
 						   </div>
 						</section>
 					</div>
