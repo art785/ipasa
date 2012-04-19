@@ -12,7 +12,7 @@
              <div id="fila"><label>Tu Nombre:</label><input type='text' class='nombre' value=''></div>
             <div id="fila"><label>Tu Email:</label><input type='text' class='email' value=''></div>
            <div id="fila"><label>Asunto:</label><input type='text' class='asunto' value=''></div>
-            <div id="text"><label>Mensaje:</label><br> <textarea rows='6' class='mensaje' placeholder="Escriba su Mensaje" maxlength="1000" rows="8" cols="39" title="Mensaje" name="mensaje"></textarea></div>
+            <div id="text"><label>Mensaje:</label><br> <textarea  class='mensaje' placeholder="Escriba su Mensaje" title="Mensaje" name="mensaje"></textarea></div>
            <div id="fila2"><input type="image" src="../fondos_pagina/boton-enviar-comentario.png" value='' class='boton'></div>
         </form>
       

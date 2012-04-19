@@ -37,19 +37,25 @@
     margin-top:5px;
 	height:20px;
     width:270px;
-    margin-left:40px;
+    margin-left:38px;
  }
  #text
  {
     margin-top:5px;
-
+    resize:none;
     margin-left:40px;
+  
+ }
+ #text textarea
+ {
+  width:370px;
+  height:100px;
  }
  
 
 #fila2
 {
-	
+	margin-top:10px;
 	margin-left:295px;
 }
 
