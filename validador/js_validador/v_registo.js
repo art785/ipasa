@@ -8,7 +8,7 @@ $(document).ready(function () {
         }else if( $(".lastname").val() == ""){
             $(".lastname").focus().after("<span class='error'>Ingrese sus apellidos</span>");
             return false;
-	}else if( $(".e-mail").val() == "" || !emailreg.test($(".email").val()) ){
+	}else if( $(".e-mail").val() == "" || !emailreg.test($(".e-mail").val()) ){
             $(".e-mail").focus().after("<span class='error'>Ingrese un email correcto</span>");
             return false;
         }else if( $(".telefono").val() == "" ){

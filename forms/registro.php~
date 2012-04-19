@@ -4,13 +4,26 @@
 	<link rel="stylesheet" href="css/registro.css" type="text/css"/>
     </head>
         <body>
-	 <form class='registro'>
-            <div><label>Tu Nombre:</label><input type='text' class='nombre' value=''></div>
-            <div><label>Tus Apellidos:</label><input type='text' class='apellidos' value=''></div>
-            <div><label>Tu Email:</label><input type='text' class='email' value=''></div>
-            <div><label>Telefono:</label><input rows='text' class='telefono' value=''></textarea></div>
-		
-            <div><input type='submit' value='Registrate' class='click'></div>
+	 <form class='registro' method='post' action='#registro_head'>
+            <div><label>Tu Nombre:</label><input type='text' class='name' name='name' value=''></div>
+            <div><label>Tus Apellidos:</label><input type='text' class='lastname' name='lastname' value=''></div>
+            <div><label>Tu Email:</label><input type='text' class='e-mail' name='e-mail' value=''></div>
+            <div><label>Telefono:</label><input rows='text' class='telefono' name='telefono' value=''></textarea></div>
+            <div><input type='submit' value='Registrate' class='click' name='click' ></div>
+	 <?php
+        if(isset($_POST['click'])){
+            if($_POST['name'] == ''){
+                $errors[1] = '<span class="errores">Ingrese su nombre</span>';
+            }else if($_POST['e-mail'] == '' or !preg_match("/^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/",$_POST['e-mail'])){
+                $errors[2] = '<span class="errores">Ingrese un email correcto</span>';
+            }else if($_POST['lastname'] == ''){
+                $errors[3] = '<span class="errores">Ingrese sus apellidos</span>';
+            }else if($_POST['telefono'] == ''){
+                $errors[4] = '<span class="error">Ingrese </span>';
+            	}
+            }
+        }
+    ?>
         </form>
 	
 	</body>

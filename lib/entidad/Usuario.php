@@ -10,6 +10,7 @@ class Usuario {
     private $activo;
     private $sesion;
     private $correo;
+    private $rol;
 
     public function setId_Usuario($id_usuario)
     {
@@ -85,7 +86,7 @@ class Usuario {
     {
         return $this->sesion;
     }
-        public function setCorreo($Correo)
+        public function setCorreo($correo)
     {
         $this->correo=$correo;
         return $this;
@@ -95,5 +96,17 @@ class Usuario {
     {
         return $this->correo;
     }
+    
+    public function setRol($rol)
+    {
+    	$this->rol=$rol;
+    	return $this;
+    }
+    
+    public function getRol()
+    {
+    	return $this->rol;
+    }
+    
 }
 ?>
