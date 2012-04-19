@@ -1,5 +1,10 @@
 
-#registro_form label 
+#registro
+{
+	height:400px;
+    width:400px;
+}
+#registro label 
 {
 	font-size:20px;
 	text-align:left;
@@ -13,29 +18,41 @@
 }
 
 
-#registro_form input[type='text']
+#registro input[class='name']
  {
 	height:25px;
     width:200px;
+    margin-left:30px;
     
     
  }
- #registro_form input[type='email']
+ #registro input[class='lastname']
  {
 	height:25px;
     width:200px;
+    margin-left:20px;
+    
     
  }
-#registro_form span.input_area
-{ 
-width:150px;
-position:absolute;
-right:110px;
+  #registro input[class='e-mail']
+ {
+	height:25px;
+    width:200px;
+    margin-left:50px;
+    
+    
+ }
+   #registro input[class='telefono']
+ {
+	height:25px;
+    width:200px;
+    margin-left:20px;
+    
+    
+ }
 
 
-}
-
-#registro_form select
+#registro select
 {
 	width:200px;
 	height:30px;
@@ -47,12 +64,12 @@ right:110px;
 {
 	
 	margin-top:12px;	
-	margin-left:220px;
+	margin-left:120px;
 }
 
-#regitro_form input[type='submit']
+#regitro input[class='boton']
 {
-	
+	margin-left:120px;
 	height:30px;
     width:104px
 	

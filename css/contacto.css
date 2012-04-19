@@ -1,11 +1,9 @@
-#contacto label 
-{
-	font-size:18px;
-	text-align:left;
-	color:white;
-    font-family:"Arial";
-}
 
+#contacto_form  
+{
+	height:400px;
+    width:400px;
+}
 #fila
 {
 	margin-top:10px;	
@@ -31,7 +29,7 @@
 { 
 width:150px;
 position:absolute;
-right:190px;
+right:20px;
 
 
 }
