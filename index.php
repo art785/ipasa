@@ -152,7 +152,7 @@
 						<section id="videos">
 				     	   <div id="videos_contenido">
 						  
-						      <?php include ("forms/subir_propiedad.php");?>
+						     
 						   </div>
 						</section>
                       </div>
