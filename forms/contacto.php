@@ -9,9 +9,10 @@
         
        
         <form class='contacto'>
-             <div id="fila"><label>Tu Nombre:</label><input type='text' class='nombre' value=''></div>
-            <div id="fila"><label>Tu Email:</label><input type='text' class='email' value=''></div>
-           <div id="fila"><label>Asunto:</label><input type='text' class='asunto' value=''></div>
+          <div id="form_top"></div>
+             <div id="fil"><label>Tu Nombre:</label> <span class="input_a"><input type='text' class='nombre' value=''></span></div>
+            <div id="fil"><label>Tu Email:</label><span class="input_a"><input type='text' class='email' value=''></span></div>
+           <div id="fil"><label>Asunto:</label><span class="input_a"><input type='text' class='asunto' value=''></span></div>
             <div id="text"><label>Mensaje:</label><br> <textarea  class='mensaje' placeholder="Escriba su Mensaje" title="Mensaje" name="mensaje"></textarea></div>
            <div id="fila2"><input type="image" src="../fondos_pagina/boton-enviar-comentario.png" value='' class='boton'></div>
         </form>

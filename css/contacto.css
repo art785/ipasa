@@ -3,6 +3,7 @@
 {
 	height:400px;
     width:400px;
+   
 }
 
 #contacto label 
@@ -12,32 +13,37 @@
 	color:white;
     font-family:"mifuente";
 }
-#fila
+#fil
 {
-	margin-top:8px;
+	margin-top:10px;
 	margin-left:40px;	
+}
+#form_top
+{
+	height:20px;
+    width:450px;	
 }
 
 #contacto input[class='nombre']
  {
-    margin-top:20px;
+    
 	height:20px;
     width:270px;
-    margin-left:10px;
+   
  }
 #contacto input[class='email']
  {
-    margin-top:5px;
+   
 	height:20px;
     width:270px;
-    margin-left:30px;
+   
  }
 #contacto input[class='asunto']
  {
-    margin-top:5px;
+   
 	height:20px;
     width:270px;
-    margin-left:38px;
+   
  }
  #text
  {
@@ -65,6 +71,16 @@
 	height:35px;
     width:122px
 	
+}
+ #contacto span.input_a
+{ 
+	
+width:300px;
+position:absolute;
+right:400px;
+   
+
+
 }
 .error{
     background-color: #BC1010;
