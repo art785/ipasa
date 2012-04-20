@@ -1,4 +1,3 @@
-
 <?php class MySQL{
 
   private $conexion; private $total_consultas; private $total_inserts;

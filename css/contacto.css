@@ -1,8 +1,10 @@
 
+
 #contacto
 {
-	height:400px;
-    width:400px;
+    width:450px;
+    height:320px;
+   
 }
 
 #contacto label 
@@ -12,32 +14,38 @@
 	color:white;
     font-family:"mifuente";
 }
-#fila
+#fil
 {
-	margin-top:8px;
+	position: relative;
+	margin-top:10px;
 	margin-left:40px;	
 }
-
+#form_top
+{
+	height:20px;
+    width:450px;	
+}
 #contacto input[class='nombre']
  {
-    margin-top:20px;
+    
 	height:20px;
     width:270px;
-    margin-left:10px;
+   
  }
 #contacto input[class='email']
  {
-    margin-top:5px;
+    
 	height:20px;
     width:270px;
-    margin-left:30px;
+   
  }
+
 #contacto input[class='asunto']
  {
-    margin-top:5px;
+    
 	height:20px;
     width:270px;
-    margin-left:38px;
+   
  }
  #text
  {
@@ -58,7 +66,13 @@
 	margin-top:10px;
 	margin-left:295px;
 }
-
+#regitro input[class='boton']
+{
+	
+	height:30px;
+    width:104px
+	
+}
 #boton
 {
 	
@@ -66,6 +80,14 @@
     width:122px
 	
 }
+#contacto span.input_a
+{ 	
+width:300px;
+position:absolute;
+right:20px;   
+}
+
+
 .error{
     background-color: #BC1010;
     padding: 6px 12px;
