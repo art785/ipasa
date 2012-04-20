@@ -22,7 +22,8 @@
 <script type="text/javascript" src="js/mover_divs.js"></script>
 <!-- fin del javasscript -->
 
-<!-- Validacion de formulario de contacto -->
+<!-- Validacion de formularios -->
+ <script type="text/javascript" src="validador/js_validador/jquery.form.js"></script>
 
     <STYLE TYPE="text/css" MEDIA="screen, print">
       @font-face {

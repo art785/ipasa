@@ -1,0 +1,1 @@
+<div style="text-align: center;"><a href="http://www.garabatoslinux.info"><img src="https://lh4.googleusercontent.com/-rPydoB07W6c/Tklb7z-riNI/AAAAAAAABVs/YCtyrsM0AX0/s640/logo.png" border="0px"/></a></div><br/>

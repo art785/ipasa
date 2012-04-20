@@ -76,10 +76,17 @@ class Sql_Usuaurio {
 	{
 	
 	   $mysql= new MySQL();
-
+	   
+	   $n=mysql_real_escape_string($usuario->getNombre());
+	   $a=mysql_real_escape_string($usuario->getApellidos());
+	   $t=mysql_real_escape_string($usuario->getTelefono());
+	   $s=mysql_real_escape_string($usuario->getSexo());
+	   $ac=mysql_real_escape_string($usuario->getActivo());
+	   $se=mysql_real_escape_string($usuario->getSesion());
+	   
 	    $inserta_usuario = 'INSERT INTO Usuario (nombre,apellidos,telefono,sexo,activo,session,correo) VALUES 
-	   ('."'".$usuario->getNombre()."' ,"."'".$usuario->getApellidos()."' ,"."'".$usuario->getTelefono()."',"
-	   ."'".$usuario->getSexo()."' ,"."'".$usuario->getActivo()."' ,"."'".$usuario->getSesion()."' ,".
+	   ('."'".$n."' ,"."'".$a."' ,"."'".$t."',"
+	   ."'".$s."' ,"."'".$ac."' ,"."'".$se."' ,".
 	   "'".$usuario->getCorreo()."' )";
 	  $resultado=$mysql->insercion($inserta_usuario);
 	  

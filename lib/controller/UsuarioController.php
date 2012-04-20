@@ -22,11 +22,12 @@ class UsuarioController  {
 			$usuario->setActivo(0);
 			$sql_usuario = new Sql_Usuaurio();
 			$sql_usuario->Nuevo_Usuario($usuario);
+			return true;
 		
 		}
 		else 
 		{
-			
+			return false;
 		}
 	
 	}
