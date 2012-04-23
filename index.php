@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>                        
-<link rel="stylesheet" href="css/estilo.css" type="text/css" charset="utf-8"/>
+<link rel="stylesheet" href="css/estilo.css" type="text/css"/>
 
 <link rel="stylesheet" href="slide-principal/themes/default/default.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="slide-principal/themes/pascal/pascal.css" type="text/css" media="screen" />
@@ -128,7 +128,7 @@
 <!---------------------------------------------HEADER BUSQUEDA---------------------------------------------->
                 <div id="busqueda_head">
 						<div id="busqueda_logo" > </div>
-						<div id="busqueda_banner"></div>
+						<div id="busqueda_banner"><?php include("busqueda.php");?></div>
 				</div>
 
 <!--------------------------------------------SECCION BUSQUEDA---------------------------------------------->
@@ -200,7 +200,7 @@
 						</section>
 					</div>
 				</div>
-
+</div>
 	</body>
 
 </html>
