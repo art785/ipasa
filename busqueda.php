@@ -22,7 +22,7 @@ $combobox= new ComboboxController();
            <div id="row"><label>Precio Minimo:</label><span class="input_a"><input type="text" name="precio_min" class="precio_min"/></span></div>
            <div id="row"><label>Precio Maximo:</label><span class="input_a"><input type="text" name="precio_max" class="precio_max"/></span></div> 
             <div id="row"><label>Palabra clave:</label><span class="input_a"><input type="text" name="palabra_clave" class="palabra_clave"/></span></div> 
-           <div id="row2"><input type="image" src="fondos_pagina/boton-enviar-comentario.png" value='' class='buscar'name='buscar'></div>
+           <div id="row2"><input type="image" src="fondos_pagina/boton-buscar.png" value='' class='buscar'name='buscar'></div>
         </form>        
       
       
