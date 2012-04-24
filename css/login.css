@@ -1,12 +1,12 @@
 
-#registro
+#login
 {
 	
 	height:390px;
     width:270px;
 }
 
-#registro label 
+#login label 
 {
 	font-size:16px;
 	text-align:left;
@@ -14,7 +14,7 @@
     font-family:"mifuente";
 }
 
-#filas
+#fil
 {
 	position: relative;
 	margin-top:8px;	
@@ -22,7 +22,7 @@
 }
 
 
-#registro input[class='name']
+#login input[class='alias']
  {
   
 	height:20px;
@@ -31,44 +31,28 @@
     
     
  }
- #registro input[class='lastname']
+ #login input[class='pass']
  {
 	height:20px;
     width:220px;
  
     
  }
-  #registro input[class='e-mail']
+
+ #login input[class='boton']
  {
-	height:20px;
-    width:220px;
-  
-    
+	height:30px;
+    width:126px;
+    margin-top:12px;
+	right:50px;
     
  }
-   #registro input[class='telefono']
- {
-	height:20px;
-    width:220px;
- 
-    
-    
- }
-    #registro select[class='sexo']
- {
-	height:20px;
-    width:225px;
-    margin-left:73px;
-   
- }
 
-
-
-#filar
+#filax
 {
 	
 	margin-top:12px;
-	margin-left:260px;	
+	margin-left:240px;	
 	
 }
 #form_top
@@ -76,17 +60,13 @@
 	height:20px;
     width:270px;	
 }
-#regitro input[class='click']
-{	
-	height:30px;
-    width:104px
-}
 
- #registro span.input_a
+
+ #login span.input_a
 { 	
 width:300px;
 position:absolute;
-right:-55px;
+right:-170px;
 }
 
 .errores{

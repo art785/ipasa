@@ -1,0 +1,155 @@
+
+
+#subir_propiedad
+{
+    width:500px;
+    height:600px;
+   
+}
+
+#subir_propiedad label 
+{
+	font-size:16px;
+	text-align:left;
+	color:white;contacto
+    font-family:"mifuente";
+}
+#fila
+{
+	position: relative;
+	margin-top:10px;
+	margin-left:40px;	
+}
+#form_top
+{
+	height:20px;
+    width:500px;	
+}
+#subir_propiedad input[class='nombre']
+ {
+    
+	height:20px;
+    width:270px;
+   
+ }
+#subir_propiedad input[class='numero_int']
+ {
+    
+	height:20px;
+    width:270px;
+   
+ }
+
+#subir_propiedad input[class='numero_ext']
+ {
+    
+	height:20px;
+    width:270px;
+   
+ }
+ #subir_propiedad input[class='direccion']
+ {
+    
+	height:20px;
+    width:270px;
+   
+ }
+ #subir_propiedad input[class='coordenadas']
+ {
+    
+	height:20px;
+    width:270px;
+   
+ }
+ #subir_propiedad input[class='precio']
+ {
+    
+	height:20px;
+    width:270px;
+   
+ }
+ #subir_propiedad select[class='rentada']
+ {
+    height:20px;
+    width:275px;
+    margin-left:84px;
+ }
+  #subir_propiedad select[class='ofertada']
+ {
+    height:20px;
+    width:275px;
+    margin-left:3px;
+ }
+   #subir_propiedad select[class='id_localidad']
+ {
+    height:20px;
+    width:275px;
+    margin-left:70px;
+ }
+   #subir_propiedad select[class='id_tipo']
+ {
+    height:20px;
+    width:275px;
+    margin-left:19px;
+ }
+ #subir_propiedad input[class='boton']
+ {
+    height:20px;
+    width:275px;
+    margin-left:19px;
+ }
+
+ #fila textarea
+ {
+  width:410px;
+  height:100px;
+ }
+ 
+
+#fila2
+{
+	margin-top:10px;
+	margin-left:295px;
+}
+#subir_propiedad input[class='boton']
+{
+	
+	height:30px;
+    width:104px
+	
+}
+#boton
+{
+	
+	height:35px;
+    width:122px
+	
+}
+#subir_propiedad span.input_a
+{ 	
+width:300px;
+position:absolute;
+right:20px;   
+}
+
+
+.error{
+    background-color: #BC1010;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 6px;
+    position: absolute;
+}
+.error:before{ /* Este es un truco para crear una flechita */
+    content: '';
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #BC1010;
+    border-left: 8px solid transparent;
+    left: -16px;
+    position: absolute;
+    top: 5px;
+}
