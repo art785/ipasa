@@ -160,7 +160,8 @@
 				     	   <div id="videos_contenido">
 				     	    <div id="div_top_propiedad"></div>
 						    <div id="div_propiedad">
-						    <?php include("Videos.php");?>
+						     <div id="cuadro_top"></div>
+						       <?php include("Videos.php");?>
 						    </div>
 						   </div>
 						</section>
