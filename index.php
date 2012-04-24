@@ -152,8 +152,10 @@
 					   <div id="contenido6">
 						<section id="videos">
 				     	   <div id="videos_contenido">
-						  
-						     
+				     	    <div id="div_top_propiedad"></div>
+						    <div id="div_propiedad">
+						    
+						    </div>
 						   </div>
 						</section>
                       </div>
@@ -170,11 +172,13 @@
 						<section id="registro">
 						   <div id="registro_contenido">
 						    <div id="registro_top"></div>
-						    <div id="iframe_registro">
+						    <div id="div_registro">
 						      <?php include"forms/registro.php";?>
+						    </div>
+						    <div id="div_login">
+						       <?php include"forms/login.php";?>
 						     </div>
-						    
-						   </div>
+						    </div>
 						
 						</section>
 					</div>
@@ -200,7 +204,9 @@
 						</section>
 					</div>
 				</div>
-</div>
+
+			</div>
+
 	</body>
 
 </html>
