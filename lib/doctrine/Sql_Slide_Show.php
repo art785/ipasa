@@ -19,7 +19,7 @@ include_once 'conexion.php';
                                         $ArrSlide[$i]->setRuta($objeto->ruta);
                                         $ArrSlide[$i]->setDescripcion($objeto->descripcion);
                                         $i++;
-		} 
+	                                 	} 
                                        return $ArrSlide;
         }
  }
