@@ -7,12 +7,10 @@ $combobox= new ComboboxController();
     <head>
         
         <link rel='stylesheet' href='css/busqueda.css'>
-        <script type="text/javascript" src="validador/js_validador/ref_contacto.js"></script>
-        <script type="text/javascript" src="validador/js_validador/v_contacto.js"></script>
     </head>
         <body>
         <div id="form_top"></div>
-		<form class='busqueda' id='contact' method='post' action='mail/phpmailer.php'>
+		<form class='busqueda' id='buscar' method='post' action='#'>
           <div id="form_top"></div>
           
           <div id="row"><label>Ubicacion:</label><span class="input_a"><?php echo'<div>'. $combobox->Combobox_Localidad().'</div>'?></span></div>
@@ -22,8 +20,11 @@ $combobox= new ComboboxController();
            <div id="row"><label>Precio Minimo:</label><span class="input_a"><input type="text" name="precio_min" class="precio_min"/></span></div>
            <div id="row"><label>Precio Maximo:</label><span class="input_a"><input type="text" name="precio_max" class="precio_max"/></span></div> 
             <div id="row"><label>Palabra clave:</label><span class="input_a"><input type="text" name="palabra_clave" class="palabra_clave"/></span></div> 
-           <div id="row2"><input type="image" src="fondos_pagina/boton-buscar.png" value='' class='buscar'name='buscar'></div>
+
+           <div id="row2"><input type="image" src="fondos_pagina/boton-buscar.png.png" value='' class=''name=''></div>
+
         </form>        
+        
       
       
 	</body>
