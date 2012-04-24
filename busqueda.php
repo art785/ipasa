@@ -6,24 +6,25 @@ $combobox= new ComboboxController();
 <html>
     <head>
         
-        <link rel='stylesheet' href='css/contacto.css'>
+        <link rel='stylesheet' href='css/busqueda.css'>
         <script type="text/javascript" src="validador/js_validador/ref_contacto.js"></script>
         <script type="text/javascript" src="validador/js_validador/v_contacto.js"></script>
     </head>
         <body>
-<div id="res_busqueda"></div><div id="busqueda_div">
-		<form class='contacto' id='contact' method='post' action='mail/phpmailer.php'>
+        <div id="form_top"></div>
+		<form class='busqueda' id='contact' method='post' action='mail/phpmailer.php'>
           <div id="form_top"></div>
-          <div id="fila"><label>Ubicacion:</label><?php echo'<div>'. $combobox->Combobox_Localidad().'</div>'?></div>
-          <div id="fila"><label>Tipo de Inmueble:</label><?php echo '<div>'. $combobox->Combobox_tipo_Propiedad().'</div>';?></div>
-          <div id="fila"><label>Numero de Cuartos:</label><?php echo '<div>'. $combobox->Combobox_Cuartos().'</div>';?></div>
-          <div id="fila"><label>Numero de Baños:</label><?php echo '<div>'.$combobox->Combobox_Banos().'</div>';?></div>
-          <h1>Precios</h1> 
-           <div id="fila"><label>Precio Minimo:</label><input type="text" name="precio_min"/></div>
-           <div id="fila"><label>Precio Maximo:</label><input type="text" name="precio_max"/></div> 
-           <div id="fila2"><input type="image" src="fondos_pagina/boton-enviar-comentario.png" value='' class='buscar'name='buscar'></div>
+          
+          <div id="row"><label>Ubicacion:</label><span class="input_a"><?php echo'<div>'. $combobox->Combobox_Localidad().'</div>'?></span></div>
+          <div id="row"><label>Tipo de Inmueble:</label><span class="input_a"><?php echo '<div>'. $combobox->Combobox_tipo_Propiedad().'</div>';?></span></div>
+          <div id="row"><label>Numero de Cuartos:</label><span class="input_a"><?php echo '<div>'. $combobox->Combobox_Cuartos().'</div>';?></span></div>
+          <!--  <div id="fila"><label>Numero de Baños:</label><span class="input_a"><?php echo '<div>'.$combobox->Combobox_Banos().'</div>';?></div>-->
+           <div id="row"><label>Precio Minimo:</label><span class="input_a"><input type="text" name="precio_min" class="precio_min"/></span></div>
+           <div id="row"><label>Precio Maximo:</label><span class="input_a"><input type="text" name="precio_max" class="precio_max"/></span></div> 
+            <div id="row"><label>Palabra clave:</label><span class="input_a"><input type="text" name="palabra_clave" class="palabra_clave"/></span></div> 
+           <div id="row2"><input type="image" src="fondos_pagina/boton-enviar-comentario.png" value='' class='buscar'name='buscar'></div>
         </form>        
-        </div>
+      
       
 	</body>
  </html>
