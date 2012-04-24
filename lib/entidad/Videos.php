@@ -4,6 +4,7 @@ class Videos {
     private $id_video;
     private $url;
     private $id_propiedad;
+    private $ruta;
 
     public function setId_Video($id_video)
     {
@@ -35,6 +36,18 @@ class Videos {
     {
         return $this->id_propiedad;
     }
+    
+    public function setRuta($ruta)
+    {
+    	$this->ruta=$ruta;
+    	return $this;
+    }
+    
+    public function getRuta()
+    {
+    	return $this->ruta;
+    }
+    
 
 }
 ?>
