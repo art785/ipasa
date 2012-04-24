@@ -24,4 +24,4 @@ $(".various").fancybox({
 		closeEffect	: 'none'
 	});
 			
-		});
+});

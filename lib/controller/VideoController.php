@@ -10,7 +10,7 @@ class VideoController{
 		foreach($urls as $url)
 		{
 			echo "<div id = 'videos'>";
-			echo '<a class="gmap" href="'.$url->getUrl().'"><img style="width:250px; height:250px" alt ="" src="'.$url->getRuta().'" /></a>';
+			echo '<a class="gmap" href="http://www.youtube.com/embed/'.$url->getUrl().'?autoplay=1"><img style="width:300px; height:200px" alt ="" src="'.$url->getRuta().'" /></a>';
 			echo "</div>";
 		}
 		

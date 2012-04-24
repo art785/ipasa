@@ -1,0 +1,5 @@
+'href'  : this.href.replace(new RegExp ("watch\\?v=","i"),'/v'),
+'swf'  : {
+		'wmode' : "transparent",
+		'allowfullscreen' : 'true'
+	}
