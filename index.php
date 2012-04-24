@@ -159,9 +159,11 @@
 						<section id="videos">
 				     	   <div id="videos_contenido">
 				     	    <div id="div_top_propiedad"></div>
-						   
-						    <?php include("Videos.php");?>
-						
+
+						    <div id="div_propiedad">
+						     <div id="cuadro_top"></div>
+						       <?php include("Videos.php");?>
+						    </div>
 						   </div>
 						</section>
                       </div>
