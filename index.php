@@ -120,7 +120,7 @@
 				   <div id="contenido4">
 						<section id="mapa">
 				     	   <div id="mapa_contenido">
-						      
+						      <iframe width="800" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.mx/maps/ms?msa=0&amp;msid=215524932489196424143.0004be5b4742b0c5c85f0&amp;hl=es&amp;ie=UTF8&amp;t=m&amp;ll=20.169411,-88.527832&amp;spn=3.09346,4.389038&amp;z=8&amp;output=embed"></iframe>
 						   </div>
 						</section>
 					</div>
@@ -128,7 +128,7 @@
 <!---------------------------------------------HEADER BUSQUEDA---------------------------------------------->
                 <div id="busqueda_head">
 						<div id="busqueda_logo" > </div>
-						<div id="busqueda_banner"></div>
+						<div id="busqueda_banner"><?php include("busqueda.php");?></div>
 				</div>
 
 <!--------------------------------------------SECCION BUSQUEDA---------------------------------------------->
@@ -204,6 +204,7 @@
 						</section>
 					</div>
 				</div>
+
 			</div>
 
 	</body>

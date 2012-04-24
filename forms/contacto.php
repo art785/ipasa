@@ -14,7 +14,7 @@
             <div id="fil"><label>Tu Email:</label><span class="input_a"><input type='text' class='email' name='email' value=''></span></div>
            <div id="fil"><label>Asunto:</label><span class="input_a"><input type='text' class='asunto' name='asunto' value=''></span></div>
             <div id="text"><label>Mensaje:</label><br> <textarea  class='mensaje' placeholder="Escriba su Mensaje" title="Mensaje" name="mensaje"></textarea></div>
-           <div id="fila2"><input type="image" src="../fondos_pagina/boton-enviar-comentario.png" value='' class='boton'name='boton'></div>
+           <div id="fila2"><input type="image" src="fondos_pagina/boton-enviar-comentario.png" value='' class='boton'name='boton'></div>
         </form>        
         </div>
       
