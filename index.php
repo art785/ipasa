@@ -80,17 +80,22 @@
 				<div id="body2">
 					<div id="contenido2">
 						<section id="quienes_somos">
-						  <div id="quienes_somos_contenido">
+						 <div id="quienes_somos_contenido">
 						   <br>
+						   <div id="info">
 						   <h1> Quienes somos</h1>
-						   <p>Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert percipit cu, eirmod consectetuer signiferumque eu per. In usu latine equidem dolores. Quo no falli viris intellegam, ut fugit veritus placerat per. Ius id vidit volumus mandamus, vide veritus democritum te nec, ei eos debet libris consulatu. No mei ferri graeco dicunt, ad cum veri accommodare.</p>
-						   <h1> Mision</h1>
-						    <p>Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert percipit cu, eirmod consectetuer signiferumque eu per. In usu latine equidem dolores. Quo no falli viris intellegam, ut fugit veritus placerat per. Ius id vidit volumus mandamus, vide veritus democritum te nec, ei eos debet libris consulatu. No mei ferri graeco dicunt, ad cum veri accommodare.</p>
-						    <h1> Vision</h1>
-						     <p>Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert percipit cu, eirmod consectetuer signiferumque eu per. In usu latine equidem dolores. Quo no falli viris intellegam, ut fugit veritus placerat per. Ius id vidit volumus mandamus, vide veritus democritum te nec, ei eos debet libris consulatu. No mei ferri graeco dicunt, ad cum veri accommodare.</p>
-						    <h1> Objetivos</h1>
-						     <p>Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert percipit cu, eirmod consectetuer signiferumque eu per. In usu latine equidem dolores. Quo no falli viris intellegam, ut fugit veritus placerat per. Ius id vidit volumus mandamus, vide veritus democritum te nec, ei eos debet libris consulatu. No mei ferri graeco dicunt, ad cum veri accommodare.</p>
+						   <p>Somos un canal en constante expansión, con más de 31 años por el sistema de Cablemás;
+						      nuestras producciones se realizan y se transmiten desde Quintana Roo y Yucatán, siendo
+						      los principales centros turísticos del país. Hoy en día llegamos más allá de la península
+						      de Yucatán, hemos rebasando las fronteras del país gracias al sistema satelital y el internet,
+						      lo cual le brinda la posibilidad de que su marca o producto sea conocido en todo el mundo.
+						      Gracias a nuestra transmisión en vivo a través de la página web, la señal ahora llega a
+					          los teléfonos móviles, como Iphone, Ipad, Blackberry y otros dispositivos con capacidad 
+				              de reproducir video, ampliando así las posibilidades de impacto en la audiencia. Somos
+			    	          una televisora 100% Mexicana, que cuenta con un 90% de producciones propias y regionales,
+		     	              transmitiendo las 24hrs del día, para satisfacer las necesidades de la audiencia.</p>
 						   </div>
+						  </div>
 						 
 					
 						</section >

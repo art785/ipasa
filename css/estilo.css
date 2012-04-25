@@ -11,6 +11,11 @@ html, body
     padding:0;
 }
 
+  @font-face {
+      font-family: "mifuente";
+      src: url("css/AGD_CE.TTF");
+    }
+
 a:link
 {
 	color: #3366FF;
