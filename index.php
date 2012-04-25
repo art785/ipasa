@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
-<head>                        
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>                        
 <link rel="stylesheet" href="css/estilo.css" type="text/css"/>
 
 <link rel="stylesheet" href="slide-principal/themes/default/default.css" type="text/css" media="screen" />
@@ -24,13 +25,19 @@
 
 <!-- Validacion de formularios -->
  <script type="text/javascript" src="validador/js_validador/jquery.form.js"></script>
+ <!-- Paginacion de resultados -->
+ 
+ <script type="text/javascript" src="js/jPages.js"></script>
+ <script type="text/javascript" src="js/pagination.js"></script>
+<link rel="stylesheet" href="css/jpages.css" type="text/css"/>
+<link rel="stylesheet" href="css/animation.css" type="text/css"/>
 
+<!-- Fuentes -->
     <STYLE TYPE="text/css" MEDIA="screen, print">
       @font-face {
       font-family: "mifuente";
       src: url("css/AGD_CE.TTF");
     }
-     
     </STYLE>
 
    
@@ -111,10 +118,13 @@
 				<div id="body3">
 					<div id="contenido3">
 						<section id="disponibles">
+						
 						   	<div id="propiedad">
 							   <?php include("Propiedad_Oferta.php");?>
 							   <?php include("Resultados.php")?>
+							   
 							</div>
+							<div class="pagination"></div>
 						</section >
 					</div>
 				</div>
