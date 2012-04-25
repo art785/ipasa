@@ -405,7 +405,14 @@ width:910px;
     font-family:"Times New Roman", Times, serif;
     font-size:16px;
 }
-
+#paginacion
+{
+	width:200px;
+	height:30px;
+	 margin:0 auto;    
+	 bottom:50px;
+	 position:relative;
+}
 /* ------------------------------------------HEADER MAPA ----------------------------------------*/
 #mapa_head 
 {   

@@ -144,7 +144,7 @@
 							   <?php include("Resultados.php")?>
 							   
 							</div>
-							<div class="pagination"></div>
+							<div class="pagination" id="paginacion"></div>
 						</section >
 					</div>
 				</div>
