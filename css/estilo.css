@@ -240,6 +240,20 @@ a:active
     width:900px;
 	height:700px;	
 }
+#quienes_somos_contenido h1 
+{
+	font-size:20px;
+	text-align:left;
+	color:white;
+    font-family:"mifuente";
+}
+#quienes_somos_contenido p
+{
+	font-size:16px;
+	text-align:left;
+	color:white;
+    font-family:"mifuente";
+}
 /* ------------------------------------------HEADER DISPONIBLE ----------------------------------------*/
 #disponible_head 
 {   
@@ -734,16 +748,20 @@ width:910px;
 	  width: 900px;
      height: 50px;   
 }
+#container_contacto
+{
+	width: 900px;
+    height: 450px;
+}
 #iframe_contacto
 {
-
-	width: 450px;
+    margin:0 auto;   
+	width: 440px;
     height: 320px;
 	background-image: url(../fondos_pagina/fondo-seccion-contacto.png);
-	margin-left:225px;
 	margin-top:50px;
 	border:0px;
-
+   
 	
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
@@ -751,6 +769,17 @@ width:910px;
     -moz-box-shadow: 4px 4px 14px #000; 
     -webkit-box-shadow: 4px 4px 14px #000; 
     box-shadow: 4px 4px 14px #000;
+}
+#imagen_foot
+{
+    margin:0 auto;  
+	width: 438px;
+    height: 197px;
+   
+	background-image: url(../fondos_pagina/contacto.jpg);
+	border:0px;
+
+    
 }
 
 
