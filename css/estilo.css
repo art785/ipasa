@@ -245,6 +245,13 @@ a:active
     width:900px;
 	height:700px;	
 }
+#info
+{
+	 width:800px;
+	height:700px;
+	margin-left:50px;
+	
+}
 #quienes_somos_contenido h1 
 {
 	font-size:20px;
@@ -255,7 +262,7 @@ a:active
 #quienes_somos_contenido p
 {
 	font-size:16px;
-	text-align:left;
+	text-align:justify;
 	color:white;
     font-family:"mifuente";
 }

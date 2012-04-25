@@ -100,7 +100,27 @@
 					          los teléfonos móviles, como Iphone, Ipad, Blackberry y otros dispositivos con capacidad 
 				              de reproducir video, ampliando así las posibilidades de impacto en la audiencia. Somos
 			    	          una televisora 100% Mexicana, que cuenta con un 90% de producciones propias y regionales,
-		     	              transmitiendo las 24hrs del día, para satisfacer las necesidades de la audiencia.</p>
+		     	              transmitiendo las 24hrs del día, para satisfacer las necesidades de la audiencia.
+		     	              Estamos conscientes de las necesidades de nuestros televidentes es por eso que ofrecemos
+		     	              una transmisión de calidad que satisfaga los gustos, requerimientos y demandas de los
+		     	              televidentes y anunciantes.
+		     	           </p>
+		     	           <h1>Mision</h1>
+		     	           <p>Ser el mejor organismo privado cuyo propósito sea el de integrar criterios del diario
+		     	              acontecer de la Península de Yucatán, produciendo programas turísticos, noticiosos, deportivos
+		     	              y de entretenimiento para las familias de la región, logrando con la venta de publicidad su 
+		     	              objetivo empresarial.
+		     	           </p>
+		     	           <h1>Vision</h1>
+		     	           <p>Integrar el sistema de comunicación de medios más importante y confiable en el Sureste del país,
+		     	              mediante el uso de tecnología de vanguardia y realizando contenidos que promuevan valores de convivencia,
+		     	              difundan la cultura e informe a la sociedad responsablemente.
+		     	           </p>
+		     	           <h1>Objetivos</h1>
+		     	           <p>ser una Empresa que mejore dia con dia sus niveles de excelencia y lograr que nuestros clientes tengan
+		     	              un excelente hogar donde vivir, Etc.
+		     	           </p>
+		     	         
 						   </div>
 						  </div>
 						 
