@@ -13,10 +13,10 @@
              <div id="filas"><label>Tus Apellidos:</label><span class="input_a"><input type='text' class='lastname' name='lastname' value=''></span></div>
               <div id="filas"><label>Tu Email:</label><span class="input_a"><input type='text' class='e-mail' name='e-mail' value=''></span></div>
               <div id="filas"><label>Telefono:</label><span class="input_a"><input type='text' class='telefono' name='telefono' value=''></span></div>
-              <div id="filas"><label>Sexo: </label><select name = "sexo" class='sexo'>
+              <div id="filas"><label>Sexo: </label><span class="input_a"><select name = "sexo" class='sexo'>
             					<option value = 1>Masculino</option>
             					<option value = 0>Femenino</option>
-            					</select></div>
+            					</select></span></div>
              <div id="filar"><input type="image" src="fondos_pagina/boton-registrar.png" value='' class='click' name='click' ></div>
             
 

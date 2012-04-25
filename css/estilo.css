@@ -791,7 +791,8 @@ width:910px;
 }
 #imagen_foot
 {
-    margin:0 auto;  
+    margin:0 auto; 
+    margin-top:50px; 
 	width: 438px;
     height: 197px;
    

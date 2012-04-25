@@ -39,13 +39,12 @@
     
  }
 
- #login input[class='boton']
+ #login input[class='login']
  {
 	height:30px;
     width:126px;
     margin-top:12px;
 	right:50px;
-    
  }
 
 #filax
