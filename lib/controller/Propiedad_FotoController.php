@@ -9,9 +9,10 @@ class Propiedad_FotoController{
        $propiedades= new Sql_Propiedad();
        $ArrPropiedades= $propiedades->propiedades_en_oferta();
        $i=0;
+       echo "<div id='itemconteiner'>";
        foreach ($ArrPropiedades as $propiedad)
        {
-           
+        echo "<li>";   
          echo "<div id='box'>";
        	    echo "<div id = 'nombre_propiedad'>";
          	print '<p>'.$propiedad->getNombre().'</p>';
@@ -41,8 +42,10 @@ class Propiedad_FotoController{
           echo '<a class="gmap" href="'.$propiedad->getCoordenadas().'"><img src="fondos_pagina/ver_mapa.png"/></a>';
           echo "</div>";
          echo "</div>";
+        echo "</li>";
           $i++;
        }
+      echo "</div>";
       
     }
     

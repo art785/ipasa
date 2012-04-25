@@ -266,14 +266,14 @@ width:910px;
     box-shadow: 0px 0px 30px #000000; 
 	background:#E3E0E0;	
     width: 900px;
-	height:700px;
+	height:1200px;
 }
 #contenido3
 {  
 
 	background: url("../fondos_pagina/azul_ipasa.jpg");
 	width:900px;
-	height:700px;
+	height:1200px;
 }
 
 #disponibles

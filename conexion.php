@@ -10,6 +10,7 @@
     
         or die(mysql_error());
       mysql_select_db("ipasacv_base",$this->conexion) or die(mysql_error());
+      mysql_set_charset('utf8',$this->conexion);
     }
   }
   
