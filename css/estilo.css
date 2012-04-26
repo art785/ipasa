@@ -1,4 +1,3 @@
-
 /* ------------------------------------Reset css ----------------------------------------------*/
 
 /* ------------------------------------FIN DEL RESET----------------------------------------------*/
@@ -51,7 +50,7 @@ a:active
 	margin-left:140px;
 	width:910px;
 	height:160px; 
-	margin-top:20px;
+	
 }
 			
 #logo
@@ -60,6 +59,13 @@ a:active
 	background-image: url(../fondos_pagina/header-principal-con-logo.png);
 	width:910px;
 	height:160px;	
+}
+
+#banner_inicio
+{
+	margin-left:270px;
+	width:609px;
+	height:119px;	
 }
 			
 
@@ -173,26 +179,46 @@ a:active
     box-shadow: 0px 0px 30px #000000; 
 	background:#E3E0E0;	
     width: 900px;
-	height:700px;
+	height:500px;
 }
 #contenido 
 {  
 
 	background: url("../fondos_pagina/azul_ipasa.jpg");
 	width:900px;
-	height:700px;
+	height:500px;
 }
 
 #inicio
 {
     width:900px;
-	height:700px;	
+	height:500px;	
 }
 #slideshow_top
 {
-   width:900px;
+ width:900px;
+   height:2px;	
+}
+#slideshow_top_info
+{
+margin:0 auto;  
+   width:800px;
    height:50px;	
 }     
+#slideshow_top_info h1 
+{
+	font-size:16px;
+	text-align:left;
+	color:white;
+    font-family:"mifuente";
+}
+#slideshow_top_info p
+{
+	font-size:16px;
+	text-align:justify;
+	color:white;
+    font-family:"mifuente";
+}
 #slideshow
 {     
 	margin:0 auto;    
@@ -678,8 +704,8 @@ width:910px;
 
 #registro_top
 {
-	width:900px';
-	height:50px;
+	width:900px;
+	height:30px;
 }
 #div_registro
 {
@@ -696,8 +722,9 @@ width:910px;
 	width: 390px;
     height: 220px;
     margin-top:30px;
-    margin-left:25px;
+    margin-left:50px;
 }
+
 #div_login
 {
 	
@@ -713,7 +740,7 @@ width:910px;
 	width: 390px;
     height: 220px;
     margin-top:100px;
-    margin-left:485px;
+    margin-left:460px;
 }
 
 
@@ -809,7 +836,6 @@ width:910px;
 	
 
 			
-
 
 
 
