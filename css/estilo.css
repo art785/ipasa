@@ -433,12 +433,38 @@ width:910px;
 }
 #paginacion
 {
-	width:200px;
+	width:220px;
 	height:30px;
 	 margin:0 auto;    
 	 bottom:50px;
 	 position:relative;
 }
+
+#paginacion .jp-previous
+{
+	text-color:white;
+    font-family:"mifuente";
+    font-size:16px;
+}
+#paginacion .jp-first 
+{
+	text-color:white;
+    font-family:"mifuente";
+    font-size:16px;
+}
+#paginacion .jp-next
+{
+	text-color:white;
+    font-family:"mifuente";
+    font-size:16px;
+}
+#paginacion .jp-last
+{
+	text-color:white;
+    font-family:"mifuente";
+    font-size:16px;
+}
+
 /* ------------------------------------------HEADER MAPA ----------------------------------------*/
 #mapa_head 
 {   
@@ -454,7 +480,7 @@ width:910px;
 	width:910px;
 	height:160px;	
 }
-			
+	
 
 /* ------------------------------------------SECCION MAPA ----------------------------------------*/
 #body4{  
