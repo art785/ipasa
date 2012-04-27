@@ -64,14 +64,19 @@
 		</nav>
 <!--------------------------------------------HEADER INICIO---------------------------------------------->
 			    <div id="head">
-						<div id="logo" > </div>
-						<div id="banner"></div>
-				</div>
+				<div id="logo" > <div id="banner_inicio"></div></div>
+			</div>
 <!--------------------------------------------SECCION INICIO---------------------------------------------->
 				<div id="body">
 					<div id="contenido">
 						<section id="inicio">
 						    <div id="slideshow_top"></div>
+						    <div id="slideshow_top_info">
+						    
+						   <p>En ipasa(inmobiliaria de promocion y apoyo s.a. de c.v.)nosotros le brindamos el mejor servicio de casas
+						   y departamentos dentro del estado de Quintana Roo.
+		     	           </p>
+						    </div>
 							<div id="slideshow">
 							<?php include ("Slide-principal.php");?>
 							</div>
@@ -91,34 +96,26 @@
 						   <br>
 						   <div id="info">
 						   <h1> Quienes somos</h1>
-						   <p>Somos un canal en constante expansión, con más de 31 años por el sistema de Cablemás;
-						      nuestras producciones se realizan y se transmiten desde Quintana Roo y Yucatán, siendo
-						      los principales centros turísticos del país. Hoy en día llegamos más allá de la península
-						      de Yucatán, hemos rebasando las fronteras del país gracias al sistema satelital y el internet,
-						      lo cual le brinda la posibilidad de que su marca o producto sea conocido en todo el mundo.
-						      Gracias a nuestra transmisión en vivo a través de la página web, la señal ahora llega a
-					          los teléfonos móviles, como Iphone, Ipad, Blackberry y otros dispositivos con capacidad 
-				              de reproducir video, ampliando así las posibilidades de impacto en la audiencia. Somos
-			    	          una televisora 100% Mexicana, que cuenta con un 90% de producciones propias y regionales,
-		     	              transmitiendo las 24hrs del día, para satisfacer las necesidades de la audiencia.
-		     	              Estamos conscientes de las necesidades de nuestros televidentes es por eso que ofrecemos
-		     	              una transmisión de calidad que satisfaga los gustos, requerimientos y demandas de los
-		     	              televidentes y anunciantes.
+						   <p>IPASA, es una Empresa Mexicana con 30 años de experiencia en el sector
+Inmobiliario, dedicada a la Promoción, Desarrollo y Administración
+de edificios de departamentos, conjuntos residenciales, Locales
+Comerciales, Casas y espacios para negocios y oficinas en renta ,
+diseñados con el fin de asegurar una excelente convivencia, seguridad y
+confort de nuestros inquilinos.
 		     	           </p>
 		     	           <h1>Mision</h1>
-		     	           <p>Ser el mejor organismo privado cuyo propósito sea el de integrar criterios del diario
-		     	              acontecer de la Península de Yucatán, produciendo programas turísticos, noticiosos, deportivos
-		     	              y de entretenimiento para las familias de la región, logrando con la venta de publicidad su 
-		     	              objetivo empresarial.
+		     	           <p>Brindarle al cliente el mejor servicio y calidad en la renta de nuestros
+inmuebles con total entrega y transparencia, donde su satisfacción sea
+nuestra preocupación.
 		     	           </p>
 		     	           <h1>Vision</h1>
-		     	           <p>Integrar el sistema de comunicación de medios más importante y confiable en el Sureste del país,
-		     	              mediante el uso de tecnología de vanguardia y realizando contenidos que promuevan valores de convivencia,
-		     	              difundan la cultura e informe a la sociedad responsablemente.
+		     	           <p>Apuntamos a ser líderes en eficiencia y servicio, basándonos siempre en
+un pensamiento global de la empresa, el servicio y nuestros clientes, por
+lo que somos una empresa en permanente expansión
 		     	           </p>
-		     	           <h1>Objetivos</h1>
-		     	           <p>ser una Empresa que mejore dia con dia sus niveles de excelencia y lograr que nuestros clientes tengan
-		     	              un excelente hogar donde vivir, Etc.
+		     	           <h1>Filosofia</h1>
+		     	           <p>El compromiso de la Empresa es lograr la Excelencia en cada uno de los
+servicios que brindamos, donde el cliente es nuestro principal trabajo
 		     	           </p>
 		     	         
 						   </div>
