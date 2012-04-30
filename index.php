@@ -121,6 +121,10 @@ servicios que brindamos, donde el cliente es nuestro principal trabajo
 		     	           </p>
 		     	         
 						   </div>
+						    <div id="imagen1"></div>
+						    <div id="imagen2"></div>
+						    <div id="imagen3"></div>
+						   
 						  </div>
 						 
 					

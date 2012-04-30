@@ -11,7 +11,7 @@
 		<form class='login' id='login' method='post' action=''>
           <div id="form_top"></div>
               <div id="fil"><label>Ingresar al sistema</label></div>
-             <div id="fil"><label>Alias:</label> <span class="input_a"><input type='text' class='alias' name="alias"value=''></span></div>
+             <div id="fil"><label>Usuario:</label> <span class="input_a"><input type='text' class='alias' name="alias"value=''></span></div>
              <div id="fil"><label>Password:</label><span class="input_a"><input type='password' class='pass' name='pass' value=''></span></div>
             <div id="filax"><input type="image" src="fondos_pagina/boton-ingresar.png" value='' class='login'name='login'></div>
         </form>        
