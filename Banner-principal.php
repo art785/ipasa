@@ -4,7 +4,7 @@ $slide= new BannerController();
 ?>
 <div class="slider-wrapper theme-default">
             <div class="ribbon"></div>
-            <div id="slider" class="nivoSlider">
+            <div id="banner" class="nivoSlider">
         <?php $slide->llena_slide(); ?>       
             </div>
  </div>
@@ -12,6 +12,6 @@ $slide= new BannerController();
     <script type="text/javascript" src="banner-principal/jquery.nivo.slider.pack.js"></script>
     <script type="text/javascript">
     $(window).load(function() {
-        $('#slider').nivoSlider();
+        $('#banner').nivoSlider();
     });
     </script>
