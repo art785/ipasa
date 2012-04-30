@@ -11,16 +11,14 @@ include_once 'conexion.php';
             $resultado=$mysql->consulta($consulta);
             $ArrSlide = array();
             $i=0;
-                         
-                                        while($objeto = $mysql->fetch_object($resultado))
-                                        {
-                                            
-                                        $ArrSlide[$i]=new Banner();
-                                        $ArrSlide[$i]->setRuta($objeto->ruta);
-                              
-                                        $i++;
-	                                 	} 
-                                       return $ArrSlide;
+                     
+            while($objeto = $mysql->fetch_object($resultado))
+                 {     
+                   $ArrSlide[$i]=new Banner();
+                   $ArrSlide[$i]->setRuta($objeto->ruta);          
+                   $i++;
+	              } 
+           return $ArrSlide;
         }
  }
 ?>

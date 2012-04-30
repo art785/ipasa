@@ -66,7 +66,7 @@
 		</nav>
 <!--------------------------------------------HEADER INICIO---------------------------------------------->
 			    <div id="head">
-				<div id="logo" > <div id="banner_inicio"></div></div>
+				<div id="logo" > <div id="banner_inicio">   <?php  include("Banner-principal.php")?></div></div>
 			</div>
 <!--------------------------------------------SECCION INICIO---------------------------------------------->
 				<div id="body">
