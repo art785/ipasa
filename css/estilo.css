@@ -593,6 +593,17 @@ width:910px;
     height: 300px;
     margin-top:30px;
     margin-left:25px;
+    position: relative;
+}
+#publicidad_busqueda
+{
+	position: relative;
+	background: url("../fondos_pagina/publicidad_busqueda.png");
+	left:550px;
+	bottom:300px;
+	width: 300px;
+    height: 300px;
+	
 }
 
 /* ------------------------------------------HEADER VIDEOS ----------------------------------------*/
@@ -846,10 +857,10 @@ width:910px;
 {
     margin:0 auto; 
     margin-top:50px; 
-	width: 438px;
-    height: 197px;
+	width: 900px;
+    height: 200px;
    
-	background-image: url(../fondos_pagina/contacto.jpg);
+	background-image: url(../fondos_pagina/iconos-contacto.png);
 	border:0px;
 
     

@@ -13,6 +13,28 @@ class Propiedad {
     private $id_localidad;
     private $id_tipo;
     private $precio;
+    private $propietario;
+    private $clave_catastral;
+    
+    public function setPropietario($propiedad)
+    {
+    	$this->propietario=$propietario;
+    	return $this;
+    }
+    public function getPropietario()
+    {
+    	return $this->propietario;
+    }
+    
+    public function setClave_Catastral($clave_catastral)
+    {
+    	$this->clave_catastral=$clave_catastral;
+    	return $this;
+    }
+    public function getClave_Catastral($clave_catastral)
+    {
+    	return $this->clave_catastral;
+    }
 
     public function setId_Propiedad($id_propiedad)
     {
@@ -127,5 +149,6 @@ class Propiedad {
     {
         return $this->precio;
     }
+    
 }
 ?>
