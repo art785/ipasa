@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Contacto</title>
+      
         <link rel='stylesheet' href='css/contacto.css'>
         <script type="text/javascript" src="validador/js_validador/ref_contacto.js"></script>
         <script type="text/javascript" src="validador/js_validador/v_contacto.js"></script>

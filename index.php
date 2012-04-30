@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+  <title>Ipasa</title>
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>                        
 <link rel="stylesheet" href="css/estilo.css" type="text/css"/>
 
@@ -178,6 +180,9 @@ servicios que brindamos, donde el cliente es nuestro principal trabajo
 				     	     <div id="div_top_busqueda"></div>
 						      <div id="div_busqueda">
 						        <?php include("busqueda.php");?>
+						      </div>
+						      <div id="publicidad_busqueda">
+						      
 						      </div>
 						   </div>
 						</section>
