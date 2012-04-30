@@ -7,7 +7,7 @@ class Sql_Videos {
 		
 		{
 			$mysql = new MySQL();
-			$consulta = "SELECT url , ruta FROM Videos , Propiedad WHERE Videos.id_propiedad=Propiedad.id_propiedad AND Propiedad.ofertada=1";
+			$consulta = "SELECT url , ruta , descripcion FROM Videos , Propiedad WHERE Videos.id_propiedad=Propiedad.id_propiedad AND Propiedad.ofertada=1";
 			$resultado=$mysql->consulta($consulta);
 			$ArrVideos = array();
 			$i=0;
@@ -18,6 +18,7 @@ class Sql_Videos {
 				$ArrVideos[$i]=new Videos();
 				$ArrVideos[$i]->setUrl($objeto->url);
 				$ArrVideos[$i]->setRuta($objeto->ruta);
+				$ArrVideos[$i]->setDescripcion($objeto->descripcion);
 				$i++;
 			}
 			return $ArrVideos;
