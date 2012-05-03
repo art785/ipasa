@@ -5,7 +5,9 @@
   public function MySQL(){ 
     if(!isset($this->conexion)){
 
+
       $this->conexion = (mysql_connect("localhost","root","shauron"))
+
 
     
         or die(mysql_error());

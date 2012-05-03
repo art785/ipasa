@@ -99,28 +99,32 @@
 						   <div id="info">
 						   <h1> Quienes somos</h1>
 						   <p>IPASA, es una Empresa Mexicana con 30 años de experiencia en el sector
-Inmobiliario, dedicada a la Promoción, Desarrollo y Administración
-de edificios de departamentos, conjuntos residenciales, Locales
-Comerciales, Casas y espacios para negocios y oficinas en renta ,
-diseñados con el fin de asegurar una excelente convivencia, seguridad y
-confort de nuestros inquilinos.
+                              Inmobiliario, dedicada a la Promoción, Desarrollo y Administración
+                              de edificios de departamentos, conjuntos residenciales, Locales
+                              Comerciales, Casas y espacios para negocios y oficinas en renta ,
+                              diseñados con el fin de asegurar una excelente convivencia, seguridad y
+                              confort de nuestros inquilinos.
 		     	           </p>
 		     	           <h1>Mision</h1>
 		     	           <p>Brindarle al cliente el mejor servicio y calidad en la renta de nuestros
-inmuebles con total entrega y transparencia, donde su satisfacción sea
-nuestra preocupación.
+                              inmuebles con total entrega y transparencia, donde su satisfacción sea
+                              nuestra preocupación.
 		     	           </p>
 		     	           <h1>Vision</h1>
 		     	           <p>Apuntamos a ser líderes en eficiencia y servicio, basándonos siempre en
-un pensamiento global de la empresa, el servicio y nuestros clientes, por
-lo que somos una empresa en permanente expansión
+                              un pensamiento global de la empresa, el servicio y nuestros clientes, por
+                              lo que somos una empresa en permanente expansión
 		     	           </p>
 		     	           <h1>Filosofia</h1>
 		     	           <p>El compromiso de la Empresa es lograr la Excelencia en cada uno de los
-servicios que brindamos, donde el cliente es nuestro principal trabajo
+                              servicios que brindamos, donde el cliente es nuestro principal trabajo
 		     	           </p>
 		     	         
 						   </div>
+						    <div id="imagen1"></div>
+						    <div id="imagen2"></div>
+						    <div id="imagen3"></div>
+						   
 						  </div>
 						 
 					
