@@ -6,7 +6,7 @@
     if(!isset($this->conexion)){
 
 
-      $this->conexion = (mysql_connect("localhost","root","shauron"))
+      $this->conexion = (mysql_connect("localhost","root","corvette"))
 
 
     
