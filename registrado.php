@@ -4,7 +4,7 @@ $inserta_usuario= new UsuarioController();
 $des=$inserta_usuario->Registro();
 if($des==true)
 {
-	echo "<div>gracias por registrarte</div>";
+	echo "<div id='mensajito_registro'><p>gracias por registrarte</p></div>";
 }
 
 ?>

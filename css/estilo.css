@@ -390,6 +390,7 @@ width:910px;
     -webkit-box-shadow: 0px 0px 30px #000000; 
     box-shadow: 0px 0px 30px #000000;
 }
+
 #nombre_propiedad
 {    
 	margin:0 auto;  
@@ -730,6 +731,16 @@ width:910px;
     -webkit-box-shadow: 0px 0px 30px #000000; 
     box-shadow: 0px 0px 30px #000000; 
 }
+#imagen_icono
+{
+	background-image: url(../fondos_pagina/play-videos.png);
+	width: 100px;
+    height: 100px;
+    position:relative;
+    bottom:500px;
+    left:175px;
+    
+}
 /* ------------------------------------------HEADER REGISTRO ----------------------------------------*/
 #registro_head 
 {   
@@ -800,6 +811,14 @@ width:910px;
     margin-top:30px;
     margin-left:50px;
 }
+#mensajito_registro p
+{
+	text-align:center;
+	color:white;
+	
+    font-family:"mifuente";
+    font-size:20px;
+}
 
 #div_login
 {
@@ -818,6 +837,8 @@ width:910px;
     margin-top:100px;
     margin-left:460px;
 }
+
+
 
 
 /* ------------------------------------------HEADER CONTACTO ----------------------------------------*/
@@ -903,6 +924,15 @@ width:910px;
 	border:0px;
 
     
+}
+
+#mensajito_contacto p
+{
+	text-align:center;
+	color:white;
+	
+    font-family:"mifuente";
+    font-size:20px;
 }
 
 

@@ -75,8 +75,9 @@
 						    <div id="slideshow_top"></div>
 						    <div id="slideshow_top_info">
 						    
-						   <p>En ipasa(inmobiliaria de promocion y apoyo s.a. de c.v.)nosotros le brindamos el mejor servicio de casas
-						   y departamentos dentro del estado de Quintana Roo.
+						   <p>En IPASA (inmobiliaria de promoción y apoyo S.A. de C.V.)
+						      nosotros le brindamos el mejor servicio en renta de casas, departamentos,
+						      oficinas y almacenes  dentro del estado de Quintana Roo.
 		     	           </p>
 						    </div>
 							<div id="slideshow">
@@ -209,6 +210,7 @@
 						     <div id="cuadro_top"></div>
 						       <?php include("Videos.php");?>
 						    </div>
+						    <div id="imagen_icono"></div>
 						   </div>
 						</section>
                       </div>

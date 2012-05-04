@@ -44,7 +44,7 @@ if(isset($_POST["boton"]))
 		  					"Mensaje:".$mensaje);
 		  //Archivos adjuntos
 		  //$mail->AddAttachment('img/logo.jpg');      // Archivos Adjuntos
-		  echo "<div style='text-align:center'>Mensaje enviado</div>";
+		  echo "<div id='mensajito_contacto'><p>Mensaje enviado</p></div>";
 		  //Enviamos el correo
 		  echo "<div style='display:none;'>";
 		  $mail->Send();

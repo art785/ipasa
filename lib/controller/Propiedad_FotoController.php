@@ -12,7 +12,7 @@ class Propiedad_FotoController{
        echo "<div id='itemconteiner'>";
        foreach ($ArrPropiedades as $propiedad)
        {
-        echo "<li>";   
+        echo "<li style='list-style:none;'>";   
          echo "<div id='box'>";
        	    echo "<div id = 'nombre_propiedad'>";
          	print '<p>'.$propiedad->getNombre().'</p>';
