@@ -1,9 +1,14 @@
 <?php
 
 class Propiedad_Usuarios {
+	//********** Atributos **********//
     private $id_propiedad;
     private $id_usuario;
     private $id_propiedad_usuario;
+    
+//******************* inician set y get de Propiedad_Usuarios *****************//
+
+//************************ set y get de Id_Propiedad ***********************//
 
     public function setId_Propiedad($id_propiedad)
     {

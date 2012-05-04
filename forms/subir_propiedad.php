@@ -10,6 +10,8 @@
          <form id="subir_propiedad" action=”subir_propiedad.php” method="post">
              <div id="form_top"></div>
             <div id="fila"><h1>Ingresar Propiedad</h1></div>
+            <div id="fila"><label>Propietario:</label><span class="input_a"><input id='nombre' class='nombre' type='text' name='nombre' value=''placeholder="escribe el nombre del propietario"></span></div>
+            <div id="fila"><label>Clave catastral:</label><span class="input_a"><input id='nombre' class='nombre' type='text' name='nombre' value=''placeholder="ingrese la clave catastral"></span></div>
             <div id="fila"><label>Nombre:</label><span class="input_a"><input id='nombre' class='nombre' type='text' name='nombre' value=''placeholder="escriba nombre de la propiedad"></span></div>
             <div id="fila"><label>Numero interior:</label><span class="input_a"><input id='numero_int'class='numero_int' name='numero_int' value='' placeholder='escriba num interior'></span></div>
             <div id="fila"><label>Numero exterior</label><span class="input_a"><input id='numero_ext'class='numero_ext' name='numero_ext'value='' placeholder='escriba num exterior'></span></div>

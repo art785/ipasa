@@ -1,8 +1,13 @@
 <?php
 
 class Estructura {
+	//*********** Atributos ***********//
     private $id_estructura;
     private $nombre;
+    
+//******************** inician set y get de Estructura ***********************//
+
+//************************ set y get de Estructura ***************************//
 
     public function setId_Estructura($id_estructura)
     {
@@ -13,6 +18,9 @@ class Estructura {
     {
         return $this->id_estructura;
     }
+    
+//************************ set y get de Nombre *******************************//
+
     public function setNombre($nombre)
     {
         $this->nombre=$nombre;

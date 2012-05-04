@@ -274,7 +274,7 @@ margin:0 auto;
 #info
 {
 	 width:800px;
-	height:700px;
+	height:500px;
 	margin-left:50px;
 	
 }
@@ -292,6 +292,45 @@ margin:0 auto;
 	color:white;
     font-family:"mifuente";
 }
+
+#imagen1
+{
+	position:relative;
+	background-image: url(../fondos_pagina/foto1.png);
+	left:100px;
+	bottom:50px;
+	width:200px;
+	height:200px;
+	-moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000; 	
+}
+#imagen2
+{
+	position:relative;
+	background-image: url(../fondos_pagina/foto2.png);
+	
+	left:350px;
+	bottom:250px;
+	width:200px;
+	height:200px;	
+	-moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000; 
+}
+#imagen3
+{
+	position:relative;
+	background-image: url(../fondos_pagina/foto3.png);
+	left:600px;
+	bottom:450px;
+	width:200px;
+	height:200px;	
+	-moz-box-shadow: 0px 0px 30px #000000; 
+    -webkit-box-shadow: 0px 0px 30px #000000; 
+    box-shadow: 0px 0px 30px #000000; 
+}
+
 /* ------------------------------------------HEADER DISPONIBLE ----------------------------------------*/
 #disponible_head 
 {   
@@ -829,7 +868,7 @@ width:910px;
 #contacto_top
 {
 	  width: 900px;
-     height: 50px;   
+     height: 5px;   
 }
 #container_contacto
 {
@@ -842,7 +881,7 @@ width:910px;
 	width: 440px;
     height: 320px;
 	background-image: url(../fondos_pagina/fondo-seccion-contacto.png);
-	margin-top:50px;
+	margin-top:10px;
 	border:0px;
    
 	
