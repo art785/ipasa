@@ -179,20 +179,20 @@ a:active
     box-shadow: 0px 0px 30px #000000; 
 	background:#E3E0E0;	
     width: 900px;
-	height:500px;
+	height:700px;
 }
 #contenido 
 {  
 
 	background: url("../fondos_pagina/azul_ipasa.jpg");
 	width:900px;
-	height:500px;
+	height:700px;
 }
 
 #inicio
 {
     width:900px;
-	height:500px;	
+	height:700px;	
 }
 #slideshow_top
 {
@@ -224,6 +224,13 @@ margin:0 auto;
 	margin:0 auto;    
 	width:800px;
 	height:400px;				
+}
+#clima
+{
+	position:relative;
+	left:50px;
+	width:500px;
+	height:100px;
 }
 /* ------------------------------------------HEADER QUIENES SOMOS ----------------------------------------*/
 #quienes_somos_head 
@@ -373,7 +380,7 @@ width:910px;
 	height:700px;	
 }
 #propiedad
-{    
+{    </div>
     
 	width:900px;
 	height:700px;	

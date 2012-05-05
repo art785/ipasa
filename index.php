@@ -83,6 +83,13 @@
 							<div id="slideshow">
 							<?php include ("Slide-principal.php");?>
 							</div>
+							<div id="clima">
+                               <div id="TT_RiJgLBYhYEhFAFrAjfzjzDzDDWnALdClrYEY1cy5akzIGo3IG">
+                               <strong><a href="http://www.tutiempo.net">Meteorología</a></strong>
+                               <a href="http://www.tutiempo.net/tiempo/Cancun_International_Airport/MMUN.htm">
+                               El tiempo en Cancun International Airport</a></div>
+                               <script type="text/javascript" src="http://www.tutiempo.net/widget/eltiempo_RiJgLBYhYEhFAFrAjfzjzDzDDWnALdClrYEY1cy5akzIGo3IG"></script>
+                             </div>
 						</section >
 					</div>
 				</div>
